@@ -59,8 +59,28 @@
     },
     "drawer#header__mobile--middle": {
         "children": [
-
+            "menu#header__menu"
+        ],
+        "blocks": [
+            "rich-text#ayuda",
+            "rich-text#tiendas"
         ]
+    },
+    /*"drawer-trigger": {
+        "children": [
+            "rich-text#ayuda",
+            "rich-text#tiendas"
+        ]
+    },*/
+    "rich-text#ayuda": {
+        "props": {
+            "text": "Ayuda"
+        }
+    },
+    "rich-text#tiendas":{
+        "props": {
+            "text": "Tiendas"
+        }   
     },
     "login": {
         "props": {
@@ -71,5 +91,11 @@
             "showPasswordVerificationIntoTooltip": true,
             "showIconProfile": true
         }
+    },
+    "menu#header__menu": {
+        "children": [
+            "menu-item#category__one",
+            "menu-item#category__two"
+        ]
     }
 }
