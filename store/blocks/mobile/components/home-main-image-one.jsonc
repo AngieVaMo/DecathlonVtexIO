@@ -1,0 +1,11 @@
+{
+    "image#home__main--image": {
+        "props": {
+            "title": "Imagen principal en mobile",
+            "src": "assets/img/home-main-mobile.jpg",
+            "maxWidth": "425px",
+            "blockClass": "home__main--image"
+        }
+
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "list-context.image-list#home__slider--list-section-two": {
+        "title": "Lista de últimas unidades",
+        "children":["slider-layout#home__slider--list-section-two"],
+        "props": {
+          "preload": true,
+          "images": [
+            {
+              "image": "assets/img/uunidades-1.jpg",
+              "description": "ultimas unidades 1"
+            },
+            {
+              "image": "assets/img/uunidades-2.jpg",
+              "description": "ultimas unidades 2"
+            },
+            {
+              "image": "assets/img/uunidades-3.jpg",
+              "description": "ultimas unidades 3"
+            },
+            {
+              "image": "assets/img/uunidades-4.jpg",
+              "description": "ultimas unidades 4"
+            },
+            {
+              "image": "assets/img/uunidades-5.jpg",
+              "description": "ultimas unidades 5"
+            },
+            {
+              "image": "assets/img/uunidades-6.jpg",
+              "description": "ultimas unidades 6"
+            }
+          ]
+        }
+      },
+      "slider-layout#home__slider--list-section-two": {
+        "title": "Slider con ultimas unidades",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 6,
+            "tablet": 3,
+            "mobile": 3
+          },
+          "infinite": true,
+          "showNavigationArrows": "mobileOnly",
+          "showPaginationDots": "mobileOnly",
+          "blockClass": "home__slider--list-section-two",
+          "autoplay":{
+            "timeout": 3000,
+            "stopOnHover": true
+          }
+        }
+      }
+}

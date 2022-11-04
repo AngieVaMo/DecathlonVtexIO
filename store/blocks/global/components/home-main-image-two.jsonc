@@ -1,0 +1,15 @@
+{
+    "image#home__image--section-two": {
+        "title": "Imagen principal - sección dos",
+        "props": {
+            "src": "assets/img/home-main-two.jpg",
+            //"maxWidth": 800,
+            "blockClass": "home__image--section-two",
+            "link": {
+                "url": "https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    }
+}

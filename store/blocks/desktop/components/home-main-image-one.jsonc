@@ -1,0 +1,11 @@
+{
+    "image#home__main--image-desktop": {
+        "props": {
+            "title": "Imagen principal en desktop",
+            "src": "assets/img/home-main-desktop.jpg",
+            "maxWidth": "100%",
+            "blockClass": "home__main--image-desktop"
+        }
+
+    }
+}

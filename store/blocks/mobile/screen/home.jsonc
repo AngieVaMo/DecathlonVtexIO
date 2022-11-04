@@ -1,0 +1,7 @@
+{
+    "responsive-layout.mobile#home__main--image": {
+        "children": [
+            "image#home__main--image"
+        ]
+    }
+}

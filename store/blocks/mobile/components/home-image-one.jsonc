@@ -1,0 +1,16 @@
+{
+    "image#home__image": {
+        "title": "Home Image One",
+        "props": {
+            "src": "assets/img/home-main-desktop.jpg",
+            "maxWidth": 800,
+            "title": "Imagen principal decathlon",
+            "blockClass": "home__image",
+            "link": {
+                "url": "https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    }
+}

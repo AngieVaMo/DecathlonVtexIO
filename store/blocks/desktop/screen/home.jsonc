@@ -1,0 +1,9 @@
+{
+  "responsive-layout.desktop#home__main--image": {
+    "title": "Imagen principal - sección 1",
+    "children": [
+        "image#home__main--image-desktop",
+        "flex-layout.row#home__image-slider"
+    ]
+}
+}

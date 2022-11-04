@@ -1,0 +1,124 @@
+{
+    "slider-layout#home__slider--productos-temporada": {
+        "title": "Slider con hijos declarados",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 3,
+            "mobile": 3
+          },
+          "infinite": true,
+          "blockClass": "home__slider",
+          "autoplay":{
+            "timeout": 3000,
+            "stopOnHover": true
+          }
+        },
+        "children": [
+          "image#home__slider--one",
+          "image#home__slider--two",
+          "image#home__slider--three",
+          "image#home__slider--four",
+          "image#home__slider--five",
+          "image#home__slider--six",
+          "image#home__slider--seven"
+        ]
+      },
+      
+        "image#home__slider--one":{
+          "title": "Imagen bandas elásticas",
+          "props":{
+            "src":"assets/img/main-slide-1.jpg"
+          }
+        },
+        "image#home__slider--two":{
+          "title": "Imagen raqueta de squash",
+          "props":{
+            "src":"assets/img/main-slide-2.jpg"
+          }
+        },
+        "image#home__slider--three":{
+          "title": "Imagen cancha de fútbol",
+          "props":{
+            "src":"assets/img/main-slide-3.jpg"
+          }
+        },
+        "image#home__slider--four":{
+          "title": "Imagen banco de musculación",
+          "props":{
+            "src":"assets/img/main-slide-4.jpg"
+          }
+        },
+        "image#home__slider--five":{
+          "title": "Imagen visera tenis",
+          "props":{
+            "src":"assets/img/main-slide-5.jpg"
+          }
+        },
+        "image#home__slider--six":{
+          "title": "Imagen muñequera de tenis",
+          "props":{
+            "src":"assets/img/main-slide-6.jpg"
+          }
+        },
+        "image#home__slider--seven":{
+          "title": "Imagen balón de voley playa",
+          "props":{
+            "src":"assets/img/main-slide-7.jpg"
+          }
+        }
+    
+      /*"list-context.image-list#home__slider--list": {
+        "title": "Lista de imágenes",
+        "children":["slider-layout#home__slider--list"],
+        "props": {
+          "preload": true,
+          "images": [
+            {
+              "image": "assets/img/main-slide-1.jpg",
+              "description": "slide 1"
+            },
+            {
+              "image": "assets/img/main-slide-2.jpg",
+              "description": "slide 2"
+            },
+            {
+              "image": "assets/img/main-slide-3.jpg",
+              "description": "slide 3"
+            },
+            {
+              "image": "assets/img/main-slide-4.jpg",
+              "description": "slide 4"
+            },
+            {
+              "image": "assets/img/main-slide-5.jpg",
+              "description": "slide 5"
+            },
+            {
+              "image": "assets/img/main-slide-6.jpg",
+              "description": "slide 6"
+            },
+            {
+              "image": "assets/img/main-slide-7.jpg",
+              "description": "slide 7"
+            }
+          ]
+        }
+      },
+      "slider-layout#home__slider--list": {
+        "title": "Slider con lista de imágenes",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 3,
+            "mobile": 3
+          },
+          "infinite": true,
+          "blockClass": "home__slider"
+          "autoplay":{
+            "timeout": 3000,
+            "stopOnHover": true
+          }
+        }
+      }*/
+    }
