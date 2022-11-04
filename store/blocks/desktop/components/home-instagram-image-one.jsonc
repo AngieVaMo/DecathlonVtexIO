@@ -1,7 +1,10 @@
 {
     "image#home__instagram-image": {
         "title": "Imagen de instagram",
-        "src": "assets/img/instagram-decathlon.png",
-        "blockClass": "home__instagram-image"
+        "props": {
+            "src": "assets/img/instagram-decathlon.png",
+            "blockClass": "home__instagram-image"
+        }
+        
     }
 }
