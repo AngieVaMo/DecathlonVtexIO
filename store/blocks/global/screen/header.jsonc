@@ -9,17 +9,93 @@
     },
     "header-layout.desktop": {
         "children":[
-            "header-row#header__top"
+            "header-row#header__top",
+            "header-row#header__middle"
         ]
     },
     "header-layout.mobile":{
         "children":[
-            "header-row#header__top"
+            "header-row#header__top",
+            "header-row#header__middle"
         ]
     },
     "header-row#header__top": {
+        "title": "Header superior",
         "children": [
-            
+            "header-force-center#header__center--top"
+        ]
+    },
+    "header-force-center#header__center--top": {
+        "children": [
+            "rich-text#header__rich-text--top"
+        ]
+    },
+    "rich-text#header__rich-text--top": {
+        "props": { 
+        "text": "¡Haz seguimiento de tu pedido aquí!",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-1",
+        "fontSize": "5px"
+      }
+
+    },
+    "header-row#header__middle": {
+        "title": "Header medio",
+        "children": [
+            "logo#header__logo--middle",
+            "header-spacer",
+            "drawer#header__mobile--middle",
+            "login",
+            "minicart.v2"
+        ]
+    },
+    "logo#header__logo--middle": {
+        "title": "Logo",
+        "props": {
+            "url": "assets/img/logo-decathlon.svg",
+            "width": 150
+        }
+    },
+    "drawer#header__mobile--middle": {
+        "children": [
+            "menu#header__menu"
+        ],
+        "blocks": [
+            "rich-text#ayuda",
+            "rich-text#tiendas"
+        ]
+    },
+    /*"drawer-trigger": {
+        "children": [
+            "rich-text#ayuda",
+            "rich-text#tiendas"
+        ]
+    },*/
+    "rich-text#ayuda": {
+        "props": {
+            "text": "Ayuda"
+        }
+    },
+    "rich-text#tiendas":{
+        "props": {
+            "text": "Tiendas"
+        }   
+    },
+    "login": {
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true
+        }
+    },
+    "menu#header__menu": {
+        "children": [
+            "menu-item#category__one",
+            "menu-item#category__two"
         ]
     }
 }
