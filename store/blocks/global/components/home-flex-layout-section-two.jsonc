@@ -1,39 +1,39 @@
  {
-     "flex-layout.row#home__flex-layout--section-two": {
-         "title": "Imágenes parte inferior",
-         "children": [
-             "image#home__flex-layout--image-one",
-             "image#home__flex-layout--image-two",
-             "image#home__flex-layout--image-three",
-             "image#home__flex-layout--image-four"
+    "flex-layout.row#home__flex-layout--section-two": {
+        "title": "Imágenes parte inferior",
+        "children": [
+            "image#home__image--decathlon-blog",
+            "image#home__image--decathlon-club",
+            "image#home__image--decathlon-colombia",
+            "image#home__image--decathlon-innvoacion"
          ],
-         "props": {
-             "blockClass": "home__flex-layout--section--two",
-             "colSizing": "auto"
-         }
-     },
-     "image#home__flex-layout--image-one": {
+        "props": {
+           "blockClass": "home__flex-layout--section--two"
+           //"colSizing": "auto"
+        }
+    },
+    "image#home__image--decathlon-blog": {
          "title": "club Decathlon image",
          "props": {
-             "src": "assets/img/club-decathlon.jpg"
-         }
-     },
-     "image#home__flex-layout--image-two": {
+            "src": "assets/img/club-decathlon.jpg"
+        }
+    },
+    "image#home__image--decathlon-club": {
          "title": "Youtube Decathlon image",
          "props": {
-             "src": "assets/img/youtube-decathlon.jpg"
-         }
-     },
-     "image#home__flex-layout--image-three": {
+            "src": "assets/img/youtube-decathlon.jpg"
+        }
+    },
+    "image#home__image--decathlon-colombia": {
          "title": "Ecodiseños Decathlon image",
          "props": {
-             "src": "assets/img/ecodisenos-decathlon.jpg"
-         }
-     },
-     "image#home__flex-layout--image-four": {
+            "src": "assets/img/ecodisenos-decathlon.jpg"
+        }
+    },
+    "image#home__image--decathlon-innvoacion": {
          "title": "Innovacion Decathlon image",
          "props": {
-             "src": "assets/img/innovacion-decathlon.jpg"
-         }
-     }
- }
+            "src": "assets/img/innovacion-decathlon.jpg"
+        }
+    }
+}

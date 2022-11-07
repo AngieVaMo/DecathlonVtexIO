@@ -1,6 +1,6 @@
 {
-  "responsive-layout.desktop#home__main--image": {
-    "title": "Imagen principal - sección 1",
+  "responsive-layout.desktop#home__desktop": {
+    "title": "Responsive layout desktop",
     "children": [
         "image#home__main--image-desktop",
         "flex-layout.row#home__image-slider"

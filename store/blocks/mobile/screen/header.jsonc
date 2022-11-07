@@ -1,0 +1,9 @@
+{
+    "header-layout.mobile#header__mobile":{
+        "children":[
+            "header-row#header__top",
+            "header-row#header__mobile--middle",
+            "search-bar"
+        ]
+    }
+}

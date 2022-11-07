@@ -1,0 +1,8 @@
+{
+    "header-layout.desktop#header__desktop": {
+        "children":[
+            "header-row#header__top",
+            "header-row#header__desktop--middle"
+        ]
+    }
+}
