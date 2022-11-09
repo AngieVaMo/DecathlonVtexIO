@@ -1,0 +1,12 @@
+{
+    "header-row#header__mobile--middle": {
+        "title": "Header medio",
+        "children": [
+            "drawer#header__mobile--middle",
+            "header-spacer",
+            "logo#header__logo--middle",
+            "header-spacer",
+            "minicart.v2"
+        ]
+    }
+}

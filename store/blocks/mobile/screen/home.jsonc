@@ -1,5 +1,5 @@
 {
-    "responsive-layout.mobile#home__main--image": {
+    "responsive-layout.mobile#home__mobile": {
         "children": [
             "image#home__main--image"
         ]

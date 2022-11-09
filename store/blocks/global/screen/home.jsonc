@@ -1,9 +1,9 @@
 {
     "store.home": { 
       "blocks": [
-        "responsive-layout.desktop#home__main--image",
+        "responsive-layout.desktop#home__desktop",
         //"flex-layout.row#home__section--one",
-        "responsive-layout.mobile#home__main--image",
+        "responsive-layout.mobile#home__mobile",
         "flex-layout.col#home__flex-layout--section-one",
         "rich-text",
         "slider-layout#home__slider--productos-temporada",

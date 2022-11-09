@@ -1,0 +1,14 @@
+{
+    "header-row#header__desktop--middle": {
+        "title": "Header medio",
+        "children": [
+            "logo#header__logo--middle",
+            "search-bar",
+            "header-spacer",
+            "rich-text#ayuda",
+            "rich-text#tiendas",
+            "login",
+            "minicart.v2"
+        ]
+    }
+}
