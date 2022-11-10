@@ -1,11 +1,11 @@
 {
     "store.home": { 
       "blocks": [
-        "flex-layout.row#home__flex-layout--blue",
-        "flex-layout.row#home__flex-layout--aguinaldos",
         "responsive-layout.desktop#home__desktop",
-        //"flex-layout.row#home__section--one",
         "responsive-layout.mobile#home__mobile",
+        //"flex-layout.row#home__flex-layout--blue",
+        //"flex-layout.row#home__flex-layout--aguinaldos",
+        //"flex-layout.row#home__section--one",
         "slider-layout#home__slider--productos-temporada",
         "list-context.image-list#home__slider--list-section-two",
         "flex-layout.row#home__flex-layout--section-two"
