@@ -5,7 +5,7 @@
             "image#home__image--decathlon-blog",
             "image#home__image--decathlon-club",
             "image#home__image--decathlon-colombia",
-            "image#home__image--decathlon-innvoacion"
+            "image#home__image--decathlon-innovacion"
          ],
         "props": {
            "blockClass": "home__flex-layout--section--two"
@@ -13,24 +13,24 @@
         }
     },
     "image#home__image--decathlon-blog": {
-         "title": "club Decathlon image",
+         "title": "Imagen decathlon blog",
+         "props": {
+            "src": "assets/img/blog-decathlon.jpg"
+        }
+    },
+    "image#home__image--decathlon-club": {
+         "title": "Imagen decathlon club",
          "props": {
             "src": "assets/img/club-decathlon.jpg"
         }
     },
-    "image#home__image--decathlon-club": {
-         "title": "Youtube Decathlon image",
+    "image#home__image--decathlon-colombia": {
+         "title": "Imagen decathlon youtube",
          "props": {
             "src": "assets/img/youtube-decathlon.jpg"
         }
     },
-    "image#home__image--decathlon-colombia": {
-         "title": "Ecodiseños Decathlon image",
-         "props": {
-            "src": "assets/img/ecodisenos-decathlon.jpg"
-        }
-    },
-    "image#home__image--decathlon-innvoacion": {
+    "image#home__image--decathlon-innovacion": {
          "title": "Innovacion Decathlon image",
          "props": {
             "src": "assets/img/innovacion-decathlon.jpg"

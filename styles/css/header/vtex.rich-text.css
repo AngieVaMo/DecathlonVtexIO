@@ -1,0 +1,19 @@
+.paragraph--header__text--top {
+    width: 100vw;
+    margin-top: 3vh;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #0082C3;
+}
+
+.wrapper--header__text--top {
+    padding: 0;
+    margin: 0;
+    height: 15px;
+    text-align: center;
+}
+
+.wrapper--home__text--section-two {
+    background-color: transparent;
+    color: black;
+}

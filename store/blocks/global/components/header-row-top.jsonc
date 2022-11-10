@@ -12,12 +12,9 @@
     },
     "rich-text#header__rich-text--top": {
         "props": { 
-        "text": "¡Haz seguimiento de tu pedido aquí!",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "font": "t-heading-1",
-        "fontSize": "5px"
-      }
+            "blockClass": "header__text--top",
+            "text": "¡Haz seguimiento de tu pedido aquí!"
+        }
 
     }
 }

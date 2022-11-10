@@ -1,0 +1,100 @@
+{
+    "slider-layout#home__slider--regala-deporte": {
+        "title": "Slider de regala-deporte",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 4,
+            "mobile": 4
+          },
+          "infinite": true,
+          "blockClass": "home__slider--regala-deporte",
+          "autoplay":{
+            "timeout": 3000,
+            "stopOnHover": true
+          }
+        },
+        "children": [
+            "image#home__image--rd-one",
+            "image#home__image--rd-two",
+            "image#home__image--rd-three",
+            "image#home__image--rd-four",
+            "image#home__image--rd-five",
+            "image#home__image--rd-six",
+            "image#home__image--rd-seven",
+            "image#home__image--rd-eight",
+            "image#home__image--rd-nine",
+            "image#home__image--rd-ten"
+        ]
+    },
+    "image#home__image--rd-one": {
+        "title": "Imagen RD base para patines",
+        "props": {
+            "src": "assets/img/regala-deporte-1.jpg",
+            "blockClass": "home__image--rd-one"
+        }
+    },
+    "image#home__image--rd-two": {
+        "title": "Imagen RD sudadera",
+        "props": {
+            "src": "assets/img/regala-deporte-2.jpg",
+            "blockClass": "home__image--rd-two"
+        }
+    },
+    "image#home__image--rd-three": {
+        "title": "Imagen RD casco para patines",
+        "props": {
+            "src": "assets/img/regala-deporte-3.jpg",
+            "blockClass": "home__image--rd-three"
+        }
+    },
+    "image#home__image--rd-four": {
+        "title": "Imagen RD patineta",
+        "props": {
+            "src": "assets/img/regala-deporte-4.jpg",
+            "blockClass": "home__image--rd-four"
+        }
+    },
+    "image#home__image--rd-five": {
+        "title": "Imagen RD trampolín",
+        "props": {
+            "src": "assets/img/regala-deporte-5.jpg",
+            "blockClass": "home__image--rd-five"
+        }
+    },
+    "image#home__image--rd-six": {
+        "title": "Imagen RD balón de fútbol",
+        "props": {
+            "src": "assets/img/regala-deporte-6.jpg",
+            "blockClass": "home__image--rd-six"
+        }
+    },
+    "image#home__image--rd-seven": {
+        "title": "Imagen RD malla de ping pong",
+        "props": {
+            "src": "assets/img/regala-deporte-7.jpg",
+            "blockClass": "home__image--rd-seven"
+        }
+    },
+    "image#home__image--rd-eight": {
+        "title": "Imagen RD cancha de fútbol",
+        "props": {
+            "src": "assets/img/regala-deporte-8.jpg",
+            "blockClass": "home__image--rd-eight"
+        }
+    },
+    "image#home__image--rd-nine": {
+        "title": "Imagen RD bicicleta infantil",
+        "props": {
+            "src": "assets/img/regala-deporte-9.jpg",
+            "blockClass": "home__image--rd-nine"
+        }
+    },
+    "image#home__image--rd-ten": {
+        "title": "Imagen RD bicicleta de montaña",
+        "props": {
+            "src": "assets/img/regala-deporte-10.jpg",
+            "blockClass": "home__image--rd-ten"
+        }
+    }
+}

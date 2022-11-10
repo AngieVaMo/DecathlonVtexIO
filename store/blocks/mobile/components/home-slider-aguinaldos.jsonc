@@ -1,0 +1,56 @@
+{
+    "slider-layout#home__slider--aguinaldos": {
+        "title": "Slider de aguinaldos",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 3,
+            "mobile": 3
+          },
+          "infinite": true,
+          "blockClass": "home__slider--aguinaldos",
+          "autoplay":{
+            "timeout": 3000,
+            "stopOnHover": true
+          }
+        },
+        "children": [
+            "image#home__image--slide-one",
+            "image#home__image--slide-two",
+            "image#home__image--slide-three",
+            "image#home__image--slide-four",
+            "image#home__image--slide-five"
+        ]
+    },
+    "image#home__image--slide-one": {
+        "props": {
+            "src": "assets/img/arbol-navidad.jpg"
+
+        }
+    },
+    "image#home__image--slide-two": {
+        "props": {
+            "src": "assets/img/10-30.jpg"
+
+        }
+    },
+    "image#home__image--slide-three": {
+        "props": {
+            "src": "assets/img/31-50.jpg"
+
+        }
+    },
+    "image#home__image--slide-four": {
+        "props": {
+            "src": "assets/img/51-70.jpg"
+
+        }
+    },
+    "image#home__image--slide-five": {
+        "props": {
+            "src": "assets/img/71mas.jpg"
+
+        }
+    }
+
+}

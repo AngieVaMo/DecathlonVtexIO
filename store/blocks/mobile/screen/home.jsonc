@@ -1,7 +1,9 @@
 {
     "responsive-layout.mobile#home__mobile": {
         "children": [
-            "image#home__main--image"
+            "image#home__main--image",
+            "slider-layout#home__slider--aguinaldos",
+            "slider-layout#home__slider--regala-deporte"
         ]
     }
 }
