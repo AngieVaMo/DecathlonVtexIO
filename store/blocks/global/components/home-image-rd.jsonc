@@ -1,0 +1,11 @@
+{
+    "image#home__image--rd": {
+        "props": {
+            "title": "Imagen regala deporte",
+            "src": "assets/img/regala-deporte.jpg",
+            "maxWidth": "425px",
+            "blockClass": "home__image--rd"
+        }
+
+    }
+}
