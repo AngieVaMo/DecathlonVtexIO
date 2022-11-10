@@ -1,4 +1,4 @@
- {
+{
     "flex-layout.row#home__flex-layout--section-two": {
         "title": "Imágenes parte inferior",
         "children": [
@@ -8,8 +8,8 @@
             "image#home__image--decathlon-innovacion"
          ],
         "props": {
-           "blockClass": "home__flex-layout--section--two"
-           //"colSizing": "auto"
+           "blockClass": "home__flex-layout--section--two",
+           "colSizing": "auto"
         }
     },
     "image#home__image--decathlon-blog": {

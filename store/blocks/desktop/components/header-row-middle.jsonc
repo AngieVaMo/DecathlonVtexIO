@@ -20,13 +20,5 @@
     "search-bar#header__searbar": {
         "blocks": ["autocomplete-result-list.v2"],
         "props": {"openAutocompleteOnFocus": true} 
-    },
-    "minicart.v2": {
-        "props": {
-            "variation": "popup",
-            "itemCountMode": "not-empty"
-
-        }
-
     }
 }

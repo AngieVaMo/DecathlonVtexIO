@@ -1,0 +1,60 @@
+{
+    "flex-layout.row#home__flex--mobile-section-two": {
+        "title": "Imágenes parte inferior mobile",
+        "children": [
+            "flex-layout.col#home__flex--mobile-section-two-col1",
+            "flex-layout.col#home__flex--mobile-section-two-col2"
+         ],
+        "props": {
+           "blockClass": "home__flex-layout--section--two",
+           "colSizing": "equal"
+        }
+    },
+    "flex-layout.col#home__flex--mobile-section-two-col1": {
+        "title": "Imágenes parte inferior col-1",
+        "children": [
+            "image#home__image--decathlon-club",
+            "image#home__image--decathlon-innovacion"
+         ],
+        "props": {
+           "blockClass": "home__flex--mobile-section--two-col1",
+           "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#home__flex--mobile-section-two-col2": {
+        "title": "Imágenes parte inferior col-2",
+        "children": [
+            "image#home__image--decathlon-blog",
+            "image#home__image--decathlon-innovacion"
+         ],
+        "props": {
+           "blockClass": "home__flex--mobiole-section--two-col2"
+           //"colSizing": "auto"
+        }
+
+    },
+    "image#home__image--decathlon-blog": {
+         "title": "Imagen decathlon blog",
+         "props": {
+            "src": "assets/img/blog-decathlon.jpg"
+        }
+    },
+    "image#home__image--decathlon-club": {
+         "title": "Imagen decathlon club",
+         "props": {
+            "src": "assets/img/club-decathlon.jpg"
+        }
+    },
+    "image#home__image--decathlon-colombia": {
+         "title": "Imagen decathlon youtube",
+         "props": {
+            "src": "assets/img/youtube-decathlon.jpg"
+        }
+    },
+    "image#home__image--decathlon-innovacion": {
+         "title": "Innovacion Decathlon image",
+         "props": {
+            "src": "assets/img/innovacion-decathlon.jpg"
+        }
+    }
+}
