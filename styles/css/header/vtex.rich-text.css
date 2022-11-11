@@ -1,6 +1,7 @@
 .paragraph--header__text--top {
     width: 100vw;
-    margin-top: 3vh;
+    padding: 3px;
+    margin-top: 5px;
     font-size: 15px;
     color: #ffffff;
     background-color: #0082C3;
