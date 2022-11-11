@@ -1,7 +1,13 @@
 {
-    "responsive-layout.mobile#home__main--image": {
+    "responsive-layout.mobile#home__mobile": {
         "children": [
-            "image#home__main--image"
+            "image#home__main--image",
+            "slider-layout#home__slider--aguinaldos",
+            "image#home__image--rd",
+            "slider-layout#home__slider--regala-deporte",
+            "image#home__instagram-image",
+            "slider-layout#home__slider--productos-temporada",
+            "flex-layout.row#home__flex--mobile-section-two"
         ]
     }
 }

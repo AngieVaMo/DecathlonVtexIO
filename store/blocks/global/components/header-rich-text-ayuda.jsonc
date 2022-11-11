@@ -1,0 +1,10 @@
+{
+    "rich-text#ayuda": {
+        "props": {
+            "blockClass": "header__text--middle",
+            "text": "Ayuda",
+            "font": "roboto",
+            "fontSize": "14px"
+        }
+    }
+}

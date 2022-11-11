@@ -1,0 +1,157 @@
+{
+    "flex-layout.row#home__flex-layout--blue": {
+        "title": "Barra azul con links",
+        "children": [
+            "flex-layout.col#home__flex--metodos-entrega",
+            "flex-layout.col#home__flex--instagram",
+            "flex-layout.col#home__flex--ventas",
+            "flex-layout.col#home__flex--trabaja",
+            "flex-layout.col#home__flex--ecodiseños"
+        ]
+    },
+    "flex-layout.col#home__flex--metodos-entrega": {
+        "title": "Métodos de entrega e ícono",
+        "children": [
+            "flex-layout.row#home__flex--métodos-icon"
+        ]
+    },
+    "flex-layout.row#home__flex--métodos-icon": {
+        "children": [
+            "icon#home__icon--metodos-entrega",
+            "rich-text#home__text--metodos-entrega"
+        ]
+    },
+    "rich-text#home__text--metodos-entrega": {
+        "props": {
+            "blockClass": "home__blue--text",
+            "text": "MÉTODOS DE ENTREGA",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto",
+            "fontSize": "16px"
+        }
+    },
+    "icon#home__icon--metodos-entrega": {
+        "props": {
+            "blockClass": "home__icon--metodos-entrega",
+            "id": "metodos-entrega"
+        }
+    },
+
+    "flex-layout.col#home__flex--ventas": {
+        "title": "Ventas corporativas e ícono",
+        "children": [
+            "flex-layout.row#home__flex--ventas-icon"
+        ]
+    },
+    "flex-layout.row#home__flex--ventas-icon": {
+        "children": [
+            "icon#home__icon--ventas",
+            "rich-text#home__text--ventas"
+        ]
+    },
+    "rich-text#home__text--ventas": {
+        "props": {
+            "blockClass": "home__blue--text",
+            "text": "VENTAS CORPORATIVAS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto",
+            "fontSize": "16px"
+        }
+    },
+    "icon#home__icon--ventas": {
+        "props": {
+            "blockClass": "home__icon--ventas-corporativas",
+            "id": "ventas-corporativas"
+        }
+    },
+
+    "flex-layout.col#home__flex--instagram": {
+        "title": "instagram e ícono",
+        "children": [
+            "flex-layout.row#home__flex--instagram-icon"
+        ]
+    },
+    "flex-layout.row#home__flex--instagram-icon": {
+        "children": [
+            "icon#home__icon--instagram",
+            "rich-text#home__text--instagram"
+        ]
+    },
+    "rich-text#home__text--instagram": {
+        "props": {
+            "blockClass": "home__blue--text",
+            "text": "INSTAGRAM",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto",
+            "fontSize": "16px"
+        }
+    },
+    "icon#home__icon--instagram": {
+        "props": {
+            "blockClass": "home__icon--instagram",
+            "id": "instagram"
+        }
+    },
+
+    "flex-layout.col#home__flex--trabaja": {
+        "title": "trabaja con nosotros e ícono",
+        "children": [
+            "flex-layout.row#home__flex--trabaja-icon"
+        ]
+    },
+    "flex-layout.row#home__flex--trabaja-icon": {
+        "children": [
+            "icon#home__icon--trabaja",
+            "rich-text#home__text--trabaja"
+        ]
+    },
+    "rich-text#home__text--trabaja": {
+        "props": {
+            "blockClass": "home__blue--text",
+            "text": "TRABAJA CON NOSOTROS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto",
+            "fontSize": "16px"
+        }
+    },
+    "icon#home__icon--trabaja": {
+        "props": {
+            "blockClass": "home__icon--trabaja",
+            "id": "trabaja-nosotros"
+        }
+    },
+
+    "flex-layout.col#home__flex--ecodiseños": {
+        "title": "Ecodiseños e ícono",
+        "children": [
+            "flex-layout.row#home__flex--ecodiseños-icon"
+        ]
+    },
+    "flex-layout.row#home__flex--ecodiseños-icon": {
+        "children": [
+            "icon#home__icon--ecodiseños",
+            "rich-text#home__text--ecodiseños"
+        ]
+    },
+    "rich-text#home__text--ecodiseños": {
+        "props": {
+            "blockClass": "home__blue--text",
+            "text": "ECODISEÑOS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto",
+            "fontSize": "16px"
+        }
+    },
+    "icon#home__icon--ecodiseños": {
+        "props": {
+            "blockClass": "home__icon--ecodiseños",
+            "id": "ecodiseños"
+        }
+    }
+
+}

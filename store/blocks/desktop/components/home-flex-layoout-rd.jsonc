@@ -1,0 +1,103 @@
+{
+    
+    "flex-layout.row#home__flex-layout--rd": {
+        "title": "Flex layout regala deporte",
+        "children": [
+            "image#home__image--rd",
+            "flex-layout.col#home__flex--col-1",
+            "flex-layout.col#home__flex--col-2",
+            "flex-layout.col#home__flex--col-3",
+            "flex-layout.col#home__flex--col-4",
+            "flex-layout.col#home__flex--col-5"
+        ]
+    },
+    "flex-layout.col#home__flex--col-1": {
+        "title": "Métodos de entrega e ícono",
+        "children": [
+            "image#home__flex--rd-1",
+            "image#home__flex--rd-2"
+        ]
+    },
+    "image#home__flex--rd-1": {
+        "props": {
+            "src": "assets/img/regala-deporte-1.jpg"
+        }
+    },
+    "image#home__flex--rd-2": {
+        "props": {
+            "src": "assets/img/regala-deporte-2.jpg"
+        }
+    },
+
+    "flex-layout.col#home__flex--col-2": {
+        "title": "Métodos de entrega e ícono",
+        "children": [
+            "image#home__flex--rd-3",
+            "image#home__flex--rd-4"
+        ]
+    },
+    "image#home__flex--rd-3": {
+        "props": {
+            "src": "assets/img/regala-deporte-3.jpg"
+        }
+    },
+    "image#home__flex--rd-4": {
+        "props": {
+            "src": "assets/img/regala-deporte-4.jpg"
+        }
+    },
+
+    "flex-layout.col#home__flex--col-3": {
+        "title": "Métodos de entrega e ícono",
+        "children": [
+            "image#home__flex--rd-5",
+            "image#home__flex--rd-6"
+        ]
+    },
+    "image#home__flex--rd-5": {
+        "props": {
+            "src": "assets/img/regala-deporte-5.jpg"
+        }
+    },
+    "image#home__flex--rd-6": {
+        "props": {
+            "src": "assets/img/regala-deporte-6.jpg"
+        }
+    },
+
+    "flex-layout.col#home__flex--col-4": {
+        "title": "Métodos de entrega e ícono",
+        "children": [
+            "image#home__flex--rd-7",
+            "image#home__flex--rd-8"
+        ]
+    },
+    "image#home__flex--rd-7": {
+        "props": {
+            "src": "assets/img/regala-deporte-7.jpg"
+        }
+    },
+    "image#home__flex--rd-8": {
+        "props": {
+            "src": "assets/img/regala-deporte-8.jpg"
+        }
+    },
+
+    "flex-layout.col#home__flex--col-5": {
+        "title": "Métodos de entrega e ícono",
+        "children": [
+            "image#home__flex--rd-9",
+            "image#home__flex--rd-10"
+        ]
+    },
+    "image#home__flex--rd-9": {
+        "props": {
+            "src": "assets/img/regala-deporte-9.jpg"
+        }
+    },
+    "image#home__flex--rd-10": {
+        "props": {
+            "src": "assets/img/regala-deporte-10.jpg"
+        }
+    }
+}

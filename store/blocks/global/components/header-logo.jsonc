@@ -1,0 +1,9 @@
+{
+    "logo#header__logo--middle": {
+        "title": "Logo",
+        "props": {
+            "url": "assets/img/logo-decathlon.svg",
+            "width": 150
+        }
+    }
+}
