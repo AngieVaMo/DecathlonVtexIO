@@ -23,11 +23,17 @@
     },
     "rich-text#home__text--metodos-entrega": {
         "props": {
-            "text": "MÉTODOS DE ENTREGA"
+            "blockClass": "home__blue--text",
+            "text": "MÉTODOS DE ENTREGA",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto",
+            "fontSize": "16px"
         }
     },
     "icon#home__icon--metodos-entrega": {
         "props": {
+            "blockClass": "home__icon--metodos-entrega",
             "id": "metodos-entrega"
         }
     },
@@ -46,11 +52,17 @@
     },
     "rich-text#home__text--ventas": {
         "props": {
-            "text": "VENTAS CORPORATIVAS"
+            "blockClass": "home__blue--text",
+            "text": "VENTAS CORPORATIVAS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto",
+            "fontSize": "16px"
         }
     },
     "icon#home__icon--ventas": {
         "props": {
+            "blockClass": "home__icon--ventas-corporativas",
             "id": "ventas-corporativas"
         }
     },
@@ -69,11 +81,17 @@
     },
     "rich-text#home__text--instagram": {
         "props": {
-            "text": "INSTAGRAM"
+            "blockClass": "home__blue--text",
+            "text": "INSTAGRAM",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto",
+            "fontSize": "16px"
         }
     },
     "icon#home__icon--instagram": {
         "props": {
+            "blockClass": "home__icon--instagram",
             "id": "instagram"
         }
     },
@@ -92,11 +110,17 @@
     },
     "rich-text#home__text--trabaja": {
         "props": {
-            "text": "TRABAJA CON NOSOTROS"
+            "blockClass": "home__blue--text",
+            "text": "TRABAJA CON NOSOTROS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto",
+            "fontSize": "16px"
         }
     },
     "icon#home__icon--trabaja": {
         "props": {
+            "blockClass": "home__icon--trabaja",
             "id": "trabaja-nosotros"
         }
     },
@@ -115,11 +139,17 @@
     },
     "rich-text#home__text--ecodiseños": {
         "props": {
-            "text": "ECODISEÑOS"
+            "blockClass": "home__blue--text",
+            "text": "ECODISEÑOS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto",
+            "fontSize": "16px"
         }
     },
     "icon#home__icon--ecodiseños": {
         "props": {
+            "blockClass": "home__icon--ecodiseños",
             "id": "ecodiseños"
         }
     }

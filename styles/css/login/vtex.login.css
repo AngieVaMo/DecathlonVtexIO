@@ -1,0 +1,7 @@
+.label {
+    visibility: hidden;
+}
+
+.label::before {
+    content: "Mi perfil";
+}
