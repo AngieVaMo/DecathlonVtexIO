@@ -1,7 +1,9 @@
-:global(.label) {
+.label {
     visibility: hidden;
 }
 
 .label::before {
     content: "Mi perfil";
+    visibility: visible;
+    display: block;
 }
