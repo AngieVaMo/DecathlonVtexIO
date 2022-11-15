@@ -1,4 +1,13 @@
-.flexRow--home__section--one {
+/*.flexRow--home__section--one {
     background-color: #0082C3;
     color: white;
+}*/
+
+
+/*.stretchChildrenWidth :global(.imageElement--home__image--aguinaldos) {
+    padding: 10px;
+}*/
+
+.imageElement--home__image--aguinaldos{
+    padding: 10px;
 }

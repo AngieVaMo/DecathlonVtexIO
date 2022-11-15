@@ -15,30 +15,35 @@
     },
     "image#home__image--child-one": {
         "props": {
+            "blockClass": "home__image--aguinaldos",
             "src": "assets/img/arbol-navidad.jpg"
 
         }
     },
     "image#home__image--child-two": {
         "props": {
+            "blockClass": "home__image--aguinaldos",
             "src": "assets/img/10-30.jpg"
 
         }
     },
     "image#home__image--child-three": {
         "props": {
+            "blockClass": "home__image--aguinaldos",
             "src": "assets/img/31-50.jpg"
 
         }
     },
     "image#home__image--child-four": {
         "props": {
+            "blockClass": "home__image--aguinaldos",
             "src": "assets/img/51-70.jpg"
 
         }
     },
     "image#home__image--child-five": {
         "props": {
+            "blockClass": "home__image--aguinaldos",
             "src": "assets/img/71mas.jpg"
 
         }
