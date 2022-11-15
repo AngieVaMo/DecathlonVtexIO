@@ -1,0 +1,436 @@
+{
+    "footer-layout.mobile": { 
+    "children": [
+      "disclosure-layout-group#footer__menu--group-mobile",
+      "flex-layout.row#footer__social-networks--row",
+      "disclosure-layout#footer__metodo-pago--mobile"
+    ]
+  },
+
+  "disclosure-layout-group#footer__menu--group-mobile": {
+    "children": [
+      "disclosure-layout#empresa",
+      "disclosure-layout#compra",
+      "disclosure-layout#post-compra",
+      "disclosure-layout#experiencia"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "disclosure-layout#empresa": {
+    "children": [
+      "disclosure-trigger#empresa", 
+      "disclosure-content#empresa", 
+      "disclosure-state-indicator#empresa"
+    ]
+  },
+
+  "disclosure-state-indicator#empresa": {
+    "props": {
+      "Show": "icon#footer__icon--flecha-abajo",
+      "Hide": "icon#footer__icon--flecha-arriba"
+    }
+},
+
+  "disclosure-trigger#empresa":{
+    "children": ["rich-text#empresa"]
+  }, 
+  "rich-text#empresa": {
+    "props": {
+      "text": "DECATHLON EMPRESA"
+    }
+  },
+
+
+  "disclosure-content#empresa": {
+    "children": ["menu#empresa"]
+
+  },
+  "menu#empresa": {
+    "children": [
+      "menu-item#donathlon",
+      "menu-item#innovacion",
+      "menu-item#decathlon-sostenibilidad",
+      "menu-item#fundacion",
+      "menu-item#decathlon-internacional",
+      "menu-item#trabaja-nosotros"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#donathlon": {
+    "props": {
+      "id": "menu-donathlon",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "donathlon",
+      "text": "Donathlon"
+    }
+    }
+  },
+  "menu-item#innovacion": {
+    "props": {
+      "id": "menu-innovacion",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "innovacion",
+      "text": "Innovacion"
+    }
+    }
+  },
+  "menu-item#decathlon-sostenibilidad": {
+    "props": {
+      "id": "menu-decathlon-sostenibilidad",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "decathlon-sostenibilidad",
+      "text": "Decathlon Sostenibilidad"
+    }
+    }
+  },
+  "menu-item#fundacion": {
+    "props": {
+      "id": "menu-fundacion",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "fundacion",
+      "text": "Fundacion"
+    }
+    }
+  },
+  "menu-item#decathlon-internacional": {
+    "props": {
+      "id": "menu-decathlon-internacional",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "decathlon-internacional",
+      "text": "Decathlon-Internacional"
+    }
+    }
+  },
+  "menu-item#trabaja-nosotros": {
+    "props": {
+      "id": "menu-trabaja-nosotros",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "trabaja-nosotros",
+      "text": "Trabajacon Nosotros"
+    }
+    }
+  },
+
+
+  "disclosure-layout#compra": {
+    "children": ["disclosure-trigger#compra", "disclosure-content#compra", "disclosure-state-indicator#empresa"]
+
+  },
+  "disclosure-trigger#compra":{
+    "children": ["rich-text#compra"]
+  }, 
+  "rich-text#compra": {
+    "props": {
+      "text": "COMPRA"
+    }
+  },
+
+
+  "disclosure-content#compra": {
+    "children": ["menu#compra"]
+
+  },
+  "menu#compra": {
+    "children": [
+      "menu-item#metodos-entrega",
+      "menu-item#facturacion-electronica",
+      "menu-item#decathlon-politica-privacidad",
+      "menu-item#terminos-codiciones",
+      "menu-item#recoge-tienda",
+      "menu-item#guia-tallas",
+      "menu-item#recompra",
+      "menu-item#tarjeta-regalo"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#metodos-entrega": {
+    "props": {
+      "id": "menu-metodos-entrega",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "metodos-entrega",
+      "text": "Métodos de entrega"
+    }
+    }
+  },
+  "menu-item#facturacion-electronica": {
+    "props": {
+      "id": "menu-facturacion-electronica",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "facturacion-electronica",
+      "text": "Facturación Electrónica"
+    }
+    }
+  },
+  "menu-item#decathlon-politica-privacidad": {
+    "props": {
+      "id": "menu-decathlon-politica-privacidad",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "decathlon-politica-privacidad",
+      "text": "Política de Privacidad"
+    }
+    }
+  },
+  "menu-item#terminos-codiciones": {
+    "props": {
+      "id": "menu-terminos-codiciones",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "terminos-codiciones",
+      "text": "Términos y condiciones"
+    }
+    }
+  },
+  "menu-item#recoge-tienda": {
+    "props": {
+      "id": "menu-recoge-tienda",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "recoge-tienda",
+      "text": "Recoge en Tienda"
+    }
+    }
+  },
+  "menu-item#guia-tallas": {
+    "props": {
+      "id": "menu-guia-tallas",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "guia-tallas",
+      "text": "Guía de Tallas"
+    }
+    }
+  },
+  "menu-item#recompra": {
+    "props": {
+      "id": "menu-recompra",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "recompra",
+      "text": "Términos y condiciones de recompra"
+    }
+    }
+  },
+  "menu-item#tarjeta-regalo": {
+    "props": {
+      "id": "menu-tarjeta-regalo",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "tarjeta-regalo",
+      "text": "Tarjeta de Regalo"
+    }
+    }
+  },
+
+
+  "disclosure-layout#post-compra": {
+    "children": ["disclosure-trigger#post-compra", "disclosure-content#post-compra", "disclosure-state-indicator#empresa"]
+
+  },
+  "disclosure-trigger#post-compra":{
+    "children": ["rich-text#post-compra"]
+  }, 
+  "rich-text#post-compra": {
+    "props": {
+      "text": "POST COMPRA"
+    }
+  },
+
+
+  "disclosure-content#post-compra": {
+    "children": ["menu#post-compra"]
+
+  },
+  "menu#post-compra": {
+    "children": [
+      "menu-item#aviso-seguridad",
+      "menu-item#devoluciones",
+      "menu-item#decathlon-derecho-retracto",
+      "menu-item#sic"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#aviso-seguridad": {
+    "props": {
+      "id": "menu-aviso-seguridad",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "aviso-seguridad",
+      "text": "Aviso de Seguridad"
+    }
+    }
+  },
+  "menu-item#devoluciones": {
+    "props": {
+      "id": "menu-devoluciones",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "devoluciones",
+      "text": "Política de Devoluciones"
+    }
+    }
+  },
+  "menu-item#decathlon-derecho-retracto": {
+    "props": {
+      "id": "menu-decathlon-derecho-retracto",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "decathlon-derecho-retracto",
+      "text": "Derecho de Retracto"
+    }
+    }
+  },
+  "menu-item#sic": {
+    "props": {
+      "id": "menu-sic",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "sic",
+      "text": "SIC"
+    }
+    }
+  },
+
+
+
+  "disclosure-layout#experiencia": {
+    "children": ["disclosure-trigger#experiencia", "disclosure-content#experiencia", "disclosure-state-indicator#empresa"]
+  },
+  "disclosure-trigger#experiencia":{
+    "children": ["rich-text#experiencia"]
+  }, 
+  "rich-text#experiencia": {
+    "props": {
+      "text": "EXPERIENCIA DECATHLON"
+    }
+  },
+
+
+  "disclosure-content#experiencia": {
+    "children": ["menu#experiencia"]
+  },
+  "menu#experiencia": {
+    "children": [
+      "menu-item#preguntas-frecuentes",
+      "menu-item#decapro",
+      "menu-item#tiendas",
+      "menu-item#club-decathlon",
+      "menu-item#mi-cuenta"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#preguntas-frecuentes": {
+    "props": {
+      "id": "menu-preguntas-frecuentes",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "preguntas-frecuentes",
+      "text": "Preguntas Frecuentes"
+    }
+    }
+  },
+  "menu-item#decapro": {
+    "props": {
+      "id": "menu-decapro",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "decapro",
+      "text": "DECAPRO"
+    }
+    }
+  },
+  "menu-item#tiendas": {
+    "props": {
+      "id": "menu-tiendas",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "tiendas",
+      "text": "Tiendas"
+    }
+    }
+  },
+  "menu-item#club-decathlon": {
+    "props": {
+      "id": "menu-club-decathlon",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "club-decathlon",
+      "text": "Club Decathlon"
+    }
+    }
+  },
+  "menu-item#mi-cuenta": {
+    "props": {
+      "id": "menu-mi-cuenta",
+      "type": "custom",
+      "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "tagTitle": "mi-cuenta",
+      "text": "Mi cuenta"
+    }
+    }
+  }
+}

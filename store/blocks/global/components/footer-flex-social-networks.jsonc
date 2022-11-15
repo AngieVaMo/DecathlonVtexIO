@@ -1,0 +1,45 @@
+{
+    "flex-layout.row#footer__social-networks--row": {
+    "children": [
+        "flex-layout.col#footer__social-networks--col-1",
+        "flex-layout.col#footer__social-networks--col-2"
+      ]
+    },
+
+    "flex-layout.col#footer__social-networks--col-1": {
+    "children": ["rich-text#footer__siguenos-en"]
+    },
+    
+    "rich-text#footer__siguenos-en": {
+      "props": {
+        "text": "SÍGUENOS EN"
+      }
+    },
+
+    "flex-layout.col#footer__social-networks--col-2": {
+        "children": ["social-networks"]
+    },
+    
+      "social-networks": {
+        "props": {
+          "socialNetworks": [
+            {
+              "url": "https://www.facebook.com/DecathlonColombia/",
+              "name": "Facebook"
+            },
+            {
+              "url": "https://twitter.com/Decathlon_Col",
+              "name": "Twitter"
+            },
+            {
+              "url": "https://www.youtube.com/channel/UCOqP-A-0gVZRzUfuEMkz-sw",
+              "name": "Youtube"
+            },
+            {
+              "url": "https://www.instagram.com/decathlon_colombia/",
+              "name": "instagram"
+            }
+          ]
+        }
+      }
+}
