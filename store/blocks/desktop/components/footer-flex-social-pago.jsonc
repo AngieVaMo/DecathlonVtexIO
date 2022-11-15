@@ -1,0 +1,110 @@
+{
+    "flex-layout.row#footer__flex--social-pago--desktop": {
+        "children": [
+            "flex-layout.col#footer__flex--social-desktop",
+            "flex-layout.col#footer__flex--pago-desktop",
+            "flex-layout.col#footer__flex--pasarela-desktop"
+        ]
+    },
+    "flex-layout.col#footer__flex--social-desktop": {
+        "children": [
+            "flex-layout.row#footer__social-networks--row"
+        ]
+
+    },
+    "flex-layout.col#footer__flex--pago-desktop": {
+        "children": [
+            "flex-layout.row#footer__flex--pago-desktop"
+        ]
+
+    },
+    "flex-layout.col#footer__flex--pasarela-desktop": {
+        "children": [
+            "flex-layout.row#footer__flex--pasarela-desktop"
+        ]
+
+    },
+
+    "flex-layout.row#footer__flex--pago-desktop": {
+        "children": [
+            "rich-text#footer__text--pago-desktop",
+            "image#footer__image--visa-desktop",
+            "image#footer__image--amex-desktop",
+            "image#footer__image--mastercard-desktop",
+            "image#footer__image--efectivo-desktop",
+            "image#footer__image--diners-club-desktop",
+            "image#footer__image--tarjeta-exito-desktop"
+        ]
+
+    },
+    "rich-text#footer__text--pago-desktop": {
+        "props": {
+            "text": "MÉTODOS DE PAGO"
+        }
+    },
+    "image#footer__image--visa-desktop": {
+        "props": {
+            "src": "assets/img/visa.png",
+            "maxWidth": "50px"
+        }
+    },
+    "image#footer__image--amex-desktop": {
+        "props": {
+            "src": "assets/img/american-express.png",
+            "maxWidth": "50px"
+        }
+    },
+    "image#footer__image--mastercard-desktop": {
+        "props": {
+            "src": "assets/img/mastercard.png",
+            "maxWidth": "50px"
+        }
+    },
+    "image#footer__image--efectivo-desktop": {
+        "props": {
+            "src": "assets/img/efectivo.png",
+            "maxWidth": "50px"
+        }
+    },
+    "image#footer__image--diners-club-desktop": {
+        "props": {
+            "src": "assets/img/diners-club.png",
+            "maxWidth": "50px"
+        }
+    },
+    "image#footer__image--tarjeta-exito-desktop": {
+        "props": {
+            "src": "assets/img/tarjeta-exito.png",
+            "maxWidth": "50px"
+        }
+    },
+
+    "flex-layout.row#footer__flex--pasarela-desktop": {
+        "children": [
+            "rich-text#footer__text--pasarela-desktop",
+            "image#footer__image--mercadopago-desktop",
+            "image#footer__image--pare-compare-desktop"
+        ]
+
+    },
+    "rich-text#footer__text--pasarela-desktop": {
+        "props": {
+            "text": "PASARELA DE PAGOS"
+        }
+
+    },
+    "image#footer__image--mercadopago-desktop": {
+        "props": {
+            "src": "assets/img/mercadopago.png",
+            "maxWidth": "50px"
+        }
+
+    },
+    "image#footer__image--pare-compare-desktop": {
+        "props": {
+            "src": "assets/img/pare-compare.png",
+            "maxWidth": "50px"
+        }
+    }
+
+}
