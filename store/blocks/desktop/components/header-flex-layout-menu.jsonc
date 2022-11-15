@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#header__flex-layout--menu": {
+    "header-row#header__flex-layout--menu": {
         "title": "Mega menu desktop",
         "children": [
             "rich-text#header__menu--deportes",
@@ -84,7 +84,7 @@
     },
     "rich-text#header__menu--ultimasunidades": {
         "props": { 
-            "blockClass": "header__menu--deportes",
+            "blockClass": "header__menu--uunidades",
             "text": "Ultimas unidades",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
