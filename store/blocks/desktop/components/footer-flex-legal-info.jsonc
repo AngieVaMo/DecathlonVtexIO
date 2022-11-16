@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#footer__flex--legal-info--desktop": {
+        "children": [
+            "flex-layout.col#footer__flex--legal-info--desktop"
+        ]
+    },
+    "flex-layout.col#footer__flex--legal-info--desktop": {
+        "children": [
+            "rich-text#footer__text--legal-info--mobile-1",
+            "flex-layout.row#footer__flex--legal-info--desktop-2",
+            "rich-text#footer__text--legal-info--mobile-5",
+            "rich-text#footer__text--legal-info--mobile-6",
+            "rich-text#footer__text--legal-info--mobile-7",
+            "logo#header__logo--middle"
+        ]
+    },
+    "flex-layout.row#footer__flex--legal-info--desktop-2": {
+        "children": [
+            "rich-text#footer__text--legal-info--mobile-2",
+            "rich-text#footer__text--legal-info--mobile-3",
+            "rich-text#footer__text--legal-info--mobile-4"
+        ]
+    }
+}
