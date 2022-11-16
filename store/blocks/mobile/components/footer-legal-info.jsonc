@@ -1,0 +1,62 @@
+{
+    "flex-layout.row#footer__flex--legal-info--mobile": {
+        "children": [
+            "flex-layout.col#footer__flex--legal-info--mobile"
+        ]
+    },
+    "flex-layout.col#footer__flex--legal-info--mobile": {
+        "children": [
+            "rich-text#footer__text--legal-info--mobile-1",
+            "rich-text#footer__text--legal-info--mobile-2",
+            "rich-text#footer__text--legal-info--mobile-3",
+            "rich-text#footer__text--legal-info--mobile-4",
+            "rich-text#footer__text--legal-info--mobile-5",
+            "rich-text#footer__text--legal-info--mobile-7",
+            "logo#header__logo--middle"
+            
+        ]
+    },
+    "rich-text#footer__text--legal-info--mobile-1": {
+        "props": {
+            "text": "2022 Decathlon Colombia SAS."
+        }
+        
+
+    },
+    "rich-text#footer__text--legal-info--mobile-2": {
+        "props": {
+            "text": "NIT 900868271-1"
+        }
+
+    },
+    "rich-text#footer__text--legal-info--mobile-3": {
+        "props": {
+            "text": "601 9187891"
+        }
+
+    },
+    "rich-text#footer__text--legal-info--mobile-4": {
+        "props": {
+            "text": "ecommerce.colombia@decathlon.com"
+        }
+
+    },
+    "rich-text#footer__text--legal-info--mobile-5": {
+        "props": {
+            "text": "Registro SIC: 900868271-1"
+        }
+
+    },
+    "rich-text#footer__text--legal-info--mobile-6": {
+        "props": {
+            "text": "Productos importados para Colombia por Decathlon Colombia S.A.S Calle 147 #58c-95 Bogotá, Colombia"
+        }
+
+    },
+    "rich-text#footer__text--legal-info--mobile-7": {
+        "props": {
+            "text": "¡HACEMOS ACCESIBLE EL DEPORTE DE MANERA SOSTENIBLE, AL MAYOR NÚMERO DE PERSONAS"
+        }
+
+    }
+}
