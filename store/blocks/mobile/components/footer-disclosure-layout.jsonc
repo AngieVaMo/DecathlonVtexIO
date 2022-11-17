@@ -30,6 +30,7 @@
   }, 
   "rich-text#empresa": {
     "props": {
+      "blockClass": "footer__text--title-col",
       "text": "DECATHLON EMPRESA"
     }
   },
@@ -135,6 +136,7 @@
   }, 
   "rich-text#compra": {
     "props": {
+      "blockClass": "footer__text--title-col",
       "text": "COMPRA"
     }
   },
@@ -266,6 +268,7 @@
   }, 
   "rich-text#post-compra": {
     "props": {
+      "blockClass": "footer__text--title-col",
       "text": "POST COMPRA"
     }
   },
@@ -345,6 +348,7 @@
   }, 
   "rich-text#experiencia": {
     "props": {
+      "blockClass": "footer__text--title-col",
       "text": "EXPERIENCIA DECATHLON"
     }
   },

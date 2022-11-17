@@ -3,21 +3,31 @@
     "children": [
         "flex-layout.col#footer__social-networks--col-1",
         "flex-layout.col#footer__social-networks--col-2"
-      ]
+      ],
+      "props": {
+        "blockClass": "footer__social-networks--row"
+      }
     },
 
     "flex-layout.col#footer__social-networks--col-1": {
-    "children": ["rich-text#footer__siguenos-en"]
+    "children": ["rich-text#footer__siguenos-en"],
+    "props": {
+      "blockClass": "footer__social-networks--col-1"
+    }
     },
     
     "rich-text#footer__siguenos-en": {
       "props": {
+        "blockClass": "footer__text--title-col",
         "text": "SÍGUENOS EN"
       }
     },
 
     "flex-layout.col#footer__social-networks--col-2": {
-        "children": ["social-networks"]
+        "children": ["social-networks"],
+        "props": {
+          "blockClass": "footer__social-networks--col-2"
+        }
     },
     
       "social-networks": {
