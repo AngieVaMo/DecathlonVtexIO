@@ -3,7 +3,7 @@
         "props": {
             "title": "Imagen principal en mobile",
             "src": "assets/img/home-main-mobile.jpg",
-            "maxWidth": "425px",
+            "maxWidth": "100%",
             "blockClass": "home__main--image"
         }
 

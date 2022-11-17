@@ -1,0 +1,118 @@
+{
+    "flex-layout.row#footer__flex--images-top": {
+        "children": [
+            "flex-layout.col#footer__flex--deporte",
+            "flex-layout.col#footer__flex--recoge-tienda",
+            "flex-layout.col#footer__flex--entrega",
+            "flex-layout.col#footer__flex--cambios-devoluciones"
+        ]
+    },
+
+
+    "flex-layout.col#footer__flex--deporte": {
+        "children": [
+            "image#footer__image--deporte",
+            "rich-text#footer__text--deporte-title",
+            "rich-text#footer__text--deporte"
+        ]
+    },    
+    "image#footer__image--deporte": {
+        "props": {
+            "blockClass": "footer__image--deporte",
+            "src": "assets/img/deporte.jpg"
+        }
+    },
+    "rich-text#footer__text--deporte-title": {
+        "props": {
+            "text": "Más de 60 deportes"
+        }
+
+    },
+    "rich-text#footer__text--deporte": {
+        "props": {
+            "text": "Encuentra más de 5.000 productos para hacer deporte en un solo lugar"
+        }
+
+    },
+
+
+    "flex-layout.col#footer__flex--recoge-tienda": {
+        "children": [
+            "image#footer__image--recoge-tienda",
+            "rich-text#footer__text--recoge-tienda-title",
+            "rich-text#footer__text--recoge-tienda"
+        ]
+    },
+    "image#footer__image--recoge-tienda": {
+        "props": {
+            "blockClass": "footer__image--recoge-tienda",
+            "src": "assets/img/recoge-tienda.jpg"
+        }
+    },
+    "rich-text#footer__text--recoge-tienda-title": {
+        "props": {
+            "text": "Recoge en Tienda"
+        }
+
+    },
+    "rich-text#footer__text--recoge-tienda": {
+        "props": {
+            "text": "¡Compra en decathlon.com.co y recoge tu pedido en 2 horas en tu tienda favorita!"
+        }
+
+    },
+    
+
+    "flex-layout.col#footer__flex--cambios-devoluciones": {
+        "children": [
+            "image#footer__image--cambios-devoluciones",
+            "rich-text#footer__text--cambios-devoluciones-title",
+            "rich-text#footer__text--cambios-devoluciones"
+        ]
+    },    
+    "image#footer__image--cambios-devoluciones": {
+        "props": {
+            "blockClass": "footer__image--cambios-devoluciones",
+            "src": "assets/img/cambios-devoluciones.jpg"
+        }
+    },
+    "rich-text#footer__text--cambios-devoluciones-title": {
+        "props": {
+            "text": "Más de 60 cambios-devolucioness"
+        }
+
+    },
+    "rich-text#footer__text--cambios-devoluciones": {
+        "props": {
+            "text": "Encuentra más de 5.000 productos para hacer cambios-devoluciones en un solo lugar"
+        }
+
+    },
+
+
+    "flex-layout.col#footer__flex--entrega": {
+        "children": [
+            "image#footer__image--entrega",
+            "rich-text#footer__text--entrega-title",
+            "rich-text#footer__text--entrega"
+        ]
+    },
+    "image#footer__image--entrega": {
+        "props": {
+            "blockClass": "footer__image--entrega",
+            "src": "assets/img/metodos-entrega.jpg"
+        }
+    },
+    "rich-text#footer__text--entrega-title": {
+        "props": {
+            "text": "Métodos de entrega"
+        }
+
+    },
+    "rich-text#footer__text--entrega": {
+        "props": {
+            "text": "Tienes 30 días para realizar tus cambios"
+        }
+
+    }
+}

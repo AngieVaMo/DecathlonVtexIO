@@ -48,3 +48,13 @@
     padding: 0;
     max-width: none;
 }
+
+@media (max-width: 575px) {
+    .flexCol--footer__flex-col--legal-info--frase-logo {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .flexRowContent--footer__social-networks--row {
+        display: flex;
+    }
+}

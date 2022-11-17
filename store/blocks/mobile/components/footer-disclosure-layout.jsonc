@@ -1,5 +1,6 @@
 {
   "disclosure-layout-group#footer__menu--group-mobile": {
+    "title": "Disclosure layout footer mobile",
     "children": [
       "disclosure-layout#empresa",
       "disclosure-layout#compra",
@@ -11,6 +12,7 @@
     }
   },
   "disclosure-layout#empresa": {
+    "title": "Disclosure layout footer mobile - Empresa",
     "children": [
       "disclosure-trigger#empresa", 
       "disclosure-content#empresa", 
@@ -128,6 +130,7 @@
 
 
   "disclosure-layout#compra": {
+    "title": "Disclosure layout footer mobile - Compra",
     "children": ["disclosure-trigger#compra", "disclosure-content#compra", "disclosure-state-indicator#empresa"]
 
   },
@@ -275,6 +278,7 @@
 
 
   "disclosure-content#post-compra": {
+    "title": "Disclosure layout footer mobile - PostCompra",
     "children": ["menu#post-compra"]
 
   },
@@ -355,6 +359,7 @@
 
 
   "disclosure-content#experiencia": {
+    "title": "Disclosure layout footer mobile - Experiencia Decathlon",
     "children": ["menu#experiencia"]
   },
   "menu#experiencia": {

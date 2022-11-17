@@ -12,8 +12,7 @@
             "rich-text#footer__text--legal-info--mobile-4",
             "rich-text#footer__text--legal-info--mobile-5",
             "rich-text#footer__text--legal-info--mobile-6",
-            "rich-text#footer__text--legal-info--mobile-7",
-            "logo#footer__logo--last"
+            "flex-layout.col#footer__flex-col--legal-info--frase-logo"
             
         ]
     },
@@ -59,6 +58,15 @@
             "text": "Productos importados para Colombia por Decathlon Colombia S.A.S Calle 147 #58c-95 Bogotá, Colombia"
         }
 
+    },
+    "flex-layout.col#footer__flex-col--legal-info--frase-logo": {
+        "children": [
+            "rich-text#footer__text--legal-info--mobile-7",
+            "logo#footer__logo--last"
+        ],
+        "props": {
+            "blockClass": "footer__flex-col--legal-info--frase-logo"
+        }
     },
     "rich-text#footer__text--legal-info--mobile-7": {
         "props": {

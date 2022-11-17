@@ -1,6 +1,7 @@
 {
     "footer-layout.desktop": { 
         "children": [
+          "flex-layout.row#footer__flex--images-top",
           "flex-layout.row#footer__flex-layout--desktop",
           "flex-layout.row#footer__flex--social-pago--desktop",
           "flex-layout.row#footer__flex--legal-info--desktop"
