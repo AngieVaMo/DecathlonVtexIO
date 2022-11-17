@@ -1,0 +1,7 @@
+.imageElement--home__main--image-desktop {
+    margin: auto;
+    display: block;
+    width: 1530px;
+    height: auto !important;
+    max-width: 100% !important;
+}

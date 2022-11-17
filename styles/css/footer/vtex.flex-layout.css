@@ -32,7 +32,19 @@
 
 .flexCol--footer__flex-col--legal-info--frase-logo {
     padding-top: 75px;
+    padding-bottom: 75px;
     width: 100vw;
     background: radial-gradient(#0082c3,#176ea6,#004876);
     justify-content: center;
+}
+
+
+.flexColChild--footer__flex-col--legal-info--frase-logo {
+    text-align: center;
+}
+
+.flexRow--footer__flex--legal-info--desktop :global(.vtex-store-components-3-x-container) {
+    margin: 0;
+    padding: 0;
+    max-width: none;
 }

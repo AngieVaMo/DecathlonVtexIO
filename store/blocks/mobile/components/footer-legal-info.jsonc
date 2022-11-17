@@ -63,7 +63,7 @@
     "rich-text#footer__text--legal-info--mobile-7": {
         "props": {
             "blockClass": "footer__text--legal-info--mobile-7",
-            "text": "¡HACEMOS ACCESIBLE EL DEPORTE DE MANERA SOSTENIBLE, AL MAYOR NÚMERO DE PERSONAS"
+            "text": "¡HACEMOS ACCESIBLE EL DEPORTE DE MANERA SOSTENIBLE, AL MAYOR NÚMERO DE PERSONAS!"
         }
 
     }

@@ -2,7 +2,10 @@
     "flex-layout.row#footer__flex--legal-info--desktop": {
         "children": [
             "flex-layout.col#footer__flex--legal-info--desktop"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer__flex--legal-info--desktop"
+        }
     },
     "flex-layout.col#footer__flex--legal-info--desktop": {
         "children": [
@@ -27,7 +30,10 @@
     "flex-layout.row#footer__flex-row--legal-info--frase-logo": {
         "children": [
             "flex-layout.col#footer__flex-col--legal-info--frase-logo"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer__flex-row--legal-info--frase-logo"
+        }
     },
     "flex-layout.col#footer__flex-col--legal-info--frase-logo": {
         "children": [

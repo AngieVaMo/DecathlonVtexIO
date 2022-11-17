@@ -3,7 +3,9 @@
         "title": "Logo",
         "props": {
             "url": "assets/img/logo-decathlon-white.svg",
-            "width": 200
+            "height": "75px",
+            "mobileHeight": "40px"
+            
         }
     }
 }
