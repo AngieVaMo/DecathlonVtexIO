@@ -2,8 +2,8 @@
     "header-row#header__top": {
         "title": "Header superior",
         "props": {
-            "blockClass": "header__top--prueba",
-            "fullWidth": false
+            "blockClass": "header__top"
+            //"fullWidth": false
         },
         "children": [
             "rich-text#header__rich-text--top"
@@ -15,6 +15,7 @@
         ]
     },*/
     "rich-text#header__rich-text--top": {
+        "title": "Rich-text header",
         "props": { 
             "blockClass": "header__text--top",
             "text": "¡Haz seguimiento de tu pedido aquí!",

@@ -1,0 +1,83 @@
+{
+    "disclosure-layout#footer__metodo-pago--mobile": {
+        "children": [
+            "disclosure-trigger#metodo-pago--mobile", 
+            "disclosure-content#metodo-pago--mobile",
+            "disclosure-state-indicator#metodo-pago--mobile"
+        ]
+
+    },
+    "disclosure-trigger#metodo-pago--mobile": {
+        "children": ["rich-text#footer__text--metodo-pago"]
+
+    }, 
+    "rich-text#footer__text--metodo-pago": {
+        "props": {
+            "text": "MÉTODOS DE PAGO"
+        }
+    },
+    "disclosure-content#metodo-pago--mobile": {
+        "children": [
+            "flex-layout.row#footer__flex--metodo-pago--mobile"
+        ]
+    },
+
+    "flex-layout.row#footer__flex--metodo-pago--mobile": {
+        "children": [
+            "image#footer__visa--mobile",
+            "image#footer__mastercard--mobile",
+            "rich-text#footer__pasarela-pago--mobile",
+            "image#footer__image--mercadopago"
+        ]
+    },
+
+    "image#footer__visa--mobile": {
+        "props": {
+            "src": "assets/img/visa.png",
+            "maxWidth": "50px"
+        }
+
+    },
+    "image#footer__mastercard--mobile": {
+        "props": {
+            "src": "assets/img/mastercard.png",
+            "maxWidth": "50px"
+        }
+
+    },
+
+    "rich-text#footer__pasarela-pago--mobile": {
+        "props": {
+            "text": "Parasela de Pagos"
+        }
+
+    },
+    "image#footer__image--mercadopago": {
+        "props": {
+            "src": "assets/img/mercadopago.png",
+            "maxWidth": "50px"
+        }
+    },
+
+
+    "disclosure-state-indicator#metodo-pago--mobile": {
+        "props": {
+            "Show": "icon#footer__icon--flecha-abajo",
+            "Hide": "icon#footer__icon--flecha-arriba"
+        }
+    },
+
+    "icon#footer__icon--flecha-abajo": {
+        "props": {
+            "blockClass": "footer__icon--flecha-abajo",
+            "id": "flecha-angulo-abajo"
+        }
+    },
+
+    "icon#footer__icon--flecha-arriba": {
+        "props": {
+            "blockClass": "footer__icon--flecha-arriba",
+            "id": "flecha-angulo-arriba"
+        }
+    }
+}

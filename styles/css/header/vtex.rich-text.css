@@ -1,23 +1,50 @@
- .paragraph--header__text--top {
-    width: 100vw;
+.paragraph--header__text--top {
     margin: 0;
     font-size: 15px;
     color: #ffffff;
     background-color: #0082C3;
-} 
-
-/*.wrapper--header__text--top {
-    padding: 0;
-    margin: 0;
-    height: 15px;
-    text-align: center;
-}*/
-
-.wrapper--home__text--section-two {
-    background-color: transparent;
-    color: black;
 }
+
 
 .paragraph--header__text--middle {
     margin: 5px;
+    color: #00111a;
+    font-family: Roboto,system-ui,-apple-system,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.42;
+}
+
+.paragraph--header__menu--deportes {
+    padding: 17px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 500!important;
+}
+.paragraph--header__menu--deportes:hover {
+    border-bottom: 4px solid #0082C3;
+    color: #0082C3
+}
+
+
+.paragraph--header__menu--uunidades {
+    padding: 17px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: red;
+    font-weight: 500!important;
+}
+.paragraph--header__menu--uunidades:hover {
+    border-bottom: 4px solid red;
+}
+
+
+.paragraph--home__blue--text {
+    color: #0082C3;
+    font-size: 15px;
+    font-family: Roboto Condensed, Sans-serif;
+    font-weight: 600;
+    background-color: rgba(193,193,193,0);
+    border-radius: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }

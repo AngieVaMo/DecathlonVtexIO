@@ -3,7 +3,8 @@
         "title": "Imagen de instagram",
         "props": {
             "src": "assets/img/instagram-decathlon.png",
-            "blockClass": "home__instagram-image"
+            "blockClass": "home__instagram-image",
+            "maxWidth": "100%"
         }
         
     }

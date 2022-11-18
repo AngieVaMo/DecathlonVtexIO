@@ -1,0 +1,11 @@
+{
+    "logo#footer__logo--last": {
+        "title": "Logo",
+        "props": {
+            "url": "assets/img/logo-decathlon-white.svg",
+            "height": "75px",
+            "mobileHeight": "40px"
+            
+        }
+    }
+}

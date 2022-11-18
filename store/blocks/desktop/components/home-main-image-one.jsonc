@@ -3,7 +3,6 @@
         "title": "Imagen principal en desktop",
         "props": {
             "src": "assets/img/home-main-desktop.jpg",
-            "maxWidth": "100%",
             "blockClass": "home__main--image-desktop"
         }
 
