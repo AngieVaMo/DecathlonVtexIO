@@ -8,6 +8,11 @@
 
 .paragraph--header__text--middle {
     margin: 5px;
+    color: #00111a;
+    font-family: Roboto,system-ui,-apple-system,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.42;
 }
 
 .paragraph--header__menu--deportes {

@@ -1,5 +1,6 @@
 {
   "disclosure-layout-group#footer__menu--group-mobile": {
+    "title": "Disclosure layout footer mobile",
     "children": [
       "disclosure-layout#empresa",
       "disclosure-layout#compra",
@@ -11,6 +12,7 @@
     }
   },
   "disclosure-layout#empresa": {
+    "title": "Disclosure layout footer mobile - Empresa",
     "children": [
       "disclosure-trigger#empresa", 
       "disclosure-content#empresa", 
@@ -30,6 +32,7 @@
   }, 
   "rich-text#empresa": {
     "props": {
+      "blockClass": "footer__text--title-col",
       "text": "DECATHLON EMPRESA"
     }
   },
@@ -127,6 +130,7 @@
 
 
   "disclosure-layout#compra": {
+    "title": "Disclosure layout footer mobile - Compra",
     "children": ["disclosure-trigger#compra", "disclosure-content#compra", "disclosure-state-indicator#empresa"]
 
   },
@@ -135,6 +139,7 @@
   }, 
   "rich-text#compra": {
     "props": {
+      "blockClass": "footer__text--title-col",
       "text": "COMPRA"
     }
   },
@@ -266,12 +271,14 @@
   }, 
   "rich-text#post-compra": {
     "props": {
+      "blockClass": "footer__text--title-col",
       "text": "POST COMPRA"
     }
   },
 
 
   "disclosure-content#post-compra": {
+    "title": "Disclosure layout footer mobile - PostCompra",
     "children": ["menu#post-compra"]
 
   },
@@ -345,12 +352,14 @@
   }, 
   "rich-text#experiencia": {
     "props": {
+      "blockClass": "footer__text--title-col",
       "text": "EXPERIENCIA DECATHLON"
     }
   },
 
 
   "disclosure-content#experiencia": {
+    "title": "Disclosure layout footer mobile - Experiencia Decathlon",
     "children": ["menu#experiencia"]
   },
   "menu#experiencia": {

@@ -2,23 +2,47 @@
     "flex-layout.row#footer__flex--legal-info--desktop": {
         "children": [
             "flex-layout.col#footer__flex--legal-info--desktop"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer__flex--legal-info--desktop"
+        }
     },
     "flex-layout.col#footer__flex--legal-info--desktop": {
         "children": [
             "rich-text#footer__text--legal-info--mobile-1",
-            "flex-layout.row#footer__flex--legal-info--desktop-2",
-            "rich-text#footer__text--legal-info--mobile-5",
+            "flex-layout.row#footer__flex--legal-info--desktop-child",
             "rich-text#footer__text--legal-info--mobile-6",
-            "rich-text#footer__text--legal-info--mobile-7",
-            "logo#header__logo--middle"
+            "flex-layout.row#footer__flex-row--legal-info--frase-logo"
         ]
     },
-    "flex-layout.row#footer__flex--legal-info--desktop-2": {
+    
+    "flex-layout.row#footer__flex--legal-info--desktop-child": {
         "children": [
             "rich-text#footer__text--legal-info--mobile-2",
             "rich-text#footer__text--legal-info--mobile-3",
-            "rich-text#footer__text--legal-info--mobile-4"
-        ]
+            "rich-text#footer__text--legal-info--mobile-4",
+            "rich-text#footer__text--legal-info--mobile-5"
+        ],
+        "props": {
+            "blockClass": "footer__flex--legal-info--desktop-child"
+        }
+    },
+    "flex-layout.row#footer__flex-row--legal-info--frase-logo": {
+        "children": [
+            "flex-layout.col#footer__flex-col--legal-info--frase-logo"
+        ],
+        "props": {
+            "blockClass": "footer__flex-row--legal-info--frase-logo"
+        }
+    },
+    "flex-layout.col#footer__flex-col--legal-info--frase-logo": {
+        "children": [
+            "rich-text#footer__text--legal-info--mobile-7",
+            "logo#footer__logo--last"
+        ],
+        "props": {
+            "blockClass": "footer__flex-col--legal-info--frase-logo"
+        }
     }
+
 }

@@ -1,0 +1,12 @@
+{
+    "rich-text#home___text--aguinaldos": { 
+      "props": { 
+        "blockClass": "home___text--aguinaldos",
+        "text": "Regalos por precio",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "Roboto condensed",
+        "fontSize": "19px"
+      }
+    }
+}

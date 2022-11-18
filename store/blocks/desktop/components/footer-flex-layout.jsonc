@@ -5,22 +5,37 @@
       "flex-layout.col#footer__flex--col-2",
       "flex-layout.col#footer__flex--col-3",
       "flex-layout.col#footer__flex--col-4"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer__flex--desktop-top"
+    }
   },
   "flex-layout.col#footer__flex--col-1": {
-    "children": ["rich-text#empresa", "menu#empresa"]
+    "children": ["rich-text#empresa", "menu#empresa"],
+    "props": {
+      "blockClass": "footer__flex--col-1"
+    }
 
   },
   "flex-layout.col#footer__flex--col-2": {
-    "children": ["rich-text#compra", "menu#compra"]
+    "children": ["rich-text#compra", "menu#compra"],
+    "props": {
+      "blockClass": "footer__flex--col-2"
+    }
 
   },
   "flex-layout.col#footer__flex--col-3": {
-    "children": ["rich-text#post-compra", "menu#post-compra"]
+    "children": ["rich-text#post-compra", "menu#post-compra"],
+    "props": {
+      "blockClass": "footer__flex--col-3"
+    }
 
   },
   "flex-layout.col#footer__flex--col-4": {
-    "children": ["rich-text#experiencia", "menu#experiencia"]
+    "children": ["rich-text#experiencia", "menu#experiencia"],
+    "props": {
+      "blockClass": "footer__flex--col-4"
+    }
 
   }
 }

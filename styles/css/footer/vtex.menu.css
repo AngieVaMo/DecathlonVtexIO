@@ -1,0 +1,10 @@
+.styledLinkContainer {
+    margin-right: 0;
+    margin-left: 0;
+
+}
+.styledLinkContent {
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    color: #4e4e4e;
+}
