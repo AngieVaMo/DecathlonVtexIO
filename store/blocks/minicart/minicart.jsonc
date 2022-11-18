@@ -45,8 +45,10 @@
     },
     "flex-layout.row#minicart__row--mobile": {
         "children": [
+            "flex-layout.col#minicart__col--remove",
             "flex-layout.col#minicart__col--image",
             "flex-layout.col#minicart__col--info"
+            
         ]
     },
     "flex-layout.col#minicart__col--image": {
@@ -61,6 +63,12 @@
             "quantity-selector"
         ]
     },
+    "flex-layout.col#minicart__col--remove": {
+        "children": [
+            "remove-button"
+        ]
+
+    },
     /*"quantity-selector#mincart": {
         "props": {
             "mode": "stepper"
@@ -68,11 +76,20 @@
     }*/
     
     "flex-layout.row#minicart__footer": {
-        "children": ["minicart-summary", "rich-text#promo", "minicart-checkout-button", "drawer-close-button"]
+        "children": ["flex-layout.col#minicart__footer"]
+    },
+    "flex-layout.col#minicart__footer": {
+        "children": [
+            "minicart-summary", 
+            "rich-text#promo", 
+            "minicart-checkout-button", 
+            "drawer-close-button"
+        ]
     },
     "rich-text#promo": {
         "props": {
-            "text": "No olvides participar en las promociones d efin de año"
+            "text": "No olvides participar en las promociones de fin de año"
         }
     }
 }
+
