@@ -29,10 +29,40 @@
   },
   "search-result-layout.mobile#department": {
     "children": [
-      "rich-text#mobile-response-department"
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__results"
     ]
+  },
+  "flex-layout.row#department__results": {
+    "title": "Resultados por departamento",
+    "children": [
+      "gallery-layout-switcher"
+      //"search-content#mobile"
+    ]
+  },
+  "gallery-layout-switcher": {
+    "children": [
+      "gallery-layout-option#grid__two-columns",
+      "gallery-layout-option#grid__one-column"
+    ]
+  },
+  "gallery-layout-option#grid__two-columns": {
+    "props": {
+      "name": "grid-two-columns",
+      "blockClass": "grid__selector--two-columns"
+    }
 
   },
+  "gallery-layout-option#grid__one-column": {
+    "props": {
+      "name": "grid-one-column",
+      "blockClass": "grid__selector--one-column"
+    }
+
+  },
+
+
+
   "rich-text#desktop-response-department": {
     "props": {
       "text": "# Desktop search department"
