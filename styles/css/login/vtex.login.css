@@ -1,0 +1,15 @@
+.label {
+    visibility: hidden;
+}
+
+.label::before {
+    content: "Mi perfil";
+    visibility: visible;
+    text-transform: capitalize;
+    display: block;
+    padding-top: 12px;
+    font-family: Roboto,system-ui,-apple-system,sans-serif;
+    color: #00111a !important;
+    font-size: .875rem;
+    line-height: 1.42;
+}

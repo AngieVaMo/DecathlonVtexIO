@@ -1,19 +1,26 @@
 {
     "header-row#header__top": {
         "title": "Header superior",
-        "children": [
-            "header-force-center#header__center--top"
-        ]
-    },
-    "header-force-center#header__center--top": {
+        "props": {
+            "blockClass": "header__top"
+            //"fullWidth": false
+        },
         "children": [
             "rich-text#header__rich-text--top"
         ]
     },
+   /* "header-force-center#header__center--top": {
+        "children": [
+            "rich-text#header__rich-text--top"
+        ]
+    },*/
     "rich-text#header__rich-text--top": {
+        "title": "Rich-text header",
         "props": { 
             "blockClass": "header__text--top",
-            "text": "¡Haz seguimiento de tu pedido aquí!"
+            "text": "¡Haz seguimiento de tu pedido aquí!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
         }
 
     }

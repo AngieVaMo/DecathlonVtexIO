@@ -1,9 +1,21 @@
-.headerRowContainer {
-    padding-top: 25px;
-    margin-top: 0;
+.headerRowBackground--header__top {
+    height: 25px;
+    background-color: #0082C3;
+
+}
+.headerRowContainer--header__top {
+    align-items: center;
+    justify-content: center;
 }
 
-.headerRowBackground {
-    margin-top: 0;
-    margin: 0
+
+.headerRowBackground--header__flex-layout--menu {
+    border: 1px solid #edeff1;
+    margin-bottom: 10px;
+
+}
+.headerRowContainer--header__flex-layout--menu {
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
 }

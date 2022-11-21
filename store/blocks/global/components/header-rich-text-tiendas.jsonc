@@ -1,7 +1,11 @@
 {
     "rich-text#tiendas":{
         "props": {
-            "text": "Tiendas"
+            "blockClass": "header__text--middle",
+            "text": "Tiendas",
+            "font": "roboto",
+            "fontSize": "14px",
+            "textColor": "#00111a"
         }   
     }
 }

@@ -3,7 +3,7 @@
         "children":[
             "header-row#header__top",
             "header-row#header__desktop--middle",
-            "flex-layout.row#header__flex-layout--menu"
+            "header-row#header__flex-layout--menu"
         ]
     }
 }
