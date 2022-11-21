@@ -2,7 +2,13 @@
   "store.search#department": {
     "blocks": [
       "search-result-layout#department"
-    ]
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    }
   },
   "search-result-layout#department": {
     "blocks": [
