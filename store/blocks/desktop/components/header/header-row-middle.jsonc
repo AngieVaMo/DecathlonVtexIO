@@ -14,11 +14,11 @@
             "blockClass": "header__logo--middle"
         }
     },
-    "autocomplete-result-list.v2": {
-        "blocks": ["product-summary"]
-    },
     "search-bar#header__searbar": {
         "blocks": ["autocomplete-result-list.v2"],
         "props": {"openAutocompleteOnFocus": true} 
+    },
+    "autocomplete-result-list.v2": {
+        "blocks": ["product-summary"]
     }
 }

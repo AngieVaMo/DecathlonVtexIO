@@ -1,0 +1,57 @@
+{
+  "search-result-layout.mobile": {
+    "children": [
+      //"responsive-layout.tablet#search__layout--tablet",
+      "responsive-layout.phone#search__layout--phone"
+    ]
+  },
+  "responsive-layout.phone#search__layout--phone": {
+    "children": [
+      "flex-layout.row#search__breadcrumb--mobile",
+      "flex-layout.row#search__title--mobile",
+      "flex-layout.row#search__filter-sort--mobile",
+      "flex-layout.row#search__content--mobile"
+    ]
+  },
+  "flex-layout.row#search__breadcrumb--mobile": {
+    "children": [
+      "breadcrumb.search#search__breadcrumb--global"
+    ]
+  },
+  "breadcrumb.search#search__breadcrumb--global": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "flex-layout.row#search__title--mobile": {
+    "children": [
+      //"search.title.v2"
+    ]
+  },
+  "flex-layout.row#search__filter-sort--mobile": {
+    "children": [
+      "flex-layout.col#search__sorted-by--mobile",
+      "flex-layout.col#search__filter--mobile"
+    ]
+  },
+  "flex-layout.col#search__sorted-by--mobile": {
+    "children": ["order-by.v2"]
+
+  },
+  "flex-layout.col#search__filter--mobile": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "flex-layout.row#search__content--mobile": {
+    "children": ["search-content#search__results--content"]
+
+  },
+  "search-content#search__results--content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  }
+}

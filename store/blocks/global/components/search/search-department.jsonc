@@ -1,5 +1,5 @@
-{
-  "store.search#department": {
+ {
+  /*"store.search#department": {
     "blocks": [
       "search-result-layout#department"
     ],
@@ -66,17 +66,20 @@
     }
 
   },
-
-
-
-  "rich-text#desktop-response-department": {
+  "gallery": {
     "props": {
-      "text": "# Desktop search department"
+      "layouts": [
+        {
+          "name": "general-grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          }
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf"
     }
-  },
-  "rich-text#mobile-response-department": {
-    "props": {
-      "text": "# Mobile search department"
-    }
-  }
-}
+  }*/
+ }

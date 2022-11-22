@@ -1,0 +1,21 @@
+{
+    "product-summary.shelf": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-list-price",
+            "product-selling-price",
+            "product-summary-sku-selector"
+        ]
+    },
+    "product-summary-name": {
+        "props": {
+            "tag": "h3"
+        }
+    },
+    "product-summary-sku-selector": {
+        "props": {
+            "hideImpossibleCombinations": false
+        }
+    }
+}
