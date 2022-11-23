@@ -51,7 +51,11 @@
     "vtex.store-icons": "0.x",
     "vtex.product-list": "0.x",
     "vtex.disclosure-layout": "1.x",
-    "vtex.product-price": "1.x"
+    "vtex.product-price": "1.x",
+    "vtex.modal-layout": "0.x"
+  },
+  "peerDependencies": {
+    "vtex.wish-list": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
