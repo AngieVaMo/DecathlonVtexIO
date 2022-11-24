@@ -68,18 +68,18 @@
     "props": {
       "tabId": "reviews-and-ratings"
     },
-    "children": []
+    "children": ["product-reviews"]
   },
   "tab-content.item#tabs__content--product-specification": {
     "props": {
       "tabId": "product-specification"
     },
-    "children": []
+    "children": ["product-specification"]
   },
   "tab-content.item#tabs__content--questions": {
     "props": {
       "tabId": "questions"
     },
-    "children": []
+    "children": ["questions-and-answers"]
   }
 }
