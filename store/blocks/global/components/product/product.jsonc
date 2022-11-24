@@ -60,7 +60,7 @@
   "tab-content#product__tabs--content": {
     "children": [
       "tab-content.item#tabs__content--reviews-and-ratings",
-      "tab-content.item#tabs__content--product-specification",
+      //"tab-content.item#tabs__content--product-specification",
       "tab-content.item#tabs__content--questions"
     ]
   },
@@ -70,12 +70,12 @@
     },
     "children": ["product-reviews"]
   },
-  "tab-content.item#tabs__content--product-specification": {
+ /* "tab-content.item#tabs__content--product-specification": {
     "props": {
       "tabId": "product-specification"
     },
     "children": ["product-specification"]
-  },
+  },*/
   "tab-content.item#tabs__content--questions": {
     "props": {
       "tabId": "questions"
