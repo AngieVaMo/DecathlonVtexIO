@@ -3,7 +3,7 @@
         "children":[
             "header-row#header__top",
             "header-row#header__mobile--middle",
-            "search-bar"
+            "search-bar#header__searbar"
         ]
     }
 }
