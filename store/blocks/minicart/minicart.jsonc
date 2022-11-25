@@ -29,6 +29,13 @@
             "size": 100
         }
     },*/
+    "rich-text#test": {
+        "props": {
+          "text": "No hay artículos en tu carrito",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+    },
     "minicart-product-list": {
         "blocks": ["product-list#minicart"]
     },
