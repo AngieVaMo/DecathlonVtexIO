@@ -1,0 +1,17 @@
+.minicartQuantityBadgeDefault {
+    background-color: #ffea28;
+    color: black;
+}
+
+.minicartContainer:hover {
+    /*width: 52px;
+    height: 52px;*/
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #ffea28;
+
+}
+
+/*.minicartContainer:hover ~ .minicartQuantityBadgeDefault {
+    background-color: black;
+}*/
