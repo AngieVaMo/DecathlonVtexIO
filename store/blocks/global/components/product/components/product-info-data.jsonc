@@ -15,7 +15,7 @@
     "product-images#product__info--image":{
         "title": "Imágenes",
         "props": {
-            "aspectRatio": "1:1",
+            //"aspectRatio": "1:1",
             "displayThumbnailsArrows": true
         }
     },
