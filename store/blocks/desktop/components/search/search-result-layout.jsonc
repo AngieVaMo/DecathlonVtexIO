@@ -1,0 +1,10 @@
+{
+    "search-result-layout.desktop": {
+      "children": [
+        "flex-layout.row#search__breadcrumb--mobile",
+        "flex-layout.row#search__title--mobile",
+        "flex-layout.row#search__filter-sort--mobile",
+        "flex-layout.row#search__content--mobile"
+      ]
+    }
+}

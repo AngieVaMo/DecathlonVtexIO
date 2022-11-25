@@ -1,0 +1,10 @@
+.input::placeholder {
+    visibility: hidden;
+}
+
+.input::placeholder{
+    content: "¡Encuentras más 60 deportes y más de 5.000 productos!";
+    color: #575d5e;
+    visibility: visible;
+    
+}

@@ -13,3 +13,9 @@
     font-size: .875rem;
     line-height: 1.42;
 }
+
+.profile {
+    text-transform: capitalize;
+    font-family: Roboto,system-ui,-apple-system,sans-serif;
+    color: #00111a !important;
+}
