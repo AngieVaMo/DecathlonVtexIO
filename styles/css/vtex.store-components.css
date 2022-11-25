@@ -5,3 +5,22 @@
     height: auto !important;
     max-width: 100% !important;
 }
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    border: none;
+    flex-direction: row-reverse;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-hideDecorators) {
+    background-color: #f4f5f7;
+}
+/*.autoCompleteOuterContainer :global(.vtex-store-components-3-x-searchBarContainer) {
+    border: none;
+}*/
+.searchIcon {
+    color: #575d5e;
+}
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+    background-color: #f4f5f7;
+    padding-right: 0.5rem;
+}
