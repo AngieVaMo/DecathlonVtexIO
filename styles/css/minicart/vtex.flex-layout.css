@@ -1,0 +1,47 @@
+.flexCol--minicart__flex-col--info {
+    font-size: 13px;
+    padding: 0px 5px;
+}
+/* .flexColChild--minicart__flex--remove-btn {
+    width: fit-content;
+} */
+.flexRowContent--minicart__flex-row--product :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: fit-content !important;
+}
+.flexRowContent--minicart__flex-row--product {
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e3e4e6;
+}
+.flexColChild--minicart__flex-col--info :global(.vtex-dropdown) {
+    width: fit-content;
+}
+.flexColChild--minicart__flex-col--info :global(.vtex-dropdown__button) {
+    padding: 0px 0px 0px 0px;
+}
+.flexColChild--minicart__flex-col--info :global(.vtex-dropdown__container) {
+    border-radius: 6px;
+    border: 2px solid #a8a8a8;
+    height: 40px;
+    margin-top: 5px
+}
+.flexColChild--minicart__flex--footer :global(.vtex-button) {
+    background-color: #ffea28!important;
+    color: #4e4e4e!important;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 0;
+    width: 100%;
+}
+
+/*footer*/
+/* .flexColChild--minicart__flex--footer :global(.vtex-button__label) {
+    display: none;
+}
+.flexColChild--minicart__flex--footer :global(.vtex-button__label::before) {
+    content: "Ver Resumen Del Carrito";
+    visibility: visible;
+    color: #ffffff;
+} */
