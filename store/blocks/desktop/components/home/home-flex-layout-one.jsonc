@@ -14,7 +14,26 @@
     "list-context.product-list": {
        "blocks": ["product-summary.shelf"],
        "children": [
-        "slider-layout"
-      ]
+        "slider-layout#home__slider--destacados"
+       ],
+       "props": {
+        "maxItems": 5
+       }
+    },
+    "slider-layout#home__slider--destacados": {
+        "props": {
+            "itemsPerPage": {
+              "desktop": 5,
+              "tablet": 3,
+              "phone": 3
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "home__slider--destacados",
+            "autoplay":{
+                "timeout": 3000,
+                "stopOnHover": true
+              }
+          }
     }
 }

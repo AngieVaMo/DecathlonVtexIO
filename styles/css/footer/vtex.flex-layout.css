@@ -49,6 +49,34 @@
     max-width: none;
 }
 
+.flexCol--footer__flex--icons {
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+    height: 250px;
+    border-right: 1px solid #edeff1;
+}
+.flexCol--footer__flex--last-icon {
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+    height: 250px;
+}
+.flexRow--footer__flex--images-blue :global(.vtex-store-components-3-x-container) {
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
+.flexRowContent--footer__flex--images-top {
+    width: 80%;
+    margin: auto;
+    padding: 0 15px;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    background-color: white;
+}
+
 @media (max-width: 575px) {
     .flexCol--footer__flex-col--legal-info--frase-logo {
         padding-top: 40px;

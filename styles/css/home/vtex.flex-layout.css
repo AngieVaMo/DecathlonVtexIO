@@ -30,7 +30,28 @@
 }
 
 .flexRowContent--home__flex-layout--section--two {
-    justify-content: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+/* PDP */
+
+.flexCol--product__info--data {
+    width: 25vw !important;
+}
+.flexColChild--product__info--data {
+    height: fit-content !important;
+    margin: 10px;
+}
+
+.flexColChild--product__info--data :global(.vtex-button) {
+    background-color: #ffea28;
+    /* height: 56px; */
+    border-radius: 4px;
+    color: #4e4e4e;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 /* .flexRowContent--home__flex--blue :global(.vtex-rich-text-0-x-container) {

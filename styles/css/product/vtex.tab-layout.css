@@ -1,0 +1,16 @@
+.listItem :global(.vtex-button) {
+    width: 25vw;
+    background-color: transparent;
+    color: #4e4e4e;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 3px solid #a8a8a8;  
+}
+.listItem :global(.vtex-button:focus) {
+    border-bottom: 3px solid #004876;
+    color: #004876;
+}
+.listItem {
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+}

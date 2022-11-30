@@ -3,6 +3,7 @@
     "children": [
       "flex-layout.row#product__breadcrumb",
       "flex-layout.row#product__info",
+      "rich-text#product__text--relacionados",
       "flex-layout.row#product__tabs"
     ]
   }

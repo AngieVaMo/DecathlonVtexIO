@@ -52,7 +52,8 @@
     "vtex.product-list": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.product-price": "1.x",
-    "vtex.modal-layout": "0.x"
+    "vtex.modal-layout": "0.x",
+    "vtex.store-link": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

@@ -1,0 +1,13 @@
+{
+    "rich-text#product__text--relacionados": {
+        "props": {
+            "blockClass": "product__text--relacionados",
+            "text": "Otros deportistas también vieron",
+            "font": "roboto",
+            "fontSize": "2.5rem",
+            "textColor": "#007dbc",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}
