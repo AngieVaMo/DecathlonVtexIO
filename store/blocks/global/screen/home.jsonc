@@ -2,8 +2,16 @@
     "store.home": { 
       "blocks": [
         "responsive-layout.desktop#home__desktop",
-        "responsive-layout.mobile#home__mobile"
+        "responsive-layout.mobile#home__mobile",
+        "whatsapp-button"
         //"search-result-layout.customQuery#home__search"
       ]
+    },
+    "whatsapp-button": {
+      "props": {
+        "logo": "assets/img/whatsapp-logo.png",
+        "phone": "0123456789",
+        "message": "Hola Decathlon, necesito ayuda con..."
+      }
     }
 }
