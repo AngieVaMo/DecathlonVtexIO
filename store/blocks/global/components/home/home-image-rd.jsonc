@@ -3,7 +3,7 @@
         "props": {
             "title": "Imagen regala deporte",
             "src": "assets/img/regala-deporte.jpg",
-            "maxWidth": "100%",
+            "maxWidth": "450px",
             "blockClass": "home__image--rd"
         }
 

@@ -24,3 +24,38 @@
     background-color: #f4f5f7;
     padding-right: 0.5rem;
 }
+
+.home__icon--blue {
+    align-self: center;
+}
+
+.imageElement--home__instagram-image {
+    margin-right: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+
+/* Product PDP */
+
+.productBrand {
+    font-size: 26px;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+}
+.sellingPriceContainer {
+    width: fit-content;
+    align-items: center;
+    background-color: #ffea28;
+    border-radius: 2px;
+    padding: 8px 10px;
+    margin-right: 15px;
+    
+}
+.sellingPriceValue {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Roboto,sans-serif;
+}
+.productImageTag {
+    width: 75vw;
+}

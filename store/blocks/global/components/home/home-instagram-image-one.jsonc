@@ -4,7 +4,7 @@
         "props": {
             "src": "assets/img/instagram-decathlon.png",
             "blockClass": "home__instagram-image",
-            "maxWidth": "100%"
+            "maxWidth": "350px"
         }
         
     }

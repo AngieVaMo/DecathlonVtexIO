@@ -22,16 +22,41 @@
     "flex-layout.col#product__info--data": {
         "title": "Data de producto",
         "children": [
-            "product-add-to-list-button",
-            "vtex.store-components:product-brand",
-            "product-identifier.product",
+            "flex-layout.row#product__flex--brand-ref",
+            //"product-add-to-list-button",
             "vtex.store-components:product-name",
             "product-price",
             "product-rating-inline",
-            "product-quantity",
+            //"product-quantity",
+            //"rich-text#product__text--size"
             "add-to-cart-button",
+            "link.product#product__link--tiendas",
             "product-separator",
             "product-description"
-        ]
-    }
+        ],
+        "props": {
+            "blockClass": "product__info--data"
+        }
+    },
+    "flex-layout.row#product__flex--brand-ref": {
+        "children": [
+            "vtex.store-components:product-brand",
+            "product-identifier.product"
+        ],
+        "props": {
+            "blockClass": "product__flex--brand-ref"
+        }
+    },
+    "rich-text#product__text--size": {
+        "props": {
+            "blockClass": "product__text--size",
+            "text": "Size:"
+        }
+    },
+    "link.product#product__link--tiendas": {
+        "props": {
+          "href": "https://www.decathlon.com.co/content/17-guia-de-tallas",
+          "label": "Revisa nuestras tiendas"
+        }
+      }
 }

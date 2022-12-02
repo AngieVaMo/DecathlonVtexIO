@@ -3,13 +3,28 @@
     "flex-layout.row#home__flex-layout--rd": {
         "title": "Flex layout regala deporte",
         "children": [
-            "image#home__image--rd",
-            "flex-layout.col#home__flex--col-1",
-            "flex-layout.col#home__flex--col-2",
-            "flex-layout.col#home__flex--col-3",
-            "flex-layout.col#home__flex--col-4",
-            "flex-layout.col#home__flex--col-5"
-        ]
+            "flex-layout.col#home__flex--image-rd",
+            "search-result-layout.customQuery#home__search"
+            // "flex-layout.col#home__flex--col-1",
+            // "flex-layout.col#home__flex--col-2",
+            // "flex-layout.col#home__flex--col-3",
+            // "flex-layout.col#home__flex--col-4",
+            // "flex-layout.col#home__flex--col-5"
+        ],
+        "props": {
+            "blockClass": "home__flex-layout--rd",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#home__flex--image-rd": {
+        "title": "Imagen - regala deporte",
+        "children": [
+            "image#home__image--rd"
+        ],
+        "props": {
+            "blockClass": "home__flex--image-rd",
+            "colSizing": "auto"
+        }
     },
     "flex-layout.col#home__flex--col-1": {
         "title": "Métodos de entrega e ícono",
