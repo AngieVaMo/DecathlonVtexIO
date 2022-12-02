@@ -3,6 +3,7 @@
       "blocks": [
         "responsive-layout.desktop#home__desktop",
         "responsive-layout.mobile#home__mobile",
+        "list-context.bullet-group",
         "whatsapp-button"
         //"search-result-layout.customQuery#home__search"
       ]
@@ -12,6 +13,19 @@
         "logo": "assets/img/whatsapp-logo.png",
         "phone": "0123456789",
         "message": "Hola Decathlon, necesito ayuda con..."
+      }
+    },
+    "list-context.bullet-group": {
+      "props": {
+        "bullets": [
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Computadores",
+            "link": {
+            "url": "/"
+          }
+          }
+        ]
       }
     }
 }
