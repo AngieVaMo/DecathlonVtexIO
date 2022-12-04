@@ -33,6 +33,48 @@
             "link": {
             "url": "/"
           }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Computadores",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Ropa",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Computadores",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Ropa",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Computadores",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Ropa",
+            "link": {
+            "url": "/"
+          }
           }
         ]
       }
