@@ -33,6 +33,10 @@
             "link.product#product__link--tiendas",
             "product-separator",
             "product-description"
+            /*share,
+            shipping-simulator,
+            availability-subscriber*/
+            //"modal-trigger#add-to-cart-info"
         ],
         "props": {
             "blockClass": "product__info--data"
@@ -47,6 +51,27 @@
             "blockClass": "product__flex--brand-ref"
         }
     },
+    /*"modal-trigger#add-to-cart-info": {
+        "children": [
+            "modal-layout#add-to-cart-info",
+            "add-to-cart-info"
+        ],
+        "props": {
+            "customPixelEventName": "addToCart"
+        }
+    },
+    "modal-layout#add-to-cart-info": {
+        "children": [
+            "modal-header#add-to-cart-info",
+            "add-to-cart-info"
+        ]
+    },
+    "modal-header#add-to-cart-info": {
+        "props": {
+            "showCloseButton": true,
+            "iconCloseSize": 24
+        }
+    },*/
     "rich-text#product__text--size": {
         "props": {
             "blockClass": "product__text--size",
