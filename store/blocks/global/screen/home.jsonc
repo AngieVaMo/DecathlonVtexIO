@@ -16,6 +16,8 @@
       }
     },
     "list-context.bullet-group": {
+      "title": "Mi contexto d elista de Bullets",
+      "children": ["slider-layout#bullet-group"],
       "props": {
         "bullets": [
           {
@@ -24,8 +26,67 @@
             "link": {
             "url": "/"
           }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Ropa",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Computadores",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Ropa",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Computadores",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Ropa",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Computadores",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Ropa",
+            "link": {
+            "url": "/"
+          }
           }
         ]
       }
+    },
+    "slider-layout#bullet-group": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 5,
+          "phone": 5
+        },
+        "infinite": true
+      }
     }
-}
+  }
