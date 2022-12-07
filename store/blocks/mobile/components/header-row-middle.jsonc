@@ -2,7 +2,9 @@
     "header-row#header__mobile--middle": {
         "title": "Header medio",
         "children": [
-            "drawer#header__mobile--middle",
+            //"drawer#header__mobile--middle",
+            //"flex-layout.row#mega-menu__flex-row--container",
+            "drawer#mega-menu__drawer--mobile",
             "header-spacer",
             "logo#header__logo--middle",
             "header-spacer",

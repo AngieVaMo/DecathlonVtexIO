@@ -1,0 +1,12 @@
+.triggerContainer {
+    visibility: hidden;
+}
+.triggerContainer::before {
+    content: "Deportes";
+    visibility: visible;
+}
+
+.triggerContainer::before:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
