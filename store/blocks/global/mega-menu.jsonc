@@ -1,0 +1,32 @@
+{
+  "flex-layout.row#mega__menu--desktop": {
+    "title": "Mega menú - Container",
+    "children": ["mega-menu#desktop"]
+  },
+  "mega-menu#desktop": {
+    "title": "Mega menú",
+    "props": {
+      "openOnly": "horizontal"
+    }
+  },
+  "flex-layout.row#mega__menu--button": {
+    "title": "Mega menú - RowContainer",
+    "children": ["flex-layout.col#trigger-mega-menu"]
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "title": "Mega menú - ColContainer",
+    "props": {
+      "blockClass": "trigger-mega-menu",
+      "verticalAlign": "middle"
+    },
+    "children": ["mega-menu-trigger-btn#mega-menu__button--deportes"]
+  },
+  "mega-menu-trigger-btn#mega-menu__button--deportes": {
+    "title": "Mega menú botón",
+    "props": {
+      "Drawer": "drawer",
+      "blockClass": "mega-menu__deportes"
+    }
+  }
+  
+}

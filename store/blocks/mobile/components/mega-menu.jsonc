@@ -1,0 +1,77 @@
+{
+    "drawer#mega-menu__drawer--mobile": {
+      "children": [
+        "flex-layout.row#mega-menu__flex-row--mobile",
+        "flex-layout.row#mega-menu__flex-row--close"
+       ],
+      "blocks": ["drawer-header#my-drawer"]
+    },
+    "flex-layout.row#mega-menu__flex-row--mobile": {
+        "children": ["flex-layout.col#mega-menu__flex-col--mobile"]
+    },
+    "flex-layout.col#mega-menu__flex-col--mobile": {
+        "children": [
+            "flex-layout.row#drawer__flex-row--direcciones",
+            "flex-layout.row#drawer__flex-row--historial",
+            "mega-menu#mega-menu__mobile"
+        ]
+    },
+    "flex-layout.row#drawer__flex-row--direcciones": {
+        "children": [
+            "link#drawer__link--direcciones"
+        ]
+    },
+    "link#drawer__link--direcciones": {
+        "props": {
+          "href": "/",
+          "label": "Mis direcciones"
+        }
+    },
+    "flex-layout.row#drawer__flex-row--historial": {
+        "children": [
+            "link#drawer__link--historial"
+        ]
+    },
+    "link#drawer__link--historial": {
+        "props": {
+          "href": "/",
+          "label": "Mi historial de compras"
+        }
+    },
+
+    "mega-menu#mega-menu__mobile": {
+      "props": {
+        //"defaultDepartmentActive": "...",
+        "orientation": "vertical",
+        "openOnly": "vertical"
+      }
+    },
+    "drawer-header#my-drawer": {
+      "children": ["flex-layout.row#drawer-header"]
+    },
+    "flex-layout.row#drawer-header": {
+      "children": ["flex-layout.col#mega-menu__flex--back"],
+      "props": {
+        "blockClass": "drawer-header",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+      }
+    },
+    "flex-layout.row#mega-menu__flex-row--close": {
+      "children": ["drawer-close-button"],
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "right"
+      }
+    },
+    "flex-layout.col#mega-menu__flex--back": {
+      "children": ["mega-menu-go-back-btn"],
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "left"
+        //"paddingLeft": 4
+      }
+    }
+  }

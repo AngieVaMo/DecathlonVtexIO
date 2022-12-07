@@ -1,0 +1,377 @@
+{
+    "menu#header__menu--desktop": {
+        "children": [
+            "menu-item#item__mujer--desktop",
+            "menu-item#department__two",
+            "menu-item#department__three",
+            "menu-item#department__four",
+            "menu-item#department__five",
+            "menu-item#department__six"
+        ],
+        "props": {
+            "orientation": "horizontal"
+        }
+    },
+
+
+    /*MUJER*/
+
+    "menu-item#item__mujer--desktop": {
+        "blocks":["submenu#submenu__mujer--desktop"],
+        "props": {
+            "id": "department-mujer",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Mujer",
+                "text": "Mujer"
+            }
+        }
+    },
+    "submenu#submenu__mujer--desktop": {
+        "children": [
+            "menu#menu__mujer--category-one"
+        ]
+    },
+    "menu#menu__mujer--category-one": {
+        "children": [
+            "menu-item#item__mujer--category-one",
+            "menu-item#item__mujer--category-two",
+            "menu-item#item__mujer--category-three"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+
+    },
+    "menu-item#item__mujer--category-one":{
+        "blocks": ["submenu#submenu__category-one"],
+        "props": {
+            "id": "category__one",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Ropa Deportiva",
+                "text": "ROPA DEPORTIVA"
+            }
+        }
+    },
+    "submenu#submenu__category-one": {
+        "children":["menu#menu__cat1"]
+    },
+
+    /* MUJER--> ROPA DEPORTIVA */
+    "menu#menu__cat1": {
+        "children": [
+            "menu-item#item__cat1--sub1",
+            "menu-item#item__cat1--sub2",
+            "menu-item#item__cat1--sub3",
+            "menu-item#item__cat1--sub4",
+            "menu-item#item__cat1--sub5",
+            "menu-item#item__cat1--sub6",
+            "menu-item#item__cat1--sub7",
+            "menu-item#item__cat1--sub8"
+        ],
+        "props": {
+            "orientation": "horizontal"
+        }
+    },
+    "menu-item#item__cat1--sub1":{
+        "blocks": ["submenu#submenu__cat1--sub1"],
+        "props": {
+            "id": "category__one",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Chaquetas",
+                "text": "Chaquetas"
+            }
+        }
+    },
+    "submenu#submenu__cat1--sub1": {
+        "children": ["menu#menu__cat1--sub1"]
+    },
+
+    /* MUJER--> ROPA DEPORTIVA--> CHAQUETAS */
+    "menu#menu__cat1--sub1": {
+        "children": [
+            "menu-item#item__cat1--sub1-brand1",
+            "menu-item#item__cat1--sub1-brand2",
+            "menu-item#item__cat1--sub1-brand3"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#item__cat1--sub1-brand1":{
+        "props": {
+            "id": "cat1--sub1-brand1",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Térmicas y abrigos",
+                "text": "Térmicas y abrigos"
+            }
+        }
+    },
+    "menu-item#item__cat1--sub1-brand2":{
+        "props": {
+            "id": "cat1--sub1-brand2",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Impermeables y ponchos",
+                "text": "Impermeables y ponchos"
+            }
+        }
+    },
+    "menu-item#item__cat1--sub1-brand3":{
+        "props": {
+            "id": "cat1--sub1-brand3",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Cortavientos",
+                "text": "Cortavientos"
+            }
+        }
+    },
+
+
+
+
+
+    "menu-item#item__cat1--sub2":{
+        //"blocks": ["submenu#submenu__cat1--sub2"],
+        "props": {
+            "id": "cat1--sub2",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Camisas y camisetas",
+                "text": "Camisas y camisetas"
+            }
+        }
+    },
+    "menu-item#item__cat1--sub3":{
+        //"blocks": ["submenu#submenu__cat1--sub3"],
+        "props": {
+            "id": "cat1--sub3",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Buzos y sacos",
+                "text": "Buzos y sacos"
+            }
+        }
+    },
+    "menu-item#item__cat1--sub4":{
+        //"blocks": ["submenu#submenu__cat1--sub4"],
+        "props": {
+            "id": "cat1--sub4",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Pantalones",
+                "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#item__cat1--sub5":{
+        //"blocks": ["submenu#submenu__cat1--sub5"],
+        "props": {
+            "id": "cat1--sub5",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Ropa térmica",
+                "text": "Ropa térmica"
+            }
+        }
+    },
+    "menu-item#item__cat1--sub6": {
+        //"blocks": ["submenu#submenu__cat1--sub6"],
+        "props": {
+            "id": "cat1--sub6",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Gorras sombreros y viseras",
+                "text": "Gorras, sombreros y viseras"
+            }
+        }
+    },
+    "menu-item#item__cat1--sub7":{
+        //"blocks": ["submenu#submenu__cat1--sub7"],
+        "props": {
+            "id": "cat1--sub7",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Ropa interior deportiva",
+                "text": "Ropa interior deportiva"
+            }
+        }
+    },
+    "menu-item#item__cat1--sub8":{
+        //"blocks": ["submenu#submenu__cat1--sub8"],
+        "props": {
+            "id": "cat1--sub8",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Plus size",
+                "text": "Plus size"
+            }
+        }
+    },
+
+
+
+    "menu-item#item__mujer--category-two":{
+        "props": {
+            "id": "category__one",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Zapatos deportivos",
+                "text": "ZAPATOS DEPORTIVOS"
+            }
+        }
+    },
+    "menu-item#item__mujer--category-three":{
+        "props": {
+            "id": "category__one",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Outfit de playa",
+                "text": "OUTFIT DE PLAYA"
+            }
+        }
+    },
+
+
+
+
+    "menu-item#department__two": {
+        "props": {
+            "id": "department-two",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Mujer",
+                "text": "Mujer"
+            }
+        }
+    },
+    "menu-item#department__three": {
+        "props": {
+            "id": "department-three",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Hombre",
+                "text": "Hombre"
+            }
+        }
+    },
+    "menu-item#department__four": {
+        "props": {
+            "id": "department-four",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "n-b",
+                "text": "Niños y bebés"
+            }
+        }
+    },
+    "menu-item#department__five": {
+        "props": {
+            "id": "department-five",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#department__six": {
+        "props": {
+            "id": "department-six",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Colecciones",
+                "text": "Colecciones"
+            }
+        }
+    }
+
+    
+    /*"menu#department__one": {
+        "children": [
+            "menu-item#category__one",
+            "menu-item#category__two"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    "menu-item#category__two":{
+        "props": {
+            "id": "category__two",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Google Meet",
+                "text": "Google Meet"
+            }
+        }
+    }*/
+}
