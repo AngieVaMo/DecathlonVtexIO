@@ -1,20 +1,58 @@
 {
+    "flex-layout.row#footer__flex--images-blue": {
+        "children": [
+            "flex-layout.col#footer__flex--images-top-col"
+        ],
+        "props": {
+            "blockClass": "footer__flex--images-blue"
+        }
+    },
+    "flex-layout.col#footer__flex--images-top-col": {
+        "children": [
+            "flex-layout.row#footer__flex--images-top",
+            "flex-layout.row#footer__flex--void-top"
+        ],
+        "props": {
+            "blockClass":"footer__flex--images-top-col"
+        }
+    },
+    "flex-layout.row#footer__flex--void-top": {
+        "children": [
+            "rich-text#footer__text--void"
+        ],
+        "props": {
+            "blockClass": "footer__flex--void"
+        }
+    },
+    "rich-text#footer__text--void": {
+        "props": {
+            "text": "VOID",
+            "blockClass": "footer__text--void"
+        }
+    },
+
+
     "flex-layout.row#footer__flex--images-top": {
         "children": [
             "flex-layout.col#footer__flex--deporte",
             "flex-layout.col#footer__flex--recoge-tienda",
-            "flex-layout.col#footer__flex--entrega",
-            "flex-layout.col#footer__flex--cambios-devoluciones"
-        ]
+            "flex-layout.col#footer__flex--cambios-devoluciones",
+            "flex-layout.col#footer__flex--entrega"
+            
+        ],
+        "props": {
+            "blockClass":"footer__flex--images-top"
+        }
     },
-
-
     "flex-layout.col#footer__flex--deporte": {
         "children": [
             "image#footer__image--deporte",
             "rich-text#footer__text--deporte-title",
             "rich-text#footer__text--deporte"
-        ]
+        ],
+        "props": {
+            "blockClass":"footer__flex--icons"
+        }
     },    
     "image#footer__image--deporte": {
         "props": {
@@ -24,13 +62,20 @@
     },
     "rich-text#footer__text--deporte-title": {
         "props": {
+            "blockClass":"footer__text--heavy",
             "text": "Más de 60 deportes"
         }
 
     },
     "rich-text#footer__text--deporte": {
         "props": {
-            "text": "Encuentra más de 5.000 productos para hacer deporte en un solo lugar"
+            "blockClass":"footer__text--light",
+            "text": "Encuentra más de 5.000 productos para hacer deporte en un solo lugar",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto-condensed",
+            "fontSize": "16px",
+            "textColor": "#0082C3"
         }
 
     },
@@ -41,7 +86,10 @@
             "image#footer__image--recoge-tienda",
             "rich-text#footer__text--recoge-tienda-title",
             "rich-text#footer__text--recoge-tienda"
-        ]
+        ],
+        "props": {
+            "blockClass":"footer__flex--icons"
+        }
     },
     "image#footer__image--recoge-tienda": {
         "props": {
@@ -51,13 +99,20 @@
     },
     "rich-text#footer__text--recoge-tienda-title": {
         "props": {
+            "blockClass":"footer__text--heavy",
             "text": "Recoge en Tienda"
         }
 
     },
     "rich-text#footer__text--recoge-tienda": {
         "props": {
-            "text": "¡Compra en decathlon.com.co y recoge tu pedido en 2 horas en tu tienda favorita!"
+            "blockClass":"footer__text--light",
+            "text": "¡Compra en decathlon.com.co y recoge tu pedido en 2 horas en tu tienda favorita!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto-condensed",
+            "fontSize": "16px",
+            "textColor": "#0082C3"
         }
 
     },
@@ -68,7 +123,10 @@
             "image#footer__image--cambios-devoluciones",
             "rich-text#footer__text--cambios-devoluciones-title",
             "rich-text#footer__text--cambios-devoluciones"
-        ]
+        ],
+        "props": {
+            "blockClass":"footer__flex--icons"
+        }
     },    
     "image#footer__image--cambios-devoluciones": {
         "props": {
@@ -78,13 +136,20 @@
     },
     "rich-text#footer__text--cambios-devoluciones-title": {
         "props": {
-            "text": "Más de 60 cambios-devolucioness"
+            "blockClass":"footer__text--heavy",
+            "text": "Cambios y Devoluciones"
         }
 
     },
     "rich-text#footer__text--cambios-devoluciones": {
         "props": {
-            "text": "Encuentra más de 5.000 productos para hacer cambios-devoluciones en un solo lugar"
+            "blockClass":"footer__text--light",
+            "text": "Tienes 30 días para realizar tus cambios",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto-condensed",
+            "fontSize": "16px",
+            "textColor": "#0082C3"
         }
 
     },
@@ -95,7 +160,10 @@
             "image#footer__image--entrega",
             "rich-text#footer__text--entrega-title",
             "rich-text#footer__text--entrega"
-        ]
+        ],
+        "props": {
+            "blockClass":"footer__flex--last-icon"
+        }
     },
     "image#footer__image--entrega": {
         "props": {
@@ -105,13 +173,20 @@
     },
     "rich-text#footer__text--entrega-title": {
         "props": {
+            "blockClass":"footer__text--heavy",
             "text": "Métodos de entrega"
         }
 
     },
     "rich-text#footer__text--entrega": {
         "props": {
-            "text": "Tienes 30 días para realizar tus cambios"
+            "blockClass":"footer__text--light",
+            "text": "Encuentra más de 5.000 productos para hacer cambios-devoluciones en un solo lugar",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "roboto-condensed",
+            "fontSize": "16px",
+            "textColor": "#0082C3"
         }
 
     }

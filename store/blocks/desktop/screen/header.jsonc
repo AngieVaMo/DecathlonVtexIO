@@ -3,6 +3,10 @@
         "children":[
             "header-row#header__top",
             "header-row#header__desktop--middle",
+            //"drawer#menu__drawer--desktop",
+            //"flex-layout.row#mega__menu--desktop",
+            //"flex-layout.row#mega__menu--button",
+            "menu#header__menu--desktop",
             "header-row#header__flex-layout--menu"
         ]
     }

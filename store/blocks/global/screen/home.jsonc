@@ -3,7 +3,90 @@
       "blocks": [
         "responsive-layout.desktop#home__desktop",
         "responsive-layout.mobile#home__mobile",
-        "search-result-layout.customQuery#home__search"
+        "list-context.bullet-group",
+        "whatsapp-button"
+        //"search-result-layout.customQuery#home__search"
       ]
+    },
+    "whatsapp-button": {
+      "props": {
+        "logo": "assets/img/whatsapp-logo.png",
+        "phone": "0123456789",
+        "message": "Hola Decathlon, necesito ayuda con..."
+      }
+    },
+    "list-context.bullet-group": {
+      "title": "Mi contexto d elista de Bullets",
+      "children": ["slider-layout#bullet-group"],
+      "props": {
+        "bullets": [
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Computadores",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Ropa",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Computadores",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Ropa",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Computadores",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Ropa",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Computadores",
+            "link": {
+            "url": "/"
+          }
+          },
+          {
+            "image": "mi-imagen.png",
+            "titleBullet": "Ropa",
+            "link": {
+            "url": "/"
+          }
+          }
+        ]
+      }
+    },
+    "slider-layout#bullet-group": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 5,
+          "phone": 5
+        },
+        "infinite": true
+      }
     }
-}
+  }

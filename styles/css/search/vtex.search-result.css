@@ -1,0 +1,14 @@
+.galleryItem {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #36655e;
+    padding: 50px 10px 10px 10px;
+    max-width: 100% !important;
+}
+.gallery {
+    display: grid;
+    grid-template-rows: repeat(2, 49%);
+    grid-template-columns: repeat(4, 23%);
+    grid-column-gap: 12px;
+    grid-row-gap: 11px;
+    justify-content: end;
+}

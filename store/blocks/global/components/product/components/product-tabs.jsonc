@@ -11,28 +11,36 @@
       "tab-content#product__tabs--content"
     ]
   },
+
+
   "tab-list#product__tabs--list": {
     "children": [
-      "tab-list.item#tabs__list--reviews-and-ratings",
-      "tab-list.item#tabs__list--product-specification",
-      "tab-list.item#tabs__list--questions"
+      "tab-list.item#tabs__list--beneficios",
+      "tab-list.item#tabs__list--info-tecnica",
+      "tab-list.item#tabs__list--reseñas"
+      //"tab-list.item#tabs__list--questions"
     ]
   },
-  "tab-list.item#tabs__list--reviews-and-ratings": {
+  "tab-list.item#tabs__list--beneficios": {
     "props": {
-      "tabId": "reviews-and-ratings",
-      "label": "Revisiones y calificaciones",
+      "tabId": "beneficios",
+      "label": "Beneficios",
       "defaultActiveTab": false
     }
-
   },
-  "tab-list.item#tabs__list--product-specification": {
+  "tab-list.item#tabs__list--info-tecnica": {
     "props": {
       "tabId": "product-specification",
-      "label": "Especificaciones de producto",
+      "label": "Información técnica",
       "defaultActiveTab": false
     }
-
+  },
+  "tab-list.item#tabs__list--reseñas": {
+    "props": {
+      "tabId": "reseñas",
+      "label": "Reseñas",
+      "defaultActiveTab": false
+    }
   },
   "tab-list.item#tabs__list--questions": {
     "props": {
@@ -42,29 +50,31 @@
     }
 
   },
+
+
   "tab-content#product__tabs--content": {
     "children": [
-      "tab-content.item#tabs__content--reviews-and-ratings",
-      //"tab-content.item#tabs__content--product-specification",
-      "tab-content.item#tabs__content--questions"
+      //"tab-content.item#tabs__content--info-tecnica",
+      "tab-content.item#tabs__content--reseñas"
+      //"tab-content.item#tabs__content--questions"
     ]
   },
-  "tab-content.item#tabs__content--reviews-and-ratings": {
+  "tab-content.item#tabs__content--reseñas": {
     "props": {
-      "tabId": "reviews-and-ratings"
+      "tabId": "reseñas"
     },
     "children": ["product-reviews"]
-  },
- /* "tab-content.item#tabs__content--product-specification": {
+  }
+ /*"tab-content.item#tabs__content--info-tecnica": {
     "props": {
-      "tabId": "product-specification"
+      "tabId": "info-tecnica"
     },
     "children": ["product-specification"]
-  },*/
+  }
   "tab-content.item#tabs__content--questions": {
     "props": {
       "tabId": "questions"
     },
     "children": ["questions-and-answers"]
-  }
+  }*/
 }

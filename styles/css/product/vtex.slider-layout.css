@@ -1,0 +1,29 @@
+.slide--visible {
+    padding: 50px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 0px rgb(122 122 122 / 50%);
+    margin: 7px;
+    justify-content: center;
+}
+.sliderArrows {
+    color: #54595f;
+    width: 25px;
+    
+}
+.slide--visible :global(.vtex-product-summary-2-x-image) {
+    width: 166px;
+    height: 166px;
+}
+.paginationDotsContainer {
+    display: none;
+}
+.sliderTrackContainer {
+    overflow: unset;
+}
+/* .sliderRightArrow {
+    position: relative;
+    left: 20px;
+}
+.sliderLeftArrow {
+    position: relative;
+    right: 20px;
+} */

@@ -2,19 +2,26 @@
     "header-row#header__flex-layout--menu": {
         "title": "Mega menu desktop",
         "children": [
-            "rich-text#header__menu--deportes",
+            "flex-layout.row#header__flex-layout--menu"
+        ],
+        "props": {
+            "blockClass": "header__flex-layout--menu",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.row#header__flex-layout--menu": {
+        "children": [
+            "flex-layout.col#header__menu--deportes",
             "rich-text#header__menu--mujer",
             "rich-text#header__menu--hombre",
             "rich-text#header__menu--niñosybebes",
             "rich-text#header__menu--accesorios",
             "rich-text#header__menu--colecciones",
             "rich-text#header__menu--ultimasunidades"
-            
-        ],
-        "props": {
-            "blockClass": "header__flex-layout--menu",
-            "colSizing": "auto"
-        }
+        ]
+    },
+    "flex-layout.col#header__menu--deportes": {
+        "children": ["rich-text#header__menu--deportes"]
     },
     "rich-text#header__menu--deportes": {
         "props": { 

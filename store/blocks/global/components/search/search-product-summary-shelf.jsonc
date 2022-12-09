@@ -1,15 +1,15 @@
 {
     "product-summary.shelf": {
-        "children": [
-            "add-to-list-btn",
+        "children": [  
             "product-summary-image",
             "product-summary-name",
-            "product-rating-inline",
             "product-list-price",
-            "product-selling-price",
+            "product-selling-price"
+            /*"product-rating-inline",
             "product-summary-sku-selector",
             "add-to-cart-button",
-            "modal-trigger#global__quick-view"
+            "add-to-list-btn",
+            "modal-trigger#global__quick-view"*/
         ]
     },
     "product-summary-name": {
