@@ -1,23 +1,7 @@
 {
-    "menu#header__menu--desktop": {
-        "children": [
-            "menu-item#item__mujer--desktop",
-            "menu-item#department__two",
-            "menu-item#department__three",
-            "menu-item#department__four",
-            "menu-item#department__five",
-            "menu-item#department__six"
-        ],
-        "props": {
-            "orientation": "horizontal"
-        }
-    },
-
-
     /*MUJER*/
-
-    "menu-item#item__mujer--desktop": {
-        "blocks":["submenu#submenu__mujer--desktop"],
+    "menu-item#item__mujer": {
+        "blocks":["submenu#submenu__mujer"],
         "props": {
             "id": "department-mujer",
             "type": "custom",
@@ -30,7 +14,7 @@
             }
         }
     },
-    "submenu#submenu__mujer--desktop": {
+    "submenu#submenu__mujer": {
         "children": [
             "menu#menu__mujer--category-one"
         ]
@@ -97,7 +81,6 @@
     "submenu#submenu__cat1--sub1": {
         "children": ["menu#menu__cat1--sub1"]
     },
-
     /* MUJER--> ROPA DEPORTIVA--> CHAQUETAS */
     "menu#menu__cat1--sub1": {
         "children": [
@@ -148,9 +131,6 @@
             }
         }
     },
-
-
-
 
 
     "menu-item#item__cat1--sub2":{
@@ -252,8 +232,6 @@
         }
     },
 
-
-
     "menu-item#item__mujer--category-two":{
         "props": {
             "id": "category__one",
@@ -279,99 +257,5 @@
                 "text": "OUTFIT DE PLAYA"
             }
         }
-    },
-
-
-
-
-    "menu-item#department__two": {
-        "props": {
-            "id": "department-two",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": true,
-                "tagTitle": "Mujer",
-                "text": "Mujer"
-            }
-        }
-    },
-    "menu-item#department__three": {
-        "props": {
-            "id": "department-three",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": true,
-                "tagTitle": "Hombre",
-                "text": "Hombre"
-            }
-        }
-    },
-    "menu-item#department__four": {
-        "props": {
-            "id": "department-four",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": true,
-                "tagTitle": "n-b",
-                "text": "Niños y bebés"
-            }
-        }
-    },
-    "menu-item#department__five": {
-        "props": {
-            "id": "department-five",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": true,
-                "tagTitle": "Accesorios",
-                "text": "Accesorios"
-            }
-        }
-    },
-    "menu-item#department__six": {
-        "props": {
-            "id": "department-six",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": true,
-                "tagTitle": "Colecciones",
-                "text": "Colecciones"
-            }
-        }
     }
-
-    
-    /*"menu#department__one": {
-        "children": [
-            "menu-item#category__one",
-            "menu-item#category__two"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
-    },
-
-    "menu-item#category__two":{
-        "props": {
-            "id": "category__two",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": true,
-                "tagTitle": "Google Meet",
-                "text": "Google Meet"
-            }
-        }
-    }*/
 }

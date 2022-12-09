@@ -1,0 +1,108 @@
+{
+    "menu#header__menu--desktop": {
+        "children": [
+            "menu-item#item__deportes",
+            "menu-item#item__mujer",
+            "menu-item#item__hombre",
+            "menu-item#item__niños-bebes",
+            "menu-item#item__accesorios",
+            "menu-item#item__colecciones"
+        ],
+        "props": {
+            "blockClass": "header__menu--desktop",
+            "orientation": "horizontal"
+        }
+    },
+
+
+
+    /*MENÚ--> HOMBRE*/
+    "menu-item#item__hombre":{
+        "blocks":["submenu#submenu__hombre"],
+        "props": {
+            "id": "department-hombre",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "https://angietraineeitg--itgloberspartnercl.myvtex.com/madera?_q=madera&map=ft",
+                "noFollow": true,
+                "tagTitle": "hombre",
+                "text": "Hombre"
+            }
+        }
+    },
+    "submenu#submenu__hombre": {
+        "children": [
+            "flex-layout.row#menu--desktop"
+        ]
+    },
+
+
+
+    /*MENÚ--> NIÑOS Y BEBES*/
+    "menu-item#item__niños-bebes":{
+        "blocks":["submenu#submenu__niños-bebes"],
+        "props": {
+            "id": "department-niños-bebes",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "https://angietraineeitg--itgloberspartnercl.myvtex.com/madera?_q=madera&map=ft",
+                "noFollow": true,
+                "tagTitle": "niños-bebes",
+                "text": "Niños y bebes"
+            }
+        }
+    },
+    "submenu#submenu__niños-bebes": {
+        "children": [
+            "flex-layout.row#menu--desktop"
+        ]
+    },
+
+
+
+    /*MENÚ--> ACCESORIOS*/
+    "menu-item#item__accesorios":{
+        "blocks":["submenu#submenu__accesorios"],
+        "props": {
+            "id": "department-accesorios",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "https://angietraineeitg--itgloberspartnercl.myvtex.com/madera?_q=madera&map=ft",
+                "noFollow": true,
+                "tagTitle": "accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "submenu#submenu__accesorios": {
+        "children": [
+            "flex-layout.row#menu--desktop"
+        ]
+    },
+
+
+
+    /*MENÚ--> COLECCIONES*/
+    "menu-item#item__colecciones":{
+        "blocks":["submenu#submenu__colecciones"],
+        "props": {
+            "id": "department-colecciones",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "https://angietraineeitg--itgloberspartnercl.myvtex.com/madera?_q=madera&map=ft",
+                "noFollow": true,
+                "tagTitle": "colecciones",
+                "text": "Colecciones"
+            }
+        }
+    },
+    "submenu#submenu__colecciones": {
+        "children": [
+            "flex-layout.row#menu--desktop"
+        ]
+    }
+}
