@@ -54,3 +54,12 @@
     margin-bottom: 20px;
 }
 
+/*MENU*/
+.flexCol--flex__subcategorias2 {
+    background-color: white;
+    position: fixed;
+    border: 1px solid red;
+    left: 25vw;
+    top: 9vw;
+}
+

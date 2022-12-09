@@ -1,0 +1,827 @@
+{
+     /*MENÚ--> DEPORTES--> MONTAÑA*/
+     "menu-item#item__deportes--cat2": {
+        "blocks": ["submenu.accordion#submenu__deportes--cat2"],
+        "props": {
+            "id": "deportes--cat2",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "montaña",
+                "text": "MONTAÑA"
+            }
+        }
+    },
+    "submenu.accordion#submenu__deportes--cat2": {
+        "children":[
+            //"menu#menu__deportes--cat2"
+            "flex-layout.row#menu--desktop2"
+        ]
+    },
+    // "menu#menu__deportes--cat2": {
+    //     "children": [
+    //         "menu-item#item__deportes--cat2-sub1",
+    //         "menu-item#item__deportes--cat2-sub2",
+    //         "menu-item#item__deportes--cat2-sub3",
+    //         "menu-item#item__deportes--cat2-sub4",
+    //         "menu-item#item__deportes--cat2-sub5",
+    //         "menu-item#item__deportes--cat2-sub6",
+    //         "menu-item#item__deportes--cat2-sub7",
+    //         "menu-item#item__deportes--cat2-sub8"
+    //     ],
+    //     "props": {
+    //         "orientation": "horizontal"
+    //     }
+    // },
+
+    /*MENÚ--> DEPORTES--> MONTAÑA--> CAMPING*/
+    "menu-item#item__deportes--cat2-sub1": {
+        //"blocks": ["submenu.accordion#submenu__deportes--cat2-sub1"],
+        "props": {
+            "id": "deportes--cat2-sub1",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "camping",
+                "text": "Camping"
+            }
+        }
+    },
+    // "submenu.accordion#submenu__deportes--cat2-sub1": {
+    //     "children": ["menu#menu__deportes--cat2-sub1"]
+    // },
+    "menu#menu__deportes--cat2-sub1": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub1-brand1",
+            "menu-item#item__deportes--cat2--sub1-brand2",
+            "menu-item#item__deportes--cat2--sub1-brand3",
+            "menu-item#item__deportes--cat2--sub1-brand4",
+            "menu-item#item__deportes--cat2--sub1-brand5",
+            "menu-item#item__deportes--cat2--sub1-brand6",
+            "menu-item#item__deportes--cat2--sub1-brand7",
+            "menu-item#item__deportes--cat2--sub1-brand8"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#item__deportes--cat2-sub1-brand1": {
+        "props": {
+            "id": "cat2-sub1-brand1",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "carpas",
+                "text": "Carpas"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub1-brand2": {
+        "props": {
+            "id": "cat2-sub1-brand2",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "sleepingsYHamacas",
+                "text": "Sleepings y Hamacas"
+            }
+        }
+
+    },
+    "menu-item#item__deportes--cat2--sub1-brand3": {
+        "props": {
+            "id": "cat2-sub1-brand3",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "colchonesYAislantes",
+                "text": "Colchones y Aislantes"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub1-brand4": {
+        "props": {
+            "id": "cat2-sub1-brand4",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "mesasYSillas",
+                "text": "Mesas y sillas"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub1-brand5": {
+        "props": {
+            "id": "cat2-sub1-brand5",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "menajeYNeveras",
+                "text": "Menaje y neveras"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub1-brand6": {
+        "props": {
+            "id": "cat2-sub1-brand6",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "linternasYEnergía",
+                "text": "Linternas y Energía"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub1-brand7": {
+        "props": {
+            "id": "cat2-sub1-brand7",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "termos",
+                "text": "Termos"
+            }
+        }  
+    },
+    "menu-item#item__deportes--cat2--sub1-brand8": {
+        "props": {
+            "id": "cat2-sub1-brand8",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "todoParaCamping",
+                "text": "Todo para camping"
+            }
+        }  
+    },
+
+    /*MENÚ--> DEPORTES--> MONTAÑA--> ROPA PARA SENDERISMO*/
+    "menu-item#item__deportes--cat2-sub2": {
+        //"blocks": ["submenu.accordion#submenu__deportes--cat2-sub2"],
+        "props": {
+            "id": "deportes--cat2-sub2",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "RopaParaSenderismo",
+                "text": "Ropa para senderismo"
+            }
+        }
+    },
+    // "submenu.accordion#submenu__deportes--cat2-sub2": {
+    //     "children": ["menu#menu__deportes--cat2-sub2"]
+    // },
+    "menu#menu__deportes--cat2-sub2": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub2-brand1",
+            "menu-item#item__deportes--cat2--sub2-brand2",
+            "menu-item#item__deportes--cat2--sub2-brand3",
+            "menu-item#item__deportes--cat2--sub2-brand4",
+            "menu-item#item__deportes--cat2--sub2-brand5",
+            "menu-item#item__deportes--cat2--sub2-brand6"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#item__deportes--cat2-sub2-brand1": {
+        "props": {
+            "id": "cat2-sub2-brand1",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "BuzosYSacos",
+                "text": "Buzos y Sacos"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub2-brand2": {
+        "props": {
+            "id": "cat2-sub2-brand2",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "camisetasYCamisas",
+                "text": "Camisetas y Camisas"
+            }
+        }
+
+    },
+    "menu-item#item__deportes--cat2--sub2-brand3": {
+        "props": {
+            "id": "cat2-sub2-brand3",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "pantalones",
+                "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub2-brand4": {
+        "props": {
+            "id": "cat2-sub2-brand4",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "chaquetasImpermeables",
+                "text": "Chaquetas Impermeables"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub2-brand5": {
+        "props": {
+            "id": "cat2-sub2-brand5",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "chaquetas",
+                "text": "Chaquetas"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub2-brand6": {
+        "props": {
+            "id": "cat2-sub2-brand6",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "chalecos",
+                "text": "Chalecos"
+            }
+        }
+    },
+
+    /*MENÚ--> DEPORTES--> MONTAÑA--> CALZADO SENDERISMO*/
+    "menu-item#item__deportes--cat2-sub3": {
+        //"blocks": ["submenu.accordion#submenu__deportes--cat2-sub3"],
+        "props": {
+            "id": "deportes--cat2-sub3",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "calzadoSenderismo",
+                "text": "Calzado Senderismo"
+            }
+        }
+    },
+    // "submenu.accordion#submenu__deportes--cat2-sub3": {
+    //     "children": ["menu#menu__deportes--cat2-sub3"]
+    // },
+    "menu#menu__deportes--cat2-sub3": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub3-brand1",
+            "menu-item#item__deportes--cat2--sub3-brand2",
+            "menu-item#item__deportes--cat2--sub3-brand3",
+            "menu-item#item__deportes--cat2--sub3-brand4",
+            "menu-item#item__deportes--cat2--sub3-brand5"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#item__deportes--cat2-sub3-brand1": {
+        "props": {
+            "id": "cat2-sub3-brand1",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "botas",
+                "text": "Botas"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub3-brand2": {
+        "props": {
+            "id": "cat2-sub3-brand2",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "sandalias",
+                "text": "Sandalias"
+            }
+        }
+
+    },
+    "menu-item#item__deportes--cat2--sub3-brand3": {
+        "props": {
+            "id": "cat2-sub3-brand3",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "medias",
+                "text": "Medias"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub3-brand4": {
+        "props": {
+            "id": "cat2-sub3-brand4",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "plantillasYPolainas",
+                "text": "Plantillas y Polainas"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub3-brand5": {
+        "props": {
+            "id": "cat2-sub3-brand5",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "zapatos",
+                "text": "Zapatos"
+            }
+        }
+    },
+
+    /*MENÚ--> DEPORTES--> MONTAÑA--> MORRALES Y MALETAS*/
+    "menu-item#item__deportes--cat2-sub4": {
+        //"blocks": ["submenu.accordion#submenu__deportes--cat2-sub4"],
+        "props": {
+            "id": "deportes--cat2-sub4",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "morralesYMaletas",
+                "text": "Morrales y Maletas"
+            }
+        }
+    },
+    // "submenu.accordion#submenu__deportes--cat2-sub4": {
+    //     "children": ["menu#menu__deportes--cat2-sub4"]
+    // },
+    "menu#menu__deportes--cat2-sub4": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub4-brand1",
+            "menu-item#item__deportes--cat2--sub4-brand2",
+            "menu-item#item__deportes--cat2--sub4-brand3",
+            "menu-item#item__deportes--cat2--sub4-brand4"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#item__deportes--cat2-sub4-brand1": {
+        "props": {
+            "id": "cat2-sub4-brand1",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "morralesPequeños",
+                "text": "Morrales Pequeños"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub4-brand2": {
+        "props": {
+            "id": "cat2-sub4-brand2",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "morralesDeViaje",
+                "text": "Morrales de Viaje"
+            }
+        }
+
+    },
+    "menu-item#item__deportes--cat2--sub4-brand3": {
+        "props": {
+            "id": "cat2-sub4-brand3",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "morralesDeTrekking",
+                "text": "Morrales de Trekking"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub4-brand4": {
+        "props": {
+            "id": "cat2-sub4-brand4",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "AccesoriosDeViaje",
+                "text": "Accesorios de Viaje"
+            }
+        }
+    },
+
+    /*MENÚ--> DEPORTES--> MONTAÑA--> ACCESORIOS*/
+    "menu-item#item__deportes--cat2-sub5": {
+        //"blocks": ["submenu.accordion#submenu__deportes--cat2-sub5"],
+        "props": {
+            "id": "deportes--cat2-sub5",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    // "submenu.accordion#submenu__deportes--cat2-sub5": {
+    //     "children": ["menu#menu__deportes--cat2-sub5"]
+    // },
+    "menu#menu__deportes--cat2-sub5": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub5-brand1",
+            "menu-item#item__deportes--cat2--sub5-brand2",
+            "menu-item#item__deportes--cat2--sub5-brand3",
+            "menu-item#item__deportes--cat2--sub5-brand4",
+            "menu-item#item__deportes--cat2--sub5-brand5"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#item__deportes--cat2-sub5-brand1": {
+        "props": {
+            "id": "cat2-sub5-brand1",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "bastonesTrekking",
+                "text": "Bastones Trekking"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub5-brand2": {
+        "props": {
+            "id": "cat2-sub5-brand2",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "GafasDeSol",
+                "text": "Gafas de Sol"
+            }
+        }
+
+    },
+    "menu-item#item__deportes--cat2--sub5-brand3": {
+        "props": {
+            "id": "cat2-sub5-brand3",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "gorraSombrerosYCuellos",
+                "text": "Gorra, sombreros y cuellos"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub5-brand4": {
+        "props": {
+            "id": "cat2-sub5-brand4",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "binocularesYMonoculares",
+                "text": "Binoculares y Monoculares"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub5-brand5": {
+        "props": {
+            "id": "cat2-sub5-brand5",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "guantesTermicos",
+                "text": "Guantes térmicos"
+            }
+        }
+    },
+
+
+    /*MENÚ--> DEPORTES--> MONTAÑA--> ESCALADA*/
+    "menu-item#item__deportes--cat2-sub6": {
+        //"blocks": ["submenu.accordion#submenu__deportes--cat2-sub6"],
+        "props": {
+            "id": "deportes--cat2-sub6",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "escalada",
+                "text": "Escalada"
+            }
+        }
+    },
+    // "submenu.accordion#submenu__deportes--cat2-sub6": {
+    //     "children": ["menu#menu__deportes--cat2-sub6"]
+    // },
+    "menu#menu__deportes--cat2-sub6": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub6-brand1",
+            "menu-item#item__deportes--cat2--sub6-brand2",
+            "menu-item#item__deportes--cat2--sub6-brand3"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#item__deportes--cat2-sub6-brand1": {
+        "props": {
+            "id": "cat2-sub6-brand1",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "PiesDeGatoArnesYAscos",
+                "text": "Pies de gato, arnes y cascos"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub6-brand2": {
+        "props": {
+            "id": "cat2-sub6-brand2",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "entrenamiento",
+                "text": "Entrenamiento"
+            }
+        }
+
+    },
+    "menu-item#item__deportes--cat2--sub6-brand3": {
+        "props": {
+            "id": "cat2-sub6-brand3",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "barranquismo",
+                "text": "Barranquismo"
+            }
+        }
+    },
+
+    /*MENÚ--> DEPORTES--> MONTAÑA--> NIÑOS*/
+    "menu-item#item__deportes--cat2-sub7": {
+        //"blocks": ["submenu.accordion#submenu__deportes--cat2-sub7"],
+        "props": {
+            "id": "deportes--cat2-sub7",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "ninos",
+                "text": "Niños"
+            }
+        }
+    },
+    // "submenu.accordion#submenu__deportes--cat2-sub7": {
+    //     "children": ["menu#menu__deportes--cat2-sub7"]
+    // },
+    "menu#menu__deportes--cat2-sub7": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub7-brand1",
+            "menu-item#item__deportes--cat2--sub7-brand2",
+            "menu-item#item__deportes--cat2--sub7-brand3",
+            "menu-item#item__deportes--cat2--sub7-brand4",
+            "menu-item#item__deportes--cat2--sub7-brand5",
+            "menu-item#item__deportes--cat2--sub7-brand6",
+            "menu-item#item__deportes--cat2--sub7-brand7",
+            "menu-item#item__deportes--cat2--sub7-brand8"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#item__deportes--cat2-sub7-brand1": {
+        "props": {
+            "id": "cat2-sub7-brand1",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "camisetas",
+                "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub7-brand2": {
+        "props": {
+            "id": "cat2-sub7-brand2",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "BuzosYSacosPolares",
+                "text": "Buzos y sacos polares"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub7-brand3": {
+        "props": {
+            "id": "cat2-sub7-brand3",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "chaquetas",
+                "text": "Chaquetas"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub7-brand4": {
+        "props": {
+            "id": "cat2-sub7-brand4",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "pantalones",
+                "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub7-brand5": {
+        "props": {
+            "id": "cat2-sub7-brand5",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "CalzadoSenderismoNinos",
+                "text": "Calzado senderismo niños"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub7-brand6": {
+        "props": {
+            "id": "cat2-sub7-brand6",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "invierno",
+                "text": "Invierno"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub7-brand7": {
+        "props": {
+            "id": "cat2-sub7-brand7",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "morrales",
+                "text": "Morrales"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub7-brand8": {
+        "props": {
+            "id": "cat2-sub7-brand8",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+
+    /*MENÚ--> DEPORTES--> MONTAÑA--> EXCURSIÓN*/
+    "menu-item#item__deportes--cat2-sub8": {
+        //"blocks": ["submenu.accordion#submenu__deportes--cat2-sub8"],
+        "props": {
+            "id": "deportes--cat2-sub8",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "excursion",
+                "text": "Excursión"
+            }
+        }
+    },
+    // "submenu.accordion#submenu__deportes--cat2-sub8": {
+    //     "children": ["menu#menu__deportes--cat2-sub8"]
+    // },
+    "menu#menu__deportes--cat2-sub8": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub8-brand1",
+            "menu-item#item__deportes--cat2--sub8-brand2"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#item__deportes--cat2-sub8-brand1": {
+        "props": {
+            "id": "cat2-sub8-brand1",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "BotasDeCaucho",
+                "text": "Botas de caucho"
+            }
+        }
+    },
+    "menu-item#item__deportes--cat2--sub8-brand2": {
+        "props": {
+            "id": "cat2-sub8-brand2",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "ropaParaExcursionismo",
+                "text": "Ropa para excursionismo"
+            }
+        }
+    }
+}
