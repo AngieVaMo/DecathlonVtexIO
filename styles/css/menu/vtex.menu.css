@@ -6,7 +6,7 @@
     /* padding: 20px 25px; */
     height: 20px;
 }
-.menuItem:hover {
+.styledLinkContent:hover {
     color: #0082C3;
 }
 
@@ -19,10 +19,12 @@
 
 
 .styledLinkContainer {
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px;
 }
+
 .styledLinkContent {
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 400;
     font-family: Roboto Condensed,Roboto,sans-serif;
 }
 .submenuContainer {
@@ -32,8 +34,8 @@
 }
 .submenuWrapper {
     position: relative;
-    width: 100vw;
-    
+    width: 1528px;
+    border: none;
 }
 .flexCol--flex__categorias {
     width: 50%;
@@ -55,12 +57,12 @@
 .submenu {
     justify-content: flex-start;
 }
-.menuContainer--header__menu--desktop {
+/* .menuContainer--header__menu--desktop {
     padding: 20px 0px;
     gap: 50px;
-}
+} */
 .menuContainer--menu__deportes {
-    gap: 15px;
+    gap: 20px;
     font-family: Roboto Condensed,Roboto,sans-serif;
     font-size: 20px;
     margin: 30px;

@@ -1,104 +1,61 @@
 {
     "header-row#header__flex-layout--menu": {
-        "title": "Mega menu desktop",
+        "title": "Menu desktop",
         "children": [
             "flex-layout.row#header__flex-layout--menu"
+            //"menu#header__menu--desktop"
         ],
         "props": {
-            "blockClass": "header__flex-layout--menu",
-            "colSizing": "auto"
+            "blockClass": "header-row__flex--menu-desktop"
+            //"colSizing": "auto"
         }
     },
     "flex-layout.row#header__flex-layout--menu": {
         "children": [
             "flex-layout.col#header__menu--deportes",
-            "rich-text#header__menu--mujer",
-            "rich-text#header__menu--hombre",
-            "rich-text#header__menu--niñosybebes",
-            "rich-text#header__menu--accesorios",
-            "rich-text#header__menu--colecciones",
-            "rich-text#header__menu--ultimasunidades"
+            "flex-layout.col#header__menu--mujer",
+            "flex-layout.col#header__menu--hombre",
+            "flex-layout.col#header__menu--ninos-bebes",
+            "flex-layout.col#header__menu--accesorios",
+            "flex-layout.col#header__menu--colecciones",
+            "flex-layout.col#header__menu--uunidades"
         ]
     },
     "flex-layout.col#header__menu--deportes": {
-        "children": ["rich-text#header__menu--deportes"]
+        "children": ["menu-item#item__deportes"],
+        "props": {"blockClass": "flex__menu-item--deporte"}
     },
-    "rich-text#header__menu--deportes": {
-        "props": { 
-            "blockClass": "header__menu--deportes",
-            "text": "Deportes",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "roboto-condensed",
-            "fontSize": "16px",
-            "textColor": "#0082C3"
-        }
+    "flex-layout.col#header__menu--mujer": {
+        "children": ["menu-item#item__mujer"],
+        "props": {"blockClass": "flex__menu-item--deporte"}
     },
-    "rich-text#header__menu--mujer": {
-        "props": { 
-            "blockClass": "header__menu--deportes",
-            "text": "Mujer",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "roboto-condensed",
-            "fontSize": "16px",
-            "textColor": "#0082C3"
-        }
+    "flex-layout.col#header__menu--hombre": {
+        "children": ["menu-item#item__hombre"],
+        "props": {"blockClass": "flex__menu-item--deporte"}
     },
-    "rich-text#header__menu--hombre": {
-        "props": { 
-            "blockClass": "header__menu--deportes",
-            "text": "Hombre",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "roboto-condensed",
-            "fontSize": "16px",
-            "textColor": "#0082C3"
-        }
+    "flex-layout.col#header__menu--ninos-bebes": {
+        "children": ["menu-item#item__niños-bebes"],
+        "props": {"blockClass": "flex__menu-item--deporte"}
     },
-    "rich-text#header__menu--niñosybebes": {
-        "props": { 
-            "blockClass": "header__menu--deportes",
-            "text": "Niños y bebes",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "roboto-condensed",
-            "fontSize": "16px",
-            "textColor": "#0082C3"
-        }
+    "flex-layout.col#header__menu--accesorios": {
+        "children": ["menu-item#item__accesorios"],
+        "props": {"blockClass": "flex__menu-item--deporte"}
     },
-    "rich-text#header__menu--accesorios": {
-        "props": { 
-            "blockClass": "header__menu--deportes",
-            "text": "Accesorios",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "roboto-condensed",
-            "fontSize": "16px",
-            "textColor": "#0082C3"
-        }
+    "flex-layout.col#header__menu--colecciones": {
+        "children": ["menu-item#item__colecciones"],
+        "props": {"blockClass": "flex__menu-item--deporte"}
     },
-    "rich-text#header__menu--colecciones": {
-        "props": { 
-            "blockClass": "header__menu--deportes",
-            "text": "Colecciones",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "roboto-condensed",
-            "fontSize": "16px",
-            "textColor": "#0082C3"
-        }
+    "flex-layout.col#header__menu--uunidades": {
+        "children": ["link#link__uunidades"],
+        "props": {"blockClass": "flex__menu-item--uunidades"}
     },
-    "rich-text#header__menu--ultimasunidades": {
-        "props": { 
-            "blockClass": "header__menu--uunidades",
-            "text": "Ultimas unidades",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "roboto-condensed",
-            "fontSize": "16px",
-            "textColor": "#0082C3"
+    "link#link__uunidades": {
+        "props": {
+            "href": "#",
+            "label": "Últimas unidades",
+            "blockClass": "text__menu--uunidades"
         }
-    }  
+    }
+   
 }
     
