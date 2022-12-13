@@ -815,7 +815,7 @@
     "submenu.accordion#submenu__deportes--cat3": {
         "children":[
             //"menu#menu__deportes--cat1"
-            "flex-layout.row#menu--desktop2"]
+            "flex-layout.col#subcategorias2"]
     },
 
 

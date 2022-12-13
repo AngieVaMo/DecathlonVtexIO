@@ -15,29 +15,36 @@
         }
     },
     "flex-layout.col#subcategorias1":{
-        "children": ["flex-layout.row#subcategorias1"],
+        "children": [
+            "flex-layout.row#subcategorias1-arriba",
+            "flex-layout.row#subcategorias1-abajo"],
         "props": {
-            "blockClass": "flex__subcategorias1"
+            "blockClass": "flex__subcategorias2"
         }
     },
-    "flex-layout.row#subcategorias1":{
+    "flex-layout.row#subcategorias1-arriba":{
         "children": [
             "flex-layout.col#flex__deportes--cat1-sub1",
             "flex-layout.col#flex__deportes--cat1-sub2",
             "flex-layout.col#flex__deportes--cat1-sub3",
-            "flex-layout.col#flex__deportes--cat1-sub4",
+            "flex-layout.col#flex__deportes--cat1-sub4"
+        ]
+    },
+    "flex-layout.row#subcategorias1-abajo": {
+        "children": [
             "flex-layout.col#flex__deportes--cat1-sub5",
             "flex-layout.col#flex__deportes--cat1-sub6",
             "flex-layout.col#flex__deportes--cat1-sub7",
             "flex-layout.col#flex__deportes--cat1-sub8"
         ]
     },
+
+
     "flex-layout.col#flex__deportes--cat1-sub1": {
         "children": [
             "menu-item#item__deportes--cat1-sub1",
             "menu#menu__deportes--cat1-sub1"
         ]
-
     },
     "flex-layout.col#flex__deportes--cat1-sub2": {
         "children": [
@@ -99,23 +106,32 @@
         ]
     },
     "flex-layout.col#subcategorias2":{
-        "children": ["flex-layout.row#subcategorias2"],
+        "children": [
+            "flex-layout.row#subcategorias2-arriba",
+            "flex-layout.row#subcategorias2-abajo"
+        ],
         "props": {
             "blockClass": "flex__subcategorias2"
         }
     },
-    "flex-layout.row#subcategorias2":{
+    "flex-layout.row#subcategorias2-arriba":{
         "children": [
             "flex-layout.col#flex__deportes--cat2-sub1",
             "flex-layout.col#flex__deportes--cat2-sub2",
             "flex-layout.col#flex__deportes--cat2-sub3",
-            "flex-layout.col#flex__deportes--cat2-sub4",
+            "flex-layout.col#flex__deportes--cat2-sub4"
+        ]
+    },
+    "flex-layout.row#subcategorias2-abajo":{
+        "children": [
             "flex-layout.col#flex__deportes--cat2-sub5",
             "flex-layout.col#flex__deportes--cat2-sub6",
             "flex-layout.col#flex__deportes--cat2-sub7",
             "flex-layout.col#flex__deportes--cat2-sub8"
         ]
     },
+
+
     "flex-layout.col#flex__deportes--cat2-sub1": {
         "children": [
             "menu-item#item__deportes--cat2-sub1",
