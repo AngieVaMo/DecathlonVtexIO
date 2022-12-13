@@ -18,7 +18,7 @@
         "title": "Rich-text header",
         "props": { 
             "blockClass": "header__text--top",
-            "text": "¡Haz seguimiento de tu pedido aquí!",
+            "text": "Nuestros tiempos de entrega se han extendido con algunos pedidos, si tienes dudas con tu compra puedes escribir en el botón de AYUDA",
             "textAlignment": "CENTER",
             "textPosition": "CENTER"
         }

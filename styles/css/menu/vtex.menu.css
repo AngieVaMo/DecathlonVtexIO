@@ -3,22 +3,72 @@
 }
 
 .menuItem {
-    padding: 20px 25px;
+    /* padding: 20px 25px; */
     height: 20px;
+}
+.menuItem:hover {
+    color: #0082C3;
 }
 
 .menuItem--isOpen {
-    padding: 20px 25px;
-    height: 100px;
+    height: 20px;
 }
+.menuItem--isOpen:hover {
+    color: #0082C3;
+}
+
 
 .styledLinkContainer {
     padding: 0px 0px 0px 0px;
 }
-.submenuWrapper {
-    position: fixed;
+.styledLinkContent {
+    font-size: 15px;
+    font-family: Roboto Condensed,Roboto,sans-serif;
+}
+.submenuContainer {
+    position: absolute;
     width: 100vw;
+    left: 0;
+}
+.submenuWrapper {
+    position: relative;
+    width: 100vw;
+    
 }
 .flexCol--flex__categorias {
     width: 50%;
+}
+
+.submenuAccordion :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 10% !important;
+}
+.submenuAccordion :global(.vtex-flex-layout-0-x-flexRowContent) {
+    gap:8%
+}
+.submenuAccordion :global(.vtex-flex-layout-0-x-flexColChild) {
+    height: fit-content !important;
+}
+.submenuAccordion :global(.vtex-flex-layout-0-x-flexColChild):nth-child(2n) {
+    border-top: 1px solid #0082C3;
+    padding-top: 10px
+}
+.submenu {
+    justify-content: flex-start;
+}
+.menuContainer--header__menu--desktop {
+    padding: 20px 0px;
+    gap: 50px;
+}
+.menuContainer--menu__deportes {
+    gap: 15px;
+    font-family: Roboto Condensed,Roboto,sans-serif;
+    font-size: 20px;
+    margin: 30px;
+}
+.accordionIcon {
+    display: none;
+}
+.submenuAccordion :global(.vtex-flex-layout-0-x-flexCol) {
+    gap: 10px;
+    z-index: 2;
 }

@@ -6,7 +6,7 @@
         "flex-layout.row#home__flex-layout--blue",
         "flex-layout.row#home__flex-layout--aguinaldos",
         "flex-layout.row#home__flex-layout--rd",
-        "flex-layout.row#home__image-slider",
+        //"flex-layout.row#home__image-slider",
         "flex-layout.row#home__flex-layout--section-two"
     ]
 }

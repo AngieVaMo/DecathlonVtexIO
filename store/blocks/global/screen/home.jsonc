@@ -3,7 +3,7 @@
       "blocks": [
         "responsive-layout.desktop#home__desktop",
         "responsive-layout.mobile#home__mobile",
-        "list-context.bullet-group",
+        //"list-context.bullet-group",
         "whatsapp-button"
         //"search-result-layout.customQuery#home__search"
       ]

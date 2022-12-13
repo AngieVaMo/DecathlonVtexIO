@@ -56,10 +56,21 @@
 
 /*MENU*/
 .flexCol--flex__subcategorias2 {
+    gap: 40px;
     background-color: white;
-    position: fixed;
-    border: 1px solid red;
-    left: 25vw;
-    top: 9vw;
+    position: absolute;
+    left: 20vw;
+    top: 4vh;
+    height: 60vh;
+    z-index: 1;;
 }
-
+.flexColChild--flex__subcategorias2 {
+    height: 50%;
+    border: none !important;
+}
+.flexRow--flex__menu--desktop {
+    width: 20%;
+}
+.flexColChild--flex__categorias {
+    border-right: 1px solid #a8a8a8;
+}
