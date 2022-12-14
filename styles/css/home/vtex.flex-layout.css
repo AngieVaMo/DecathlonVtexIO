@@ -105,3 +105,18 @@
 .flexColChild--flex__menu-item--uunidades:hover {
     border-bottom: 4px solid red;
 }
+
+
+/*PLP*/
+.flexColChild--search__flex-col--products-plp {
+    height: fit-content !important;
+}
+.flexRowContent--search__flex-col--orderby-plp {
+    margin-bottom: 30px;
+}
+.flexRow--search__flex-row--plp {
+    margin-bottom: 100px;
+}
+.flexColChild--search__flex-col--filters-plp {
+    margin: 40px 0px 0px 40px;
+}

@@ -1,0 +1,13 @@
+.currencyCode {
+    visibility: hidden;
+}
+.currencyCode::after {
+    content: "$";
+    visibility: visible;
+}
+
+.sellingPriceValue {
+    padding: 5px 15px 5px 0px;
+    color: #4e4e4e;
+    background-color: #ffea28;
+}

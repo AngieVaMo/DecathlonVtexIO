@@ -1,10 +1,78 @@
 {
-    "search-result-layout.desktop": {
-      "children": [
-        "flex-layout.row#search__breadcrumb--mobile",
-        "flex-layout.row#search__title--mobile",
-        "flex-layout.row#search__filter-sort--mobile",
-        "flex-layout.row#search__content--mobile"
-      ]
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#search__breadcrumb--mobile",
+      //"flex-layout.row#search__flex-row--title-plp",
+      "flex-layout.row#search__flex-row--plp"
+      // "flex-layout.row#search__title--mobile",
+      // "flex-layout.row#search__filter-sort--mobile",
+      // "flex-layout.row#search__content--mobile"
+    ]
+  },
+
+  "flex-layout.row#search__flex-row--title-plp": {
+    "children": ["search-title.v2"],
+    "props": {
+      "blockClass": "search__flex-row--title-plp"
     }
+  },
+  "flex-layout.row#search__flex-row--plp": {
+    "children": [
+      "flex-layout.col#search__flex-col--filters-plp",
+      "flex-layout.col#search__flex-col--products-plp"
+    ],
+    "props": {
+      "blockClass": "search__flex-row--plp"
+    }
+  },
+  "flex-layout.col#search__flex-col--filters-plp": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "width": "25%",
+      "blockClass": "search__flex-col--filters-plp"
+    }
+  },
+  "flex-layout.col#search__flex-col--products-plp": {
+    "children": [
+      "flex-layout.row#search__flex-row--orderby-total-plp",
+      "search-content#search__results--content"
+    ],
+    "props": {
+      "blockClass": "search__flex-col--products-plp"
+    }
+  },
+  "flex-layout.row#search__flex-row--orderby-total-plp": {
+    "children": [
+      "flex-layout.col#search__flex-col--total-plp",
+      "flex-layout.col#search__flex--sortby",
+      "flex-layout.col#search__flex-col--orderby-plp"
+    ],
+    "props": {
+      "blockClass": "search__flex-col--orderby-plp"
+    }
+  },
+  "flex-layout.col#search__flex-col--total-plp": {
+    "children": ["total-products.v2"],
+    "props": {
+      "blockClass": "search__flex-col--total-plp"
+    }
+  },
+  "flex-layout.col#search__flex-col--orderby-plp": {
+    "children": ["order-by.v2"],
+    "props": {
+      "blockClass": "search__flex-col--orderby-plp"
+    }
+  },
+  "flex-layout.col#search__flex--sortby": {
+    "children": ["rich-text#search__text--sortby"],
+    "props": {
+      "blockClass": "search__flex--sortby"
+    }
+  },
+  "rich-text#search__text--sortby": {
+    "props": {
+      "text": "SORT BY:",
+      "blockClass": "search__text--sortby"
+    }
+  }
 }
