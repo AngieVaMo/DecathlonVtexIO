@@ -1,0 +1,7 @@
+.homeIcon {
+    visibility: hidden;
+}
+.homeIcon::after {
+    content: "Home";
+    visibility: visible;
+}
