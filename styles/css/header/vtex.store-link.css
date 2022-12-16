@@ -2,3 +2,29 @@
     text-decoration: none;
     color: red;
 }
+
+/*MEGA-MENÚ*/
+.link--drawer__link--direcciones {
+    text-decoration: none;
+    color: #242323;
+    padding: 18px 30px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.link--drawer__link--historial {
+    text-decoration: none;
+    color: #242323;
+    padding: 18px 30px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.link--drawer__link--perfil-deportivo {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.label--drawer__link--perfil-deportivo {
+    position: relative;
+    left: -70%;
+}

@@ -1,0 +1,68 @@
+{
+    "flex-layout.row#home__image-slider": {
+        "title": "Flex row de imagen más slider - home",
+        "children": [
+            "flex-layout.col#home__flex-col--image-destacados",
+            "flex-layout.col#home__flex-col--slider-destacados"
+        ],
+        "props": {
+          "blockClass": "home__image-slider"
+        }
+    },
+    "flex-layout.col#home__flex-col--image-destacados": {
+        "title": "Flex col de imagen instagram - home",
+        "children": [
+            "image#home__instagram-image"
+        ],
+        "props": {
+          "blockClass": "home__flex-col--image-destacados",
+          "width": "20%"
+        }
+    },
+    "flex-layout.col#home__flex-col--slider-destacados": {
+        "title": "Flex col de slider de productos destacados - home",
+        "children": [
+          "flex-layout.row#home__flex-row--slider-destacados"
+        ],
+        "props": {
+            "blockClass": "home__flex-col--slider-destacados"
+        }
+    },
+    "flex-layout.row#home__flex-row--slider-destacados": {
+      "title": "Flex row de slider de productos destacados - home",
+      "children": [
+          "list-context.product-list#home__list--slider-destacados"
+      ],
+      "props": {
+          "blockClass": "home__flex-row--slider-destacados"
+      }
+  },
+    "list-context.product-list#home__list--slider-destacados": {
+       "title": "List-context de slider - home",
+       "blocks": ["product-summary.shelf"],
+       "children": [
+        "slider-layout#home__slider--destacados"
+       ],
+       "props": {
+        //"maxItems": 5
+       }
+    },
+    "slider-layout#home__slider--destacados": {
+        "title": "Slider de productos destacados - home",
+        "props": {
+            "itemsPerPage": {
+              "desktop": 5,
+              "tablet": 3,
+              "phone": 3
+            },
+            "fullWidth": false,
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "home__slider--destacados",
+            "autoplay":{
+                "timeout": 3000,
+                "stopOnHover": true
+            }
+          }
+    }
+}
