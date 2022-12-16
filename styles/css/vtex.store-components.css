@@ -36,12 +36,30 @@
     align-self: center;
 }
 
+@media(max-width: 768px){
+    .autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+        padding-left: 5%;
+        width:90%
+    }
+}
+
 /*HOME*/
 .imageElement--home__instagram-image {
     margin-right: 10px;
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
     max-width: 310px !important;
 }
+
+@media(max-width: 768){
+    .imageElement--home__image--rd {
+        width:100%
+    }
+    .imageElement--home__instagram-image {
+        margin: 0;
+        width: 100% !important;
+    }
+}
+
 
 
 /* Product PDP */
