@@ -94,10 +94,16 @@
     background-color: #0082C3;
     color: white;
 }
+.flexColChild--flex__categorias :global(.vtex-menu-2-x-styledLinkContent) {
+    white-space: normal;
+}
 .flexCol--flex-col__subcategorias-brands :global(.vtex-menu-2-x-styledLinkContent):active {
     padding: 0;
     background-color: white;
     color: black;
+}
+.flexCol--flex-col__subcategorias-brands :global(.vtex-menu-2-x-styledLinkContent) {
+    white-space: nowrap;
 }
 .flexColChild--flex__menu-item--uunidades {
     width: 200px;
