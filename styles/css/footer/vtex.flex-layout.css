@@ -86,3 +86,10 @@
         display: flex;
     }
 }
+
+@media (max-width: 768px) {
+    .flexColChild--footer__flex-col--legal-info--frase-logo :global(.vtex-store-components-3-x-logoImage) {
+        height: 75px;
+    }
+
+}

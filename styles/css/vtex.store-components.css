@@ -6,17 +6,25 @@
     max-width: 100% !important;
 }
 
+/*SEARCH-BAR*/
+.autoCompleteOuterContainer {
+    padding-left: 20px;
+}
 .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    width: 450px;
     border: none;
+    border-radius: 8px;
     flex-direction: row-reverse;
 }
-
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group):hover {
+    background-color: white;
+    border: 0.5px solid rgba(0,130,195,.2);
+    box-shadow: 0 0 0 3px rgb(0 135 195 / 10%);
+    transition: all 0.5s ease;
+}
 .searchBarContainer :global(.vtex-styleguide-9-x-hideDecorators) {
     background-color: #f4f5f7;
 }
-/*.autoCompleteOuterContainer :global(.vtex-store-components-3-x-searchBarContainer) {
-    border: none;
-}*/
 .searchIcon {
     color: #575d5e;
 }
@@ -24,18 +32,37 @@
     background-color: #f4f5f7;
     padding-right: 0.5rem;
 }
-
 .home__icon--blue {
     align-self: center;
 }
 
+@media(max-width: 768px){
+    .autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+        padding-left: 5%;
+        width:90%
+    }
+}
+
+/*HOME*/
 .imageElement--home__instagram-image {
     margin-right: 10px;
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    max-width: 310px !important;
 }
 
-/* Product PDP */
+@media(max-width: 768){
+    .imageElement--home__image--rd {
+        width:100%
+    }
+    .imageElement--home__instagram-image {
+        margin: 0;
+        width: 100% !important;
+    }
+}
 
+
+
+/* Product PDP */
 .productBrand {
     font-size: 26px;
     font-weight: 500;

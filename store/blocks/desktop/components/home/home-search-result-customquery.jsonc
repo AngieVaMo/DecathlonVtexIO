@@ -3,7 +3,8 @@
         "props": {
           "querySchema": {
             "skusFilter": "ALL",
-            "simulationBehavior": "default"
+            "simulationBehavior": "skip",
+            "maxItemsPerPage": 8
           }
         },
         "blocks": [

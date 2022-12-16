@@ -6,3 +6,7 @@
     margin: 0;
     
 }
+.footerLayout--footer__layout--mobile :global(.vtex-store-components-3-x-container):last-child {
+    padding: 0;
+
+}

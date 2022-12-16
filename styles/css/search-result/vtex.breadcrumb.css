@@ -2,6 +2,7 @@
     visibility: hidden;
 }
 .homeIcon::after {
-    content: "Home";
+    content: "home";
     visibility: visible;
+    color: black;
 }

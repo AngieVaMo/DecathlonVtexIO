@@ -5,9 +5,9 @@
             "rich-text#home___text--aguinaldos",
             "slider-layout#home__slider--aguinaldos",
             "image#home__image--rd",
-            "slider-layout#home__slider--regala-deporte",
+            "list-context.product-list#home__list--slider-destacados",
             "image#home__instagram-image",
-            "slider-layout#home__slider--productos-temporada",
+            "list-context.product-list#home__list--slider-destacados",
             "flex-layout.row#home__flex--mobile-section-two"
         ]
     }

@@ -19,13 +19,24 @@
     justify-content: space-between;
     margin: 0 auto;
 }
+.headerRowContainer--header__logo--middle {
+    margin: 8px;
+}
+.headerRowContainer--header__logo--middle :global(.vtex-store-components-3-x-logoImage) {
+    height: 40px;
+}
+.headerRowContainer--header__logo--middle :global(.vtex-store-components-3-x-logoContainer) {
+    padding: 0;
+}
 
 /*MENÚ*/
 .headerRowContainer--header-row__flex--menu-desktop {
     margin-bottom: 10px;
     justify-content: center;
-    border: 1px solid #edeff1;
+    border-top: 1px solid #edeff1;
+    border-bottom: 1px solid #edeff1;
 }
 .headerRowContainer--header-row__flex--menu-desktop :global(.vtex-store-components-3-x-container) {
     width: 80vw;
 }
+

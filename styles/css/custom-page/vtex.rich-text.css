@@ -1,0 +1,62 @@
+.italic--text__fe--one {
+    box-sizing: inherit;
+    font-size: 20px;
+    color: #1081bd;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #1081bd;
+}
+.heading--text__fe--one {
+    margin-bottom: 15px;
+}
+.paragraph--text__fe--two {
+    font-weight: bold;
+    margin: 0;
+    color: #7a7a7a;
+}
+.paragraph--text__fe--three {
+    text-align: justify;
+    margin: 50px 0;
+}
+.listItem--text__fe--seven {
+    text-align: justify;
+}
+.listItem--text__fe--nine {
+    text-align: justify;
+}
+.paragraph--text__fe--four {
+    margin: 0;
+    color: #2445a2;
+    font-weight: bolder;
+}
+.paragraph--text__fe--five {
+    margin: 0;
+    color: #2445a2;
+    font-weight: bolder;
+}
+.heading--text__fe--six {
+    margin-top: 50px;
+    margin-bottom: 0;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.heading--text__fe--eight {
+    margin-top: 50px;
+    margin-bottom: 0;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.listItem--text__fe--seven {
+    margin-bottom: 15px;
+
+}
+.listItem--text__fe--nine {
+    margin-bottom: 15px;
+
+}
