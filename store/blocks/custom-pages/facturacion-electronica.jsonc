@@ -7,7 +7,10 @@
   "flex-layout.row#custom-page__flex-row--fe": {
     "children": [
       "flex-layout.col#custom-page__flex-col--fe"
-    ]
+    ],
+    "props": {
+      "blockClass": "custom-page__flex-col--fe"
+    }
   },
   "flex-layout.col#custom-page__flex-col--fe": {
     "children": [
@@ -22,12 +25,15 @@
       "rich-text#text__fe--seven",
       "rich-text#text__fe--eight",
       "rich-text#text__fe--nine"
-    ]
+    ],
+    "props": {
+      "blockClass": "custom-page__flex-col--fe"
+    }
   },
   "rich-text#text__fe--one": {
     "props": {
       "blockClass": "text__fe--one",
-      "text": "## POLÍTICA DE EMISIÓN DE FACTURA ELECTRÓNICA (FE) PARA NUESTROS CLIENTES"
+      "text": "### *POLÍTICA DE EMISIÓN DE FACTURA ELECTRÓNICA (FE) PARA NUESTROS CLIENTES*"
     }
   },
   "rich-text#text__fe--two": {
@@ -69,25 +75,25 @@
   "rich-text#text__fe--six": {
     "props": {
       "blockClass": "text__fe--six",
-      "text": "A TENER EN CUENTA"
+      "text": "### A TENER EN CUENTA"
     }
   },
   "rich-text#text__fe--seven": {
     "props": {
       "blockClass": "text__fe--seven",
-      "text": "1. Solo tiene una oportunidad para realizar este proceso por lo cual es importante validar sus datos acorde a la información registrada en el RUT y confirmar antes de guardar su información. \n 2. La personalización de su factura será generada con la fecha en que realice el proceso. \n 3. Una vez emitida la factura, ésta llegará de manera automática al correo electrónico diligenciado por el cliente. Desde este momento el cliente tiene hasta 72 horas para que acepte, rechace o manifieste alguna inconformidad de la FE"
+      "text": "1. Solo tiene una oportunidad para realizar este proceso por lo cual es importante validar sus datos acorde a la información registrada en el RUT y confirmar antes de guardar su información. \n2. La personalización de su factura será generada con la fecha en que realice el proceso \n3. Una vez emitida la factura, ésta llegará de manera automática al correo electrónico diligenciado por el cliente. Desde este momento el cliente tiene hasta 72 horas para que acepte, rechace o manifieste alguna inconformidad de la FE"
     }
   },
   "rich-text#text__fe--eight": {
      "props": {
       "blockClass": "text__fe--eight",
-        "text": "POR PARTE DE DECATHLON:"
+        "text": "### POR PARTE DE DECATHLON:"
     }
   },
   "rich-text#text__fe--nine": {
     "props": {
       "blockClass": "text__fe--nine",
-      "text": "1. Informar al cliente las políticas para la emisión de la FE. \n 2. La factura será personalizada por parte de los clientes. \n 3. Una vez la factura es emitida, hacer el seguimiento correspondiente a las 72 horas para verificar que la factura no presente estado de rechazo, en caso de estar rechazada, hacer las respectivas correcciones y posterior a esto verificar que esté en estado aceptada por parte del cliente. \n 4. En caso de que finalicen las siguientes 72 horas y no se reciba respuesta por parte del cliente, automáticamente se entiende por aceptada la emisión de la FE. "
+      "text": "1. Informar al cliente las políticas para la emisión de la FE. \n2. La factura será personalizada por parte de los clientes. \n3. Una vez la factura es emitida, hacer el seguimiento correspondiente a las 72 horas para verificar que la factura no presente estado de rechazo, en caso de estar rechazada, hacer las respectivas correcciones y posterior a esto verificar que esté en estado aceptada por parte del cliente. 4.En caso de que finalicen las siguientes 72 horas y no se reciba respuesta por parte del cliente, automáticamente se entiende por aceptada la emisión de la FE. "
     }
   },
 

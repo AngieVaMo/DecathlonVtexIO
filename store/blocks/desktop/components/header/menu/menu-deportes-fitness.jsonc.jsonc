@@ -808,14 +808,14 @@
                 "href": "#",
                 "noFollow": true,
                 "tagTitle": "acuaticosYSubacuáticos",
-                "text": "ACUÁTICOS Y SUBACUÁTICOS"
+                "text": "ACUÁTICOS \n Y SUBACUÁTICOS"
             }
         }
     },
     "submenu.accordion#submenu__deportes--cat3": {
         "children":[
             //"menu#menu__deportes--cat1"
-            "flex-layout.row#menu--desktop2"]
+            "flex-layout.col#subcategorias2"]
     },
 
 
@@ -972,7 +972,7 @@
                 "href": "#",
                 "noFollow": true,
                 "tagTitle": "equitacionGolfYPrecision",
-                "text": "EQUITACIÓN, GOLF Y PRECISIÓN"
+                "text": "EQUITACIÓN, GOLF Y \n PRECISIÓN"
             }
         }
     }

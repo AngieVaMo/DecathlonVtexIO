@@ -2,3 +2,12 @@
     width: 125px;
     height: 125px;
 }
+
+.brandName {
+    color: #707070;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}

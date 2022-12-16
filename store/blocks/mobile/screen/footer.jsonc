@@ -1,10 +1,14 @@
 {
-    "footer-layout.mobile": { 
-    "children": [
-      "disclosure-layout-group#footer__menu--group-mobile",
-      "flex-layout.row#footer__social-networks--row",
-      "disclosure-layout#footer__metodo-pago--mobile",
-      "flex-layout.row#footer__flex--legal-info--mobile"
-    ]
-  }
+    "footer-layout.mobile#footer__layout--mobile": { 
+      "title": "Layout del footer - mobile",
+      "children": [
+        "disclosure-layout-group#footer__menu--group-mobile",
+        "flex-layout.row#footer__social-networks--row",
+        "disclosure-layout#footer__metodo-pago--mobile",
+        "flex-layout.row#footer__flex--legal-info--mobile"
+      ],
+      "props": {
+         "blockClass": "footer__layout--mobile"
+      }
+    }
 }

@@ -12,3 +12,15 @@
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
 }
+
+/*PLP*/
+.paragraph--search__text--sortby {
+    color: #242323;
+    font-family: Roboto,sans-serif !important;
+    font-size: 13px;
+    font-weight: 600;
+}
+.container--search__text--sortby {
+    justify-content: flex-end;
+    padding-right: 15px;
+}

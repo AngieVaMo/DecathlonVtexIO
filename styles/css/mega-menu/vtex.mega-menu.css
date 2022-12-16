@@ -1,0 +1,45 @@
+.caretIcon--mega-menu__mobile {
+    color: #242323;
+}
+
+.departmentsTitle--mega-menu__mobile {
+    margin-top: 0;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.menuItemVertical--mega-menu__mobile {
+    border: none;
+}
+.styledLinkText--mega-menu__mobile {
+    color: #242323;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
+.menuContainerNavVertical--mega-menu__mobile {
+    position: relative;
+    top: -100px;
+}
+.collapsibleHeaderText--mega-menu__mobile {
+    color: #242323;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
+.submenuItemVertical--mega-menu__mobile :global(.vtex__icon-caret-down) {
+    color: #242323;
+}
+.submenuItemVertical--mega-menu__mobile {
+    border: none;
+}
+.goBackButtonText {
+    color: #242323;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
+.menuContainerVertical--mega-menu__mobile {
+    padding: 0 0 0 14px;
+}

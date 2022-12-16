@@ -68,5 +68,10 @@
         padding: 20px 15px;
         font-weight: 500;
     }
+}
 
+@media (max-width: 768px) {
+    .wrapper--footer__text--legal-info--mobile-7 {
+        width: 90% !important;
+    }
 }

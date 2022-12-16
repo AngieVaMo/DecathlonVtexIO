@@ -1,3 +1,10 @@
-/*.slideChildrenContainer--home__slider {
-    margin: 0 auto 30px;
-}*/
+.sliderTrackContainer {
+    overflow: hidden !important;
+}
+.slide--home__slider--destacados {
+    width: 208px;
+}
+.sliderLayoutContainer--home__slider--destacados {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}

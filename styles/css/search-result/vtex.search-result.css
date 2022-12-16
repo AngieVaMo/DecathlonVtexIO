@@ -1,0 +1,66 @@
+.totalProductsMessage {
+    visibility: hidden;
+}
+.totalProductsMessage::before {
+    content: "Resultados encontrados";
+    visibility: visible;
+    text-transform: capitalize;
+    color: #3a4570;
+    font-size: 12.8;
+    font-family: Roboto, sans-serif;
+}
+.totalProducts--layout {
+    color: #3a4570;
+    font-size: 12.8;
+    font-family: Roboto, sans-serif;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.orderByText {
+    visibility: hidden;
+}
+.orderByText::after {
+    content: "Más relevante";
+    visibility: visible;
+    text-transform: capitalize;
+    color: black;
+}
+
+.orderByButton {
+    width: fit-content;
+    border: 1px solid #edeff1;
+}
+
+.gallery--general-grid {
+    gap: 0;
+}
+.galleryItem--general-grid {
+    height: 310px;
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #edeff1;
+}
+
+.caretIcon {
+    color: black;
+    width: 16px;
+    height: 16px;
+}
+.filterTitleSpan {
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: Roboto,sans-serif;
+    padding: 15px 0px 8px;
+    margin: 15px 0px 8px;
+}
+.filterContent {
+    margin-bottom: 20px;
+}
+.filterContent :global(.vtex-checkbox__label) {
+    color: #3a4570;
+}
+.flexCol--search__flex-col--filters-plp {
+    width: 90%;
+}

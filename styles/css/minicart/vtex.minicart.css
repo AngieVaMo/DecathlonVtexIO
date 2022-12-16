@@ -13,6 +13,9 @@
 .minicartTitle {
     display: none;
 }
+.minicartWrapperContainer {
+    padding-right: 20px;
+}
 
 /*.minicartContainer:hover ~ .minicartQuantityBadgeDefault {
     background-color: black;

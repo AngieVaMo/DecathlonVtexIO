@@ -1,8 +1,8 @@
 {
     "flex-layout.row#menu--desktop": {
         "children": [
-            "flex-layout.col#categorias",
-            "flex-layout.col#subcategorias1"
+            "flex-layout.col#categorias"
+            //"flex-layout.col#subcategorias1"
         ],
         "props": {
             "blockClass": "flex__menu--desktop"
@@ -15,77 +15,108 @@
         }
     },
     "flex-layout.col#subcategorias1":{
-        "children": ["flex-layout.row#subcategorias1"],
+        "children": [
+            "flex-layout.row#subcategorias1-arriba",
+            "flex-layout.row#subcategorias1-abajo"],
         "props": {
-            "blockClass": "flex__subcategorias1"
+            "blockClass": "flex__subcategorias2"
         }
     },
-    "flex-layout.row#subcategorias1":{
+    "flex-layout.row#subcategorias1-arriba":{
         "children": [
             "flex-layout.col#flex__deportes--cat1-sub1",
             "flex-layout.col#flex__deportes--cat1-sub2",
             "flex-layout.col#flex__deportes--cat1-sub3",
-            "flex-layout.col#flex__deportes--cat1-sub4",
+            "flex-layout.col#flex__deportes--cat1-sub4"
+        ]
+    },
+    "flex-layout.row#subcategorias1-abajo": {
+        "children": [
             "flex-layout.col#flex__deportes--cat1-sub5",
             "flex-layout.col#flex__deportes--cat1-sub6",
             "flex-layout.col#flex__deportes--cat1-sub7",
             "flex-layout.col#flex__deportes--cat1-sub8"
         ]
     },
+
+
     "flex-layout.col#flex__deportes--cat1-sub1": {
         "children": [
             "menu-item#item__deportes--cat1-sub1",
             "menu#menu__deportes--cat1-sub1"
-        ]
-
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
     },
     "flex-layout.col#flex__deportes--cat1-sub2": {
         "children": [
             "menu-item#item__deportes--cat1-sub2",
             "menu#menu__deportes--cat1-sub2"
-        ]
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
 
     },
     "flex-layout.col#flex__deportes--cat1-sub3": {
         "children": [
             "menu-item#item__deportes--cat1-sub3",
             "menu#menu__deportes--cat1-sub3"
-        ]
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
 
     },
     "flex-layout.col#flex__deportes--cat1-sub4": {
         "children": [
             "menu-item#item__deportes--cat1-sub4",
             "menu#menu__deportes--cat1-sub4"
-        ]
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
 
     },
     "flex-layout.col#flex__deportes--cat1-sub5": {
         "children": [
             "menu-item#item__deportes--cat1-sub5",
             "menu#menu__deportes--cat1-sub5"
-        ]
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
 
     },
     "flex-layout.col#flex__deportes--cat1-sub6": {
         "children": [
             "menu-item#item__deportes--cat1-sub6",
             "menu#menu__deportes--cat1-sub6"
-        ]
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
 
     },
     "flex-layout.col#flex__deportes--cat1-sub7": {
         "children": [
             "menu-item#item__deportes--cat1-sub7",
             "menu#menu__deportes--cat1-sub7"
-        ]
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
 
     },
     "flex-layout.col#flex__deportes--cat1-sub8": {
         "children": [
             "menu-item#item__deportes--cat1-sub8",
             "menu#menu__deportes--cat1-sub8"
-        ]
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
     },
 
 
@@ -99,77 +130,245 @@
         ]
     },
     "flex-layout.col#subcategorias2":{
-        "children": ["flex-layout.row#subcategorias2"],
+        "children": [
+            "flex-layout.row#subcategorias2-arriba",
+            "flex-layout.row#subcategorias2-abajo"
+        ],
         "props": {
             "blockClass": "flex__subcategorias2"
         }
     },
-    "flex-layout.row#subcategorias2":{
+    "flex-layout.row#subcategorias2-arriba":{
         "children": [
             "flex-layout.col#flex__deportes--cat2-sub1",
             "flex-layout.col#flex__deportes--cat2-sub2",
             "flex-layout.col#flex__deportes--cat2-sub3",
-            "flex-layout.col#flex__deportes--cat2-sub4",
+            "flex-layout.col#flex__deportes--cat2-sub4"
+        ]
+    },
+    "flex-layout.row#subcategorias2-abajo":{
+        "children": [
             "flex-layout.col#flex__deportes--cat2-sub5",
             "flex-layout.col#flex__deportes--cat2-sub6",
             "flex-layout.col#flex__deportes--cat2-sub7",
             "flex-layout.col#flex__deportes--cat2-sub8"
         ]
     },
+
+
     "flex-layout.col#flex__deportes--cat2-sub1": {
         "children": [
-            "menu-item#item__deportes--cat2-sub1",
-            "menu#menu__deportes--cat2-sub1"
-        ]
+            "flex-layout.row#flex__deportes--cat2-sub1",
+            "flex-layout.row#flex__deportes--cat2-sub1-brand1"
+        ],
+        "props": {
+            "blockClass": "flex-col__subcategorias-brands"
+        }
 
     },
+    "flex-layout.row#flex__deportes--cat2-sub1": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub1"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-title"
+        }
+
+    },
+    "flex-layout.row#flex__deportes--cat2-sub1-brand1": {
+        "children": [
+            "menu#menu__deportes--cat2-sub1"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
+
+    },
+
     "flex-layout.col#flex__deportes--cat2-sub2": {
         "children": [
-            "menu-item#item__deportes--cat2-sub2",
-            "menu#menu__deportes--cat2-sub2"
-        ]
+            "flex-layout.row#flex__deportes--cat2-sub2",
+            "flex-layout.row#flex__deportes--cat2-sub2-brand2"
+        ],
+        "props": {
+            "blockClass": "flex-col__subcategorias-brands"
+        }
 
     },
+    "flex-layout.row#flex__deportes--cat2-sub2": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub2"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-title"
+        }
+
+    },
+    "flex-layout.row#flex__deportes--cat2-sub2-brand2": {
+        "children": [
+            "menu#menu__deportes--cat2-sub2"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
+
+    },
+
     "flex-layout.col#flex__deportes--cat2-sub3": {
         "children": [
-            "menu-item#item__deportes--cat2-sub3",
-            "menu#menu__deportes--cat2-sub3"
-        ]
+            "flex-layout.row#flex__deportes--cat2-sub3",
+            "flex-layout.row#flex__deportes--cat2-sub3-brand3"
+        ],
+        "props": {
+            "blockClass": "flex-col__subcategorias-brands"
+        }
+    },
+    "flex-layout.row#flex__deportes--cat2-sub3": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub3"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-title"
+        }
 
     },
+    "flex-layout.row#flex__deportes--cat2-sub3-brand3": {
+        "children": [
+            "menu#menu__deportes--cat2-sub3"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
+
+    },
+
     "flex-layout.col#flex__deportes--cat2-sub4": {
         "children": [
-            "menu-item#item__deportes--cat2-sub4",
-            "menu#menu__deportes--cat2-sub4"
-        ]
-
+            "flex-layout.row#flex__deportes--cat2-sub4",
+            "flex-layout.row#flex__deportes--cat2-sub4-brand4"
+        ],
+        "props": {
+            "blockClass": "flex-col__subcategorias-brands"
+        }
     },
+    "flex-layout.row#flex__deportes--cat2-sub4": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub4"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-title"
+        }
+    },
+    "flex-layout.row#flex__deportes--cat2-sub4-brand4": {
+        "children": [
+            "menu#menu__deportes--cat2-sub4"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
+    },
+
     "flex-layout.col#flex__deportes--cat2-sub5": {
         "children": [
-            "menu-item#item__deportes--cat2-sub5",
-            "menu#menu__deportes--cat2-sub5"
-        ]
-
+            "flex-layout.row#flex__deportes--cat2-sub5",
+            "flex-layout.row#flex__deportes--cat2-sub5-brand5"
+        ],
+        "props": {
+            "blockClass": "flex-col__subcategorias-brands"
+        }
     },
+    "flex-layout.row#flex__deportes--cat2-sub5": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub5"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-title"
+        }
+    },
+    "flex-layout.row#flex__deportes--cat2-sub5-brand5": {
+        "children": [
+            "menu#menu__deportes--cat2-sub5"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
+    },
+
     "flex-layout.col#flex__deportes--cat2-sub6": {
         "children": [
-            "menu-item#item__deportes--cat2-sub6",
-            "menu#menu__deportes--cat2-sub6"
-        ]
-
+            "flex-layout.row#flex__deportes--cat2-sub6",
+            "flex-layout.row#flex__deportes--cat2-sub6-brand6"
+        ],
+        "props": {
+            "blockClass": "flex-col__subcategorias-brands"
+        }
     },
+    "flex-layout.row#flex__deportes--cat2-sub6": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub6"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-title"
+        }
+    },
+    "flex-layout.row#flex__deportes--cat2-sub6-brand6": {
+        "children": [
+            "menu#menu__deportes--cat2-sub6"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
+    },
+
     "flex-layout.col#flex__deportes--cat2-sub7": {
         "children": [
-            "menu-item#item__deportes--cat2-sub7",
-            "menu#menu__deportes--cat2-sub7"
-        ]
-
+            "flex-layout.row#flex__deportes--cat2-sub7",
+            "flex-layout.row#flex__deportes--cat2-sub7-brand7"
+        ],
+        "props": {
+            "blockClass": "flex-col__subcategorias-brands"
+        }
     },
+    "flex-layout.row#flex__deportes--cat2-sub7": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub7"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-title"
+        }
+    },
+    "flex-layout.row#flex__deportes--cat2-sub7-brand7": {
+        "children": [
+            "menu#menu__deportes--cat2-sub7"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
+    },
+
     "flex-layout.col#flex__deportes--cat2-sub8": {
         "children": [
-            "menu-item#item__deportes--cat2-sub8",
+            "flex-layout.row#flex__deportes--cat2-sub8",
+            "flex-layout.row#flex__deportes--cat2-sub8-brand8"
+        ],
+        "props": {
+            "blockClass": "flex-col__subcategorias-brands"
+        }
+    },
+    "flex-layout.row#flex__deportes--cat2-sub8": {
+        "children": [
+            "menu-item#item__deportes--cat2-sub8"
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-title"
+        }
+    },
+    "flex-layout.row#flex__deportes--cat2-sub8-brand8": {
+        "children": [
             "menu#menu__deportes--cat2-sub8"
-        ]
-
+        ],
+        "props": {
+            "blockClass": "flex__subcategorias-brands"
+        }
     }
 }

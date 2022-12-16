@@ -2,6 +2,7 @@
     "logo#header__logo--middle": {
         "title": "Logo",
         "props": {
+            "href": "/",
             "url": "assets/img/logo-decathlon.svg",
             "width": 200
         }

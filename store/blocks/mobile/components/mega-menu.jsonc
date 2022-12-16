@@ -1,58 +1,134 @@
 {
     "drawer#mega-menu__drawer--mobile": {
+      "title": "Drawer de mega menu - mobile",
       "children": [
         "flex-layout.row#mega-menu__flex-row--mobile",
         "flex-layout.row#mega-menu__flex-row--close"
        ],
-      "blocks": ["drawer-header#my-drawer"]
+      "blocks": ["drawer-header#mega-menu__drawer-header"],
+      "props": {
+        "blockClass": "mega-menu__drawer--mobile"
+      }
     },
     "flex-layout.row#mega-menu__flex-row--mobile": {
-        "children": ["flex-layout.col#mega-menu__flex-col--mobile"]
+      "title": "Flex-row de mega menú -- mobile-left",
+      "children": ["flex-layout.col#mega-menu__flex-col--mobile"],
+      "props": {
+        "blockClass": "mega-menu__flex-row--mobile"
+      }
     },
     "flex-layout.col#mega-menu__flex-col--mobile": {
+      "title": "Flex-col de mega menú -- mobile-left",
         "children": [
-            "flex-layout.row#drawer__flex-row--direcciones",
-            "flex-layout.row#drawer__flex-row--historial",
-            "mega-menu#mega-menu__mobile"
-        ]
+          "flex-layout.row#mega-menu__flex-row--perfil-deportivo",
+          "flex-layout.row#mega-menu__flex-row--direcciones",
+          "flex-layout.row#drawer__flex-row--historial",
+          "mega-menu#mega-menu__mobile"
+        ],
+        "props": {
+          "blockClass": "mega-menu__flex-col--mobile"
+        }
     },
-    "flex-layout.row#drawer__flex-row--direcciones": {
+    "flex-layout.row#mega-menu__flex-row--perfil-deportivo": {
+      "title": "Flex-row de link a perfil deportivo",
         "children": [
-            "link#drawer__link--direcciones"
-        ]
+          "flex-layout.col#mega-menu__flex-col--icon-perfil-deportivo",
+          "flex-layout.col#mega-menu__flex-col--link-perfil-deportivo"
+        ],
+        "props": {
+          "blockClass": "mega-menu__flex-row--perfil-deportivo"
+        }
+    },
+    "flex-layout.col#mega-menu__flex-col--icon-perfil-deportivo": {
+      "title": "Flex-col de icon a flex-row perfil deportivo",
+        "children": [
+          "icon#mega-menu__icon--perfil-deportivo"
+        ],
+        "props": {
+          "blockClass": "mega-menu__flex-col--icon-perfil-deportivo"
+        }
+    },
+    "flex-layout.col#mega-menu__flex-col--link-perfil-deportivo": {
+      "title": "Flex-col de link a flex-row perfil deportivo",
+        "children": [
+          "link#drawer__link--perfil-deportivo"
+        ],
+        "props": {
+          "blockClass": "mega-menu__flex-col--link-perfil-deportivo"
+        }
+    },
+    "icon#mega-menu__icon--perfil-deportivo": {
+      "props": {
+          "blockClass": "mega-menu__icon--perfil-deportivo",
+          "id": "perfil-deportivo",
+          "size": 25
+        }
+    },
+    "link#drawer__link--perfil-deportivo": {
+      "title": "Link a perfil deportivo - mobile",
+      "props": {
+        "blockClass": "drawer__link--perfil-deportivo",
+        "href": "/",
+        "label": "Mi perfil deportivo"
+      }
+    },
+    "flex-layout.row#mega-menu__flex-row--direcciones": {
+      "title": "Flex-row de link a direcciones",
+        "children": [
+          "link#drawer__link--direcciones"
+        ],
+        "props": {
+          "blockClass": "mega-menu__flex-row--direcciones"
+        }
     },
     "link#drawer__link--direcciones": {
-        "props": {
-          "href": "/",
-          "label": "Mis direcciones"
-        }
+      "title": "Link a direcciones - mobile",
+      "props": {
+        "blockClass": "drawer__link--direcciones",
+        "href": "/",
+        "label": "Mis direcciones"
+      }
     },
     "flex-layout.row#drawer__flex-row--historial": {
-        "children": [
-            "link#drawer__link--historial"
-        ]
+      "title": "Flex-row de link a historial d ecompras",
+      "children": [
+          "link#drawer__link--historial"
+      ],
+      "props": {
+        "blockClass": "drawer__flex-row--historial"
+      }
     },
     "link#drawer__link--historial": {
-        "props": {
-          "href": "/",
-          "label": "Mi historial de compras"
-        }
+      "title": "Link a historial de compras",
+      "props": {
+        "blockClass": "drawer__link--historial",
+        "href": "/",
+        "label": "Mi historial de compras"
+      }
     },
 
     "mega-menu#mega-menu__mobile": {
+      "title": "Mega menú - mobile",
       "props": {
+        "title": " ",
+        "blockClass": "mega-menu__mobile",
         //"defaultDepartmentActive": "...",
         "orientation": "vertical",
         "openOnly": "vertical"
       }
     },
-    "drawer-header#my-drawer": {
-      "children": ["flex-layout.row#drawer-header"]
+    "drawer-header#mega-menu__drawer-header": {
+      "title": "Header del mega menu - mobile",
+      "children": ["flex-layout.row#mega-menu__flex-row--drawer-header"],
+      "props": {
+        "blockClass": "mega-menu__drawer-header"
+      }
     },
-    "flex-layout.row#drawer-header": {
+    "flex-layout.row#mega-menu__flex-row--drawer-header": {
+      "title": "Flex-row de header de mega menú - mobile",
       "children": ["flex-layout.col#mega-menu__flex--back"],
       "props": {
-        "blockClass": "drawer-header",
+        "blockClass": "mega-menu__flex-row--drawer-header",
         "preventHorizontalStretch": true,
         "preventVerticalStretch": true,
         "preserveLayoutOnMobile": true,
@@ -60,13 +136,16 @@
       }
     },
     "flex-layout.row#mega-menu__flex-row--close": {
+      "title": "Flex-row de close-button de mega menú - mobile",
       "children": ["drawer-close-button"],
       "props": {
+        "blockClass": "mega-menu__flex-row--close",
         "verticalAlign": "middle",
         "horizontalAlign": "right"
       }
     },
     "flex-layout.col#mega-menu__flex--back": {
+      "title": "Flex-col de go-back-button de mega menú - mobile",
       "children": ["mega-menu-go-back-btn"],
       "props": {
         "verticalAlign": "middle",
@@ -74,4 +153,5 @@
         //"paddingLeft": 4
       }
     }
+
   }

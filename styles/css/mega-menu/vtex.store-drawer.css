@@ -1,0 +1,9 @@
+.opened--mega-menu__drawer--mobile {
+    width: 100% !important;
+}
+.drawer--mega-menu__drawer--mobile {
+    width: 100%;
+}
+/* .childrenContainer--mega-menu__drawer--mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 30px !important;
+} */
