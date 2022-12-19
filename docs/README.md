@@ -170,4 +170,4 @@ This will enable you to see the applied changes in real time, through the accoun
 
 
 ## Contributors
-**Angie Vanessa Moreno Palacios**
+***Angie Vanessa Moreno Palacios***
