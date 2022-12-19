@@ -2,14 +2,14 @@
 
 This is a clone of [Decathlon](https://www.decathlon.com.co/) website based on the VTEX minimum Boilerplate Theme, which is a basic store front model based on the VTEX IO Store Framework.
 
--Desktop view <br>
+- Desktop view <br>
 ![home, desktop view](/assets/img/documentacion/desktop-view1.JPG)
 ![home, desktop view](/assets/img/documentacion/desktop-view2.JPG)
 ![home, desktop view](/assets/img/documentacion/desktop-view3.JPG)
 ![home, desktop view](/assets/img/documentacion/desktop-view4.JPG)
 ![home, desktop view](/assets/img/documentacion/desktop-view5.JPG)
 
--Mobile view <br>
+- Mobile view <br>
 ![home, mobile view](/assets/img/documentacion/mobile-view1.JPG)
 ![home, mobile view](/assets/img/documentacion/mobile-view2.JPG)
 ![home, mobile view](/assets/img/documentacion/mobile-view3.JPG)
@@ -20,10 +20,10 @@ This is a clone of [Decathlon](https://www.decathlon.com.co/) website based on t
 
 ### Install necessary tools:
 
-*Code editor
-*NodeJS
-*Yarn (recomended)
-*Git
+* Code editor
+* NodeJS
+* Yarn (recomended)
+* Git
 
 ### Step 1 -  Basic setup
 
