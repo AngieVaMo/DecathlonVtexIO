@@ -15,7 +15,7 @@
         ]
     },*/
     "rich-text#header__rich-text--top": {
-        "title": "Rich-text header",
+        "title": "Rich-text de la primera sección del header",
         "props": { 
             "blockClass": "header__text--top",
             "text": "Nuestros tiempos de entrega se han extendido con algunos pedidos, si tienes dudas con tu compra puedes escribir en el botón de AYUDA",

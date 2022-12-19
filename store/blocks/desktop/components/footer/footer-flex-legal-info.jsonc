@@ -1,5 +1,6 @@
 {
     "flex-layout.row#footer__flex--legal-info--desktop": {
+        "title": "Flex-row de la tercera sección del footer",
         "children": [
             "flex-layout.col#footer__flex--legal-info--desktop"
         ],
@@ -8,6 +9,7 @@
         }
     },
     "flex-layout.col#footer__flex--legal-info--desktop": {
+        "title": "Flex-col de la tercera sección del footer",
         "children": [
             "rich-text#footer__text--legal-info--mobile-1",
             "flex-layout.row#footer__flex--legal-info--desktop-child",
@@ -17,6 +19,7 @@
     },
     
     "flex-layout.row#footer__flex--legal-info--desktop-child": {
+        "title": "Flex-row de los rich-text de la tercera sección del footer",
         "children": [
             "rich-text#footer__text--legal-info--mobile-2",
             "rich-text#footer__text--legal-info--mobile-3",
@@ -28,6 +31,7 @@
         }
     },
     "flex-layout.row#footer__flex-row--legal-info--frase-logo": {
+        "title": "Flex-row frase-logo de la tercera sección del footer",
         "children": [
             "flex-layout.col#footer__flex-col--legal-info--frase-logo"
         ],
@@ -36,6 +40,7 @@
         }
     },
     "flex-layout.col#footer__flex-col--legal-info--frase-logo": {
+        "title": "Flex-col frase-logo de la tercera sección del footer",
         "children": [
             "rich-text#footer__text--legal-info--mobile-7",
             "logo#footer__logo--last"

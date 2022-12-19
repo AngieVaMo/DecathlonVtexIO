@@ -5,7 +5,6 @@
         "props": {
             "id": "department-deportes",
             "type": "custom",
-            //"highlight": true,
             "itemProps": {
                 "type": "internal",
                 "href": "#",

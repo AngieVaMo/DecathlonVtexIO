@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer__flex-layout--desktop": {
+    "title": "Flex-row de la primera sección del footer - Desktop",
     "children": [
       "flex-layout.col#footer__flex--col-1",
       "flex-layout.col#footer__flex--col-2",
@@ -11,6 +12,7 @@
     }
   },
   "flex-layout.col#footer__flex--col-1": {
+    "title": "Flex-col-1 de la primera sección del footer - Desktop",
     "children": ["rich-text#empresa", "menu#empresa"],
     "props": {
       "blockClass": "footer__flex--col-1"
@@ -18,6 +20,7 @@
 
   },
   "flex-layout.col#footer__flex--col-2": {
+    "title": "Flex-col-2 de la primera sección del footer - Desktop",
     "children": ["rich-text#compra", "menu#compra"],
     "props": {
       "blockClass": "footer__flex--col-2"
@@ -25,6 +28,7 @@
 
   },
   "flex-layout.col#footer__flex--col-3": {
+    "title": "Flex-col-3 de la primera sección del footer - Desktop",
     "children": ["rich-text#post-compra", "menu#post-compra"],
     "props": {
       "blockClass": "footer__flex--col-3"
@@ -32,6 +36,7 @@
 
   },
   "flex-layout.col#footer__flex--col-4": {
+    "title": "Flex-col-4 de la primera sección del footer - Desktop",
     "children": ["rich-text#experiencia", "menu#experiencia"],
     "props": {
       "blockClass": "footer__flex--col-4"

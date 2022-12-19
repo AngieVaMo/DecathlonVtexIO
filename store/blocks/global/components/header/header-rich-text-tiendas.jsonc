@@ -1,5 +1,6 @@
 {
     "rich-text#tiendas":{
+        "title": "Rich-text de Tiendas del header",
         "props": {
             "blockClass": "header__text--middle",
             "text": "Tiendas",

@@ -14,6 +14,7 @@
     ]
   },
   "flex-layout.row#search__breadcrumb--mobile": {
+    "title": "Flex-row de breadcrumb de la PLP",
     "children": [
       "breadcrumb.search#search__breadcrumb--global"
     ]
@@ -29,22 +30,26 @@
     ]
   },
   "flex-layout.row#search__filter-sort--mobile": {
+    "title": "Flex-row de ordenamientos y filtros de la PLP",
     "children": [
       "flex-layout.col#search__sorted-by--mobile",
       "flex-layout.col#search__filter--mobile"
     ]
   },
   "flex-layout.col#search__sorted-by--mobile": {
+    "title": "Flex-col de ordenamientos de la PLP",
     "children": ["order-by.v2"]
 
   },
   "flex-layout.col#search__filter--mobile": {
+    "title": "Flex-col de filtros de la PLP",
     "children": ["filter-navigator.v3"],
     "props": {
       "width": "25%"
     }
   },
   "flex-layout.row#search__content--mobile": {
+    "title": "Flex-row de search-content de la PLP",
     "children": ["search-content#search__results--content"]
 
   },

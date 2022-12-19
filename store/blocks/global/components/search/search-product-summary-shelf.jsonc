@@ -1,5 +1,6 @@
 {
     "product-summary.shelf": {
+        "title": "Product-summary shelf",
         "children": [  
             "product-summary-image",
             "product-summary-name",

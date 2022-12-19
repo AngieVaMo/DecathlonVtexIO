@@ -1,5 +1,6 @@
 {
     "flex-layout.row#footer__flex--images-blue": {
+        "title": "Flex-row de las imágenes con fondo azul del footer",
         "children": [
             "flex-layout.col#footer__flex--images-top-col"
         ],
@@ -8,6 +9,7 @@
         }
     },
     "flex-layout.col#footer__flex--images-top-col": {
+        "title": "Flex-col de las imágenes con fondo azul del footer",
         "children": [
             "flex-layout.row#footer__flex--images-top",
             "flex-layout.row#footer__flex--void-top"
@@ -17,6 +19,7 @@
         }
     },
     "flex-layout.row#footer__flex--void-top": {
+        "title": "Flex-row del fondo azul del footer",
         "children": [
             "rich-text#footer__text--void"
         ],
@@ -25,26 +28,28 @@
         }
     },
     "rich-text#footer__text--void": {
+        "title": "Rich-text del fondo azul del footer",
         "props": {
-            "text": "VOID",
+            "text": "_",
             "blockClass": "footer__text--void"
         }
     },
 
-
+    
     "flex-layout.row#footer__flex--images-top": {
+        "title": "Flex-row de las imágenes con fondo azul del footer",
         "children": [
             "flex-layout.col#footer__flex--deporte",
             "flex-layout.col#footer__flex--recoge-tienda",
             "flex-layout.col#footer__flex--cambios-devoluciones",
-            "flex-layout.col#footer__flex--entrega"
-            
+            "flex-layout.col#footer__flex--entrega" 
         ],
         "props": {
             "blockClass":"footer__flex--images-top"
         }
     },
     "flex-layout.col#footer__flex--deporte": {
+        "title": "Flex-col de las imágenes con fondo azul del footer",
         "children": [
             "image#footer__image--deporte",
             "rich-text#footer__text--deporte-title",
@@ -55,12 +60,14 @@
         }
     },    
     "image#footer__image--deporte": {
+        "title": "image de deporte del footer",
         "props": {
             "blockClass": "footer__image--deporte",
             "src": "assets/img/deporte.jpg"
         }
     },
     "rich-text#footer__text--deporte-title": {
+        "title": "Rich-text del titulo de deporte del footer",
         "props": {
             "blockClass":"footer__text--heavy",
             "text": "Más de 60 deportes"
@@ -68,6 +75,7 @@
 
     },
     "rich-text#footer__text--deporte": {
+        "title": "Rich-text de deporte del footer",
         "props": {
             "blockClass":"footer__text--light",
             "text": "Encuentra más de 5.000 productos para hacer deporte en un solo lugar",
@@ -82,6 +90,7 @@
 
 
     "flex-layout.col#footer__flex--recoge-tienda": {
+        "title": "Flex-col de Recoge en Tienda del footer",
         "children": [
             "image#footer__image--recoge-tienda",
             "rich-text#footer__text--recoge-tienda-title",
@@ -92,19 +101,21 @@
         }
     },
     "image#footer__image--recoge-tienda": {
+        "title": "Image de Recoge en Tienda del footer",
         "props": {
             "blockClass": "footer__image--recoge-tienda",
             "src": "assets/img/recoge-tienda.jpg"
         }
     },
     "rich-text#footer__text--recoge-tienda-title": {
+        "title": "Rich-text del títul de Recoge en Tienda del footer",
         "props": {
             "blockClass":"footer__text--heavy",
             "text": "Recoge en Tienda"
         }
-
     },
     "rich-text#footer__text--recoge-tienda": {
+        "title": "Rich-text de Recoge en Tienda del footer",
         "props": {
             "blockClass":"footer__text--light",
             "text": "¡Compra en decathlon.com.co y recoge tu pedido en 2 horas en tu tienda favorita!",
@@ -119,6 +130,7 @@
     
 
     "flex-layout.col#footer__flex--cambios-devoluciones": {
+        "title": "Flex-col de Cambios y Devoluciones del footer",
         "children": [
             "image#footer__image--cambios-devoluciones",
             "rich-text#footer__text--cambios-devoluciones-title",
@@ -129,12 +141,14 @@
         }
     },    
     "image#footer__image--cambios-devoluciones": {
+        "title": "Image de Cambios y Devoluciones del footer",
         "props": {
             "blockClass": "footer__image--cambios-devoluciones",
             "src": "assets/img/cambios-devoluciones.jpg"
         }
     },
     "rich-text#footer__text--cambios-devoluciones-title": {
+        "title": "Rich-text del título de Cambios y Devoluciones del footer",
         "props": {
             "blockClass":"footer__text--heavy",
             "text": "Cambios y Devoluciones"
@@ -142,6 +156,7 @@
 
     },
     "rich-text#footer__text--cambios-devoluciones": {
+        "title": "Rich-text de Cambios y Devoluciones del footer",
         "props": {
             "blockClass":"footer__text--light",
             "text": "Tienes 30 días para realizar tus cambios",
@@ -151,11 +166,11 @@
             "fontSize": "16px",
             "textColor": "#0082C3"
         }
-
     },
 
 
     "flex-layout.col#footer__flex--entrega": {
+        "title": "Flex-col de Métodos de Entrega del footer",
         "children": [
             "image#footer__image--entrega",
             "rich-text#footer__text--entrega-title",
@@ -166,12 +181,14 @@
         }
     },
     "image#footer__image--entrega": {
+        "title": "Image de Métodos de Entrega del footer",
         "props": {
             "blockClass": "footer__image--entrega",
             "src": "assets/img/metodos-entrega.jpg"
         }
     },
     "rich-text#footer__text--entrega-title": {
+        "title": "Rich-text del título de Métodos de Entrega del footer",
         "props": {
             "blockClass":"footer__text--heavy",
             "text": "Métodos de entrega"
@@ -179,6 +196,7 @@
 
     },
     "rich-text#footer__text--entrega": {
+        "title": "Rich-text de Métodos de Entrega del footer",
         "props": {
             "blockClass":"footer__text--light",
             "text": "Encuentra más de 5.000 productos para hacer cambios-devoluciones en un solo lugar",
@@ -188,6 +206,5 @@
             "fontSize": "16px",
             "textColor": "#0082C3"
         }
-
     }
 }

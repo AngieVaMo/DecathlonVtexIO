@@ -12,6 +12,7 @@
 
     }, 
     "rich-text#footer__text--metodo-pago": {
+        "title": "Rich-text Métodos de Pago - mobile",
         "props": {
             "text": "MÉTODOS DE PAGO"
         }
@@ -23,6 +24,7 @@
     },
 
     "flex-layout.row#footer__flex--metodo-pago--mobile": {
+        "title": "Flex-row de la segunda sección del footer",
         "children": [
             "image#footer__visa--mobile",
             "image#footer__mastercard--mobile",
@@ -32,6 +34,7 @@
     },
 
     "image#footer__visa--mobile": {
+        "title": "Image VISA - mobile",
         "props": {
             "src": "assets/img/visa.png",
             "maxWidth": "50px"
@@ -39,6 +42,7 @@
 
     },
     "image#footer__mastercard--mobile": {
+        "title": "Image mastercard - mobile",
         "props": {
             "src": "assets/img/mastercard.png",
             "maxWidth": "50px"
@@ -47,12 +51,14 @@
     },
 
     "rich-text#footer__pasarela-pago--mobile": {
+        "title": "Rich-text Pasarela de Pagos - mobile",
         "props": {
             "text": "Parasela de Pagos"
         }
 
     },
     "image#footer__image--mercadopago": {
+        "title": "Image mercadopago - mobile",
         "props": {
             "src": "assets/img/mercadopago.png",
             "maxWidth": "50px"
@@ -68,6 +74,7 @@
     },
 
     "icon#footer__icon--flecha-abajo": {
+        "title": "icon flecha hacia abajo",
         "props": {
             "blockClass": "footer__icon--flecha-abajo",
             "id": "flecha-angulo-abajo"
@@ -75,6 +82,7 @@
     },
 
     "icon#footer__icon--flecha-arriba": {
+        "title": "icon flecha hacia arriba",
         "props": {
             "blockClass": "footer__icon--flecha-arriba",
             "id": "flecha-angulo-arriba"

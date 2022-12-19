@@ -1,6 +1,6 @@
 {
     "logo#header__logo--middle": {
-        "title": "Logo",
+        "title": "Logo de Decathlon del header",
         "props": {
             "href": "/",
             "url": "assets/img/logo-decathlon.svg",

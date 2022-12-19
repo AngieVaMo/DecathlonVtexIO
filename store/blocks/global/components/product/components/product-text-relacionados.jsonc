@@ -1,5 +1,6 @@
 {
     "rich-text#product__text--relacionados": {
+        "title": "Rich-text Productos Relacionados",
         "props": {
             "blockClass": "product__text--relacionados",
             "text": "Otros deportistas también vieron",
