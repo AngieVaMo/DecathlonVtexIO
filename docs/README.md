@@ -2,14 +2,14 @@
 
 This is a clone of Decathlon website based on the VTEX minimum Boilerplate Theme, which is a basic store front model based on the VTEX IO Store Framework.
 
--Desktop view
+-Desktop view <br>
 ![home, desktop view](/assets/img/documentacion/desktop-view1.JPG)
 ![home, desktop view](/assets/img/documentacion/desktop-view2.JPG)
 ![home, desktop view](/assets/img/documentacion/desktop-view3.JPG)
 ![home, desktop view](/assets/img/documentacion/desktop-view4.JPG)
 ![home, desktop view](/assets/img/documentacion/desktop-view5.JPG)
 
--Mobile view
+-Mobile view <br>
 ![home, mobile view](/assets/img/documentacion/mobile-view1.JPG)
 ![home, mobile view](/assets/img/documentacion/mobile-view2.JPG)
 ![home, mobile view](/assets/img/documentacion/mobile-view3.JPG)
