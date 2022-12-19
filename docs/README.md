@@ -1,6 +1,6 @@
 # Decathlon VTEX io clone
 
-This is a clone of Decathlon website based on the VTEX minimum Boilerplate Theme, which is a basic store front model based on the VTEX IO Store Framework.
+This is a clone of [Decathlon](https://www.decathlon.com.co/) website based on the VTEX minimum Boilerplate Theme, which is a basic store front model based on the VTEX IO Store Framework.
 
 -Desktop view <br>
 ![home, desktop view](/assets/img/documentacion/desktop-view1.JPG)
@@ -16,9 +16,14 @@ This is a clone of Decathlon website based on the VTEX minimum Boilerplate Theme
 ![home, mobile view](/assets/img/documentacion/mobile-view4.JPG)
 
 
-
-
 ## Configuration
+
+### Install necessary tools:
+
+*Code editor
+*NodeJS
+*Yarn (recomended)
+*Git
 
 ### Step 1 -  Basic setup
 
@@ -72,3 +77,97 @@ Then time has come to upload all the changes you made in your local files to the
 If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
 
 This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+
+
+## Dependencies:
+1."vtex.store": "2.x"
+
+2."vtex.store-header": "2.x"
+
+3."vtex.product-summary": "2.x"
+
+4."vtex.store-footer": "2.x"
+
+5."vtex.store-components": "3.x"
+
+6."vtex.styleguide": "9.x"
+
+7."vtex.slider": "0.x"
+
+8."vtex.carousel": "2.x"
+
+9."vtex.shelf": "1.x"
+
+10."vtex.menu": "2.x"
+
+11."vtex.minicart": "2.x"
+
+12."vtex.product-details": "1.x"
+
+13."vtex.product-kit": "1.x"
+
+14."vtex.search-result": "3.x"
+
+15."vtex.login": "2.x"
+
+16."vtex.my-account": "1.x"
+
+17."vtex.flex-layout": "0.x"
+
+18."vtex.rich-text": "0.x"
+
+19."vtex.store-drawer": "0.x"
+
+20."vtex.locale-switcher": "0.x"
+
+21."vtex.product-quantity": "1.x"
+
+22."vtex.product-identifier": "0.x"
+
+23."vtex.product-specification-badges": "0.x"
+
+24."vtex.product-review-interfaces": "1.x"
+
+25."vtex.telemarketing": "2.x"
+
+26."vtex.order-placed": "2.x"
+
+27."vtex.stack-layout": "0.x"
+
+28."vtex.tab-layout": "0.x"
+
+29."vtex.responsive-layout": "0.x"
+
+30."vtex.slider-layout": "0.x"
+
+31."vtex.iframe": "0.x"
+
+32."vtex.breadcrumb": "1.x"
+
+33."vtex.sticky-layout": "0.x"
+
+34."vtex.add-to-cart-button": "0.x"
+
+35."vtex.modal-layout": "0.x"
+
+36."vtex.store-icons": "0.x"
+
+37."vtex.disclosure-layout": "1.x"
+
+38."vtex.product-list": "0.x"
+
+39."vtex.store-link": "0.x"
+
+
+## Peer Dependencies:
+1."vtex.wish-list": "1.x"
+
+2."vtex.reviews-and-ratings": "3.x"
+
+3."vtex.questions-and-answers": "0.x"
+
+4."vtex.mega-menu": "2.x"
+
+
+## Contributors
+**Angie Vanessa Moreno Palacios**
