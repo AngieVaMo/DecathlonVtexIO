@@ -1,10 +1,22 @@
-# Minimum Boilerplate Theme
+# Decathlon VTEX io clone
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+This is a clone of Decathlon website based on the VTEX minimum Boilerplate Theme, which is a basic store front model based on the VTEX IO Store Framework.
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+-Desktop view
+![home, desktop view](assets\img\documentacion\desktop-view1.JPG)
+![home, desktop view](assets\img\documentacion\desktop-view2.JPG)
+![home, desktop view](assets\img\documentacion\desktop-view3.JPG)
+![home, desktop view](assets\img\documentacion\desktop-view4.JPG)
+![home, desktop view](assets\img\documentacion\desktop-view5.JPG)
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+-Mobile view
+![home, mobile view](assets\img\documentacion\mobile-view1.JPG)
+![home, mobile view](assets\img\documentacion\mobile-view2.JPG)
+![home, mobile view](assets\img\documentacion\mobile-view3.JPG)
+![home, mobile view](assets\img\documentacion\mobile-view4.JPG)
+
+
+
 
 ## Configuration
 
