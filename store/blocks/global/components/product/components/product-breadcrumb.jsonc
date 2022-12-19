@@ -7,6 +7,7 @@
         ]
       },
       "flex-layout.col#product__breadcrumb": {
+        "title": "Flex-col de Miga de pan de producto",
         "children": [
           "breadcrumb"
         ]

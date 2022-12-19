@@ -1,5 +1,6 @@
 {
     "rich-text#ayuda": {
+        "title": "Rich-text de Ayuda del header",
         "props": {
             "blockClass": "header__text--middle",
             "text": "Ayuda",

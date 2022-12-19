@@ -58,6 +58,7 @@
         }
     },
     "icon#mega-menu__icon--perfil-deportivo": {
+      "title": "icon perifl deportivo del mega-menu",
       "props": {
           "blockClass": "mega-menu__icon--perfil-deportivo",
           "id": "perfil-deportivo",

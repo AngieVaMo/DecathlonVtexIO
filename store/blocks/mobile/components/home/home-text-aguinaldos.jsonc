@@ -1,5 +1,6 @@
 {
     "rich-text#home___text--aguinaldos": { 
+      "title": "Rich-text Regalos por precio",
       "props": { 
         "blockClass": "home___text--aguinaldos",
         "text": "Regalos por precio",

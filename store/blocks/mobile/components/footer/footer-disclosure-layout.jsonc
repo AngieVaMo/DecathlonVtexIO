@@ -12,7 +12,7 @@
     }
   },
   "disclosure-layout#empresa": {
-    "title": "Disclosure layout footer mobile - Empresa",
+    "title": "Disclosure layout footer Empresa - mobile",
     "children": [
       "disclosure-trigger#empresa", 
       "disclosure-content#empresa", 
@@ -21,6 +21,7 @@
   },
 
   "disclosure-state-indicator#empresa": {
+    "title": "Disclosure state-indicator Empresa - mobile",
     "props": {
       "Show": "icon#footer__icon--flecha-abajo",
       "Hide": "icon#footer__icon--flecha-arriba"
@@ -31,6 +32,7 @@
     "children": ["rich-text#empresa"]
   }, 
   "rich-text#empresa": {
+    "title": "Rich-text Empresa del footer",
     "props": {
       "blockClass": "footer__text--title-col",
       "text": "DECATHLON EMPRESA"
@@ -40,7 +42,6 @@
 
   "disclosure-content#empresa": {
     "children": ["menu#empresa"]
-
   },
   "menu#empresa": {
     "children": [
@@ -138,6 +139,7 @@
     "children": ["rich-text#compra"]
   }, 
   "rich-text#compra": {
+    "title": "Rich-text Compra del footer",
     "props": {
       "blockClass": "footer__text--title-col",
       "text": "COMPRA"
@@ -147,7 +149,6 @@
 
   "disclosure-content#compra": {
     "children": ["menu#compra"]
-
   },
   "menu#compra": {
     "children": [
@@ -270,6 +271,7 @@
     "children": ["rich-text#post-compra"]
   }, 
   "rich-text#post-compra": {
+    "title": "Rich-text Post-Compra dle footer",
     "props": {
       "blockClass": "footer__text--title-col",
       "text": "POST COMPRA"
@@ -351,6 +353,7 @@
     "children": ["rich-text#experiencia"]
   }, 
   "rich-text#experiencia": {
+    "title": "Rich-text Experiencia del footer",
     "props": {
       "blockClass": "footer__text--title-col",
       "text": "EXPERIENCIA DECATHLON"

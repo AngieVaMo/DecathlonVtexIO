@@ -1,11 +1,12 @@
 {
   "flex-layout.row#product__tabs": {
-    "title": "Información adicional",
+    "title": "Información adicional de producto",
     "children": [
       "tab-layout#product__tabs"
     ]
   },
   "tab-layout#product__tabs": {
+    "title": "Tab-layout del producto",
     "children": [
       "tab-list#product__tabs--list",
       "tab-content#product__tabs--content"
@@ -14,6 +15,7 @@
 
 
   "tab-list#product__tabs--list": {
+    "title": "Tab-list del producto",
     "children": [
       "tab-list.item#tabs__list--beneficios",
       "tab-list.item#tabs__list--info-tecnica",
@@ -22,6 +24,7 @@
     ]
   },
   "tab-list.item#tabs__list--beneficios": {
+    "title": "Tab-item Beneficios del producto",
     "props": {
       "tabId": "beneficios",
       "label": "Beneficios",
@@ -29,6 +32,7 @@
     }
   },
   "tab-list.item#tabs__list--info-tecnica": {
+    "title": "Tab-item Información Técnica del producto",
     "props": {
       "tabId": "product-specification",
       "label": "Información técnica",
@@ -36,6 +40,7 @@
     }
   },
   "tab-list.item#tabs__list--reseñas": {
+    "title": "Tab-item Reseñas del producto",
     "props": {
       "tabId": "reseñas",
       "label": "Reseñas",
@@ -43,6 +48,7 @@
     }
   },
   "tab-list.item#tabs__list--questions": {
+    "title": "Tab-item Preguntas y respuestas del producto",
     "props": {
       "tabId": "questions",
       "label": "Preguntas y respuestas",
@@ -53,6 +59,7 @@
 
 
   "tab-content#product__tabs--content": {
+    "title": "Tab-content Reseñas del producto",
     "children": [
       //"tab-content.item#tabs__content--info-tecnica",
       "tab-content.item#tabs__content--reseñas"
@@ -60,6 +67,7 @@
     ]
   },
   "tab-content.item#tabs__content--reseñas": {
+    "title": "Tab-content-item Reseñas del producto",
     "props": {
       "tabId": "reseñas"
     },

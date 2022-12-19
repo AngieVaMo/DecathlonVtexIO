@@ -16,7 +16,8 @@
     },
     "submenu#submenu__mujer": {
         "children": [
-            "menu#menu__mujer--category-one"
+            //"menu#menu__mujer--category-one",
+            "flex-layout.row#menu--desktop"
         ]
     },
     "menu#menu__mujer--category-one": {

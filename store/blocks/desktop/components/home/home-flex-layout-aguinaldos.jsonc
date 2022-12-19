@@ -14,39 +14,38 @@
         }
     },
     "image#home__image--child-one": {
+        "title": "image Arbol de Navidad",
         "props": {
             "blockClass": "home__image--aguinaldos",
             "src": "assets/img/arbol-navidad.jpg"
-
         }
     },
     "image#home__image--child-two": {
+        "title": "image aguinaldos 10-30",
         "props": {
             "blockClass": "home__image--aguinaldos",
             "src": "assets/img/10-30.jpg"
-
         }
     },
     "image#home__image--child-three": {
+        "title": "image aguinaldos 31-50",
         "props": {
             "blockClass": "home__image--aguinaldos",
             "src": "assets/img/31-50.jpg"
-
         }
     },
     "image#home__image--child-four": {
+        "title": "image aguinaldos 51-70",
         "props": {
             "blockClass": "home__image--aguinaldos",
             "src": "assets/img/51-70.jpg"
-
         }
     },
     "image#home__image--child-five": {
+        "title": "image aguinaldos mas de71",
         "props": {
             "blockClass": "home__image--aguinaldos",
             "src": "assets/img/71mas.jpg"
-
         }
     }
-    
  }

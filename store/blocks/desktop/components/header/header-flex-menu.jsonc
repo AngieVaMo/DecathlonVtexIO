@@ -1,16 +1,16 @@
 {
     "header-row#header__flex-layout--menu": {
-        "title": "Menu desktop",
+        "title": "Header-row Menu desktop",
         "children": [
             "flex-layout.row#header__flex-layout--menu"
             //"menu#header__menu--desktop"
         ],
         "props": {
             "blockClass": "header-row__flex--menu-desktop"
-            //"colSizing": "auto"
         }
     },
     "flex-layout.row#header__flex-layout--menu": {
+        "title": "Flex-row Menu desktop",
         "children": [
             "flex-layout.col#header__menu--deportes",
             "flex-layout.col#header__menu--mujer",
@@ -22,34 +22,42 @@
         ]
     },
     "flex-layout.col#header__menu--deportes": {
+        "title": "Flex-col Menu Deportes - desktop",
         "children": ["menu-item#item__deportes"],
         "props": {"blockClass": "flex__menu-item--deporte"}
     },
     "flex-layout.col#header__menu--mujer": {
+        "title": "Flex-col Menu Mujer - desktop",
         "children": ["menu-item#item__mujer"],
         "props": {"blockClass": "flex__menu-item--deporte"}
     },
     "flex-layout.col#header__menu--hombre": {
+        "title": "Flex-col Menu Hombre - desktop",
         "children": ["menu-item#item__hombre"],
         "props": {"blockClass": "flex__menu-item--deporte"}
     },
     "flex-layout.col#header__menu--ninos-bebes": {
+        "title": "Flex-col Menu Niños y Bebes - desktop",
         "children": ["menu-item#item__niños-bebes"],
         "props": {"blockClass": "flex__menu-item--deporte"}
     },
     "flex-layout.col#header__menu--accesorios": {
+        "title": "Flex-col Menu Accesorios - desktop",
         "children": ["menu-item#item__accesorios"],
         "props": {"blockClass": "flex__menu-item--deporte"}
     },
     "flex-layout.col#header__menu--colecciones": {
+        "title": "Flex-col Menu Colecciones - desktop",
         "children": ["menu-item#item__colecciones"],
         "props": {"blockClass": "flex__menu-item--deporte"}
     },
     "flex-layout.col#header__menu--uunidades": {
+        "title": "Flex-col Menu Uunidades - desktop",
         "children": ["link#link__uunidades"],
         "props": {"blockClass": "flex__menu-item--uunidades"}
     },
     "link#link__uunidades": {
+        "title": "Link Uunidades - desktop",
         "props": {
             "href": "#",
             "label": "Últimas unidades",

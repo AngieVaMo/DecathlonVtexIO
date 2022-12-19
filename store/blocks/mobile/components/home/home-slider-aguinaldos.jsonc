@@ -23,30 +23,35 @@
         ]
     },
     "image#home__image--slide-one": {
+        "title": "image Arbol de Navidad - mobile",
         "props": {
             "src": "assets/img/arbol-navidad.jpg"
 
         }
     },
     "image#home__image--slide-two": {
+        "title": "image aguinaldos de 10-30 - mobile",
         "props": {
             "src": "assets/img/10-30.jpg"
 
         }
     },
     "image#home__image--slide-three": {
+        "title": "image aguinaldos de 31-50 - mobile",
         "props": {
             "src": "assets/img/31-50.jpg"
 
         }
     },
     "image#home__image--slide-four": {
+        "title": "image aguinaldos de 51-70 - mobile",
         "props": {
             "src": "assets/img/51-70.jpg"
 
         }
     },
     "image#home__image--slide-five": {
+        "title": "image aguinaldos de 71más - mobile",
         "props": {
             "src": "assets/img/71mas.jpg"
 

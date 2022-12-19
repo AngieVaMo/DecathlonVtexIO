@@ -1,5 +1,6 @@
 {
     "flex-layout.row#footer__flex--social-pago--desktop": {
+        "title": "Flex-row de redes sociales y métodos de pago de la segunda sección del footer",
         "children": [
             "flex-layout.col#footer__flex--social-desktop",
             "flex-layout.col#footer__flex--pago-desktop",
@@ -10,15 +11,16 @@
         }
     },
     "flex-layout.col#footer__flex--social-desktop": {
+        "title": "Flex-col de redes sociales de la segunda sección del footer",
         "children": [
             "flex-layout.row#footer__social-networks--row"
         ],
         "props": {
             "blockClass": "footer__flex--social-desktop"
         }
-
     },
     "flex-layout.col#footer__flex--pago-desktop": {
+        "title": "Flex-col de métodos de pago de la segunda sección del footer",
         "children": [
             "flex-layout.row#footer__flex--pago-desktop"
         ],
@@ -28,6 +30,7 @@
 
     },
     "flex-layout.col#footer__flex--pasarela-desktop": {
+        "title": "Flex-col de pasarela de pago de la segunda sección del footer",
         "children": [
             "flex-layout.row#footer__flex--pasarela-desktop"
         ]
@@ -35,6 +38,7 @@
     },
 
     "flex-layout.row#footer__flex--pago-desktop": {
+        "title": "Flex-row de métodos de pago de la segunda sección del footer",
         "children": [
             "rich-text#footer__text--pago-desktop",
             "image#footer__image--visa-desktop",
@@ -44,45 +48,51 @@
             "image#footer__image--diners-club-desktop",
             "image#footer__image--tarjeta-exito-desktop"
         ]
-
     },
     "rich-text#footer__text--pago-desktop": {
+        "title": "Rich-text de métodos de pago de la segunda sección del footer",
         "props": {
             "blockClass": "footer__text--title-col",
             "text": "MÉTODOS DE PAGO"
         }
     },
     "image#footer__image--visa-desktop": {
+        "title": "image VISA",
         "props": {
             "src": "assets/img/visa.png",
             "maxWidth": "50px"
         }
     },
     "image#footer__image--amex-desktop": {
+        "title": "image American Express",
         "props": {
             "src": "assets/img/american-express.png",
             "maxWidth": "50px"
         }
     },
     "image#footer__image--mastercard-desktop": {
+        "title": "image Mastercard",
         "props": {
             "src": "assets/img/mastercard.png",
             "maxWidth": "50px"
         }
     },
     "image#footer__image--efectivo-desktop": {
+        "title": "image Pago en Efectivo",
         "props": {
             "src": "assets/img/efectivo.png",
             "maxWidth": "50px"
         }
     },
     "image#footer__image--diners-club-desktop": {
+        "title": "image Diners Club",
         "props": {
             "src": "assets/img/diners-club.png",
             "maxWidth": "50px"
         }
     },
     "image#footer__image--tarjeta-exito-desktop": {
+        "title": "image Tarjeta éxito",
         "props": {
             "src": "assets/img/tarjeta-exito.png",
             "maxWidth": "50px"
@@ -90,6 +100,7 @@
     },
 
     "flex-layout.row#footer__flex--pasarela-desktop": {
+        "title": "Flex-row de pasarela de pago de la segunda sección del footer",
         "children": [
             "rich-text#footer__text--pasarela-desktop",
             "image#footer__image--mercadopago-desktop",
@@ -98,6 +109,7 @@
 
     },
     "rich-text#footer__text--pasarela-desktop": {
+        "title": "Rich-Text Pasarela de Pagos",
         "props": {
             "blockClass": "footer__text--title-col",
             "text": "PASARELA DE PAGOS"
@@ -105,6 +117,7 @@
 
     },
     "image#footer__image--mercadopago-desktop": {
+        "title": "image Mercado Pago",
         "props": {
             "src": "assets/img/mercadopago.png",
             "maxWidth": "50px"
@@ -112,6 +125,7 @@
 
     },
     "image#footer__image--pare-compare-desktop": {
+        "title": "image Pare Compare",
         "props": {
             "src": "assets/img/pare-compare.png",
             "maxWidth": "50px"

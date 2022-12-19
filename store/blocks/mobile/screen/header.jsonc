@@ -1,5 +1,6 @@
 {
     "header-layout.mobile#header__mobile":{
+        "title": "Layout del header - mobile",
         "children":[
             "header-row#header__top",
             "header-row#header__mobile--middle",

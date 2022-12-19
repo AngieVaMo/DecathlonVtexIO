@@ -10,6 +10,7 @@
 
 
     "minicart-base-content": {
+        "title": "",
         "blocks": ["minicart-empty-state"],
         "children": ["minicart-product-list", "flex-layout.row#minicart__footer"]
     },
@@ -19,9 +20,11 @@
         "children":["flex-layout.row#minicart__empty"]
     },
     "flex-layout.row#minicart__empty": {
+        "title": "Flex-row del minicart vacío",
         "children": ["flex-layout.col#minicart__empty"]
     },
     "flex-layout.col#minicart__empty": {
+        "title": "Flex-col del minicart vacío",
         "children": [
             "rich-text#test"
         ],
@@ -30,6 +33,7 @@
         }
     },
     "rich-text#test": {
+        "title": "Rich-text del minicart vacío",
         "props": {
           "text": "No hay artículos en tu carrito",
           "textAlignment": "CENTER",
@@ -52,6 +56,7 @@
         ]
     },
     "flex-layout.row#minicart__row--mobile": {
+        "title": "Flex-row product-list minicart - mobile",
         "children": [
             "flex-layout.col#minicart__col--image",
             "flex-layout.col#minicart__col--info",
@@ -62,6 +67,7 @@
         }
     },
     "flex-layout.col#minicart__col--image": {
+        "title": "Flex-col product-list-image minicart",
         "children": [
             "product-list-image"
         ],
@@ -70,6 +76,7 @@
         }
     },
     "flex-layout.col#minicart__col--info": {
+        "title": "Flex-col pinformación del producto del minicart",
         "children": [
             "vtex.product-list:product-name",
             "price",
@@ -80,6 +87,7 @@
         }
     },
     "flex-layout.col#minicart__col--remove": {
+        "title": "Flex-col remove-button minicart",
         "children": [
             "remove-button"
         ],
@@ -95,9 +103,11 @@
     }*/
     
     "flex-layout.row#minicart__footer": {
+        "title": "Flex-row de footer del minicart",
         "children": ["flex-layout.col#minicart__footer"]
     },
     "flex-layout.col#minicart__footer": {
+        "title": "Flex-col de footer del minicart",
         "children": [
             "minicart-summary", 
             "minicart-checkout-button"

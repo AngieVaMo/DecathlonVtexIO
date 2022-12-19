@@ -1,6 +1,6 @@
 {
     "logo#footer__logo--last": {
-        "title": "Logo",
+        "title": "Logo de Decathlon del footer",
         "props": {
             "url": "assets/img/logo-decathlon-white.svg",
             "height": "75px",

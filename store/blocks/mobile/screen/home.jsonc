@@ -1,5 +1,6 @@
 {
     "responsive-layout.mobile#home__mobile": {
+        "title": "Layout del home - mobile",
         "children": [
             "image#home__main--image",
             "rich-text#home___text--aguinaldos",

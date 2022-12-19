@@ -10,12 +10,13 @@
         ]
     },
     "flex-layout.col#home__flex--metodos-entrega": {
-        "title": "Métodos de entrega e ícono",
+        "title": "Flex-col metodos-entrega",
         "children": [
             "flex-layout.row#home__flex--métodos-icon"
         ]
     },
     "flex-layout.row#home__flex--métodos-icon": {
+        "title": "Flex-row metodos-entrega e ícono",
         "children": [
             "icon#home__icon--metodos-entrega",
             "rich-text#home__text--metodos-entrega"
@@ -25,6 +26,7 @@
         }
     },
     "rich-text#home__text--metodos-entrega": {
+        "title": "Rich-text metodos-entrega",
         "props": {
             "blockClass": "home__blue--text",
             "text": "MÉTODOS DE ENTREGA",
@@ -35,6 +37,7 @@
         }
     },
     "icon#home__icon--metodos-entrega": {
+        "title": "Icon metodos-entrega",
         "props": {
             "blockClass": "home__icon--metodos-entrega",
             "id": "metodos-entrega"
@@ -42,12 +45,13 @@
     },
 
     "flex-layout.col#home__flex--ventas": {
-        "title": "Ventas corporativas e ícono",
+        "title": "Flex-col ventas-corporativas e ícono",
         "children": [
             "flex-layout.row#home__flex--ventas-icon"
         ]
     },
     "flex-layout.row#home__flex--ventas-icon": {
+        "title": "Flex-row ventas-corporativas e ícono",
         "children": [
             "icon#home__icon--ventas",
             "rich-text#home__text--ventas"
@@ -57,6 +61,7 @@
         }
     },
     "rich-text#home__text--ventas": {
+        "title": "Rich-text ventas corporativas",
         "props": {
             "blockClass": "home__blue--text",
             "text": "VENTAS CORPORATIVAS",
@@ -67,19 +72,20 @@
         }
     },
     "icon#home__icon--ventas": {
+        "title": "Icon vetas-corporativas",
         "props": {
             "blockClass": "home__icon--ventas-corporativas",
             "id": "ventas-corporativas"
         }
     },
-
     "flex-layout.col#home__flex--instagram": {
-        "title": "instagram e ícono",
+        "title": "Flex-col instagram e ícono",
         "children": [
             "flex-layout.row#home__flex--instagram-icon"
         ]
     },
     "flex-layout.row#home__flex--instagram-icon": {
+        "title": "Flex-row instagram e ícono",
         "children": [
             "icon#home__icon--instagram",
             "rich-text#home__text--instagram"
@@ -89,6 +95,7 @@
         }
     },
     "rich-text#home__text--instagram": {
+        "title": "Rich-text instagram",
         "props": {
             "blockClass": "home__blue--text",
             "text": "INSTAGRAM",
@@ -99,19 +106,20 @@
         }
     },
     "icon#home__icon--instagram": {
+        "title": "Icono de instagram",
         "props": {
             "blockClass": "home__icon--instagram",
             "id": "instagram"
         }
     },
-
     "flex-layout.col#home__flex--trabaja": {
-        "title": "trabaja con nosotros e ícono",
+        "title": "Flex-col trabaja con nosotros e ícono",
         "children": [
             "flex-layout.row#home__flex--trabaja-icon"
         ]
     },
     "flex-layout.row#home__flex--trabaja-icon": {
+        "title": "Flex-row trabaja con nosotros e ícono",
         "children": [
             "icon#home__icon--trabaja",
             "rich-text#home__text--trabaja"
@@ -121,6 +129,7 @@
         }
     },
     "rich-text#home__text--trabaja": {
+        "title": "Rich-text trabaja con nosotros",
         "props": {
             "blockClass": "home__blue--text",
             "text": "TRABAJA CON NOSOTROS",
@@ -131,6 +140,7 @@
         }
     },
     "icon#home__icon--trabaja": {
+        "title": "Icono trabaja con nosotros",
         "props": {
             "blockClass": "home__icon--trabaja",
             "id": "trabaja-nosotros"
@@ -138,12 +148,13 @@
     },
 
     "flex-layout.col#home__flex--ecodiseños": {
-        "title": "Ecodiseños e ícono",
+        "title": "Flex-col ecodiseños e ícono",
         "children": [
             "flex-layout.row#home__flex--ecodiseños-icon"
         ]
     },
     "flex-layout.row#home__flex--ecodiseños-icon": {
+        "title": "Flex-row ecodiseños e ícono",
         "children": [
             "icon#home__icon--ecodiseños",
             "rich-text#home__text--ecodiseños"
@@ -153,6 +164,7 @@
         }
     },
     "rich-text#home__text--ecodiseños": {
+        "title": "Rich-text ecodiseños",
         "props": {
             "blockClass": "home__blue--text",
             "text": "ECODISEÑOS",
@@ -163,10 +175,10 @@
         }
     },
     "icon#home__icon--ecodiseños": {
+        "title": "Icon ecodiseños",
         "props": {
             "blockClass": "home__icon--ecodiseños",
             "id": "ecodiseños"
         }
     }
-
 }

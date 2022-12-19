@@ -1,5 +1,6 @@
 {
     "flex-layout.row#footer__social-networks--row": {
+     "title": "Flex-row de Redes Sociales",
     "children": [
         "flex-layout.col#footer__social-networks--col-1",
         "flex-layout.col#footer__social-networks--col-2"
@@ -10,6 +11,7 @@
     },
 
     "flex-layout.col#footer__social-networks--col-1": {
+      "title": "Flex-col del texto de Redes sociales",
     "children": ["rich-text#footer__siguenos-en"],
     "props": {
       "blockClass": "footer__social-networks--col-1"
@@ -17,6 +19,7 @@
     },
     
     "rich-text#footer__siguenos-en": {
+      "title": "Rich-text Siguenos en:",
       "props": {
         "blockClass": "footer__text--title-col",
         "text": "SÍGUENOS EN"
@@ -24,6 +27,7 @@
     },
 
     "flex-layout.col#footer__social-networks--col-2": {
+      "title": "Flex-col de Redes sociales",
         "children": ["social-networks"],
         "props": {
           "blockClass": "footer__social-networks--col-2"
@@ -31,6 +35,7 @@
     },
     
       "social-networks": {
+        "title": "Componente nativo de Redes sociales",
         "props": {
           "socialNetworks": [
             {
