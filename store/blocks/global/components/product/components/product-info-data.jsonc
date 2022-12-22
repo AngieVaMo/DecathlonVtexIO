@@ -32,11 +32,11 @@
             "add-to-cart-button",
             "link.product#product__link--tiendas",
             "product-separator",
+            "modal-trigger#add-to-cart-info",
             "product-description"
             /*share,
             shipping-simulator,
             availability-subscriber*/
-            //"modal-trigger#add-to-cart-info"
         ],
         "props": {
             "blockClass": "product__info--data"
@@ -52,10 +52,9 @@
             "blockClass": "product__flex--brand-ref"
         }
     },
-    /*"modal-trigger#add-to-cart-info": {
+    "modal-trigger#add-to-cart-info": {
         "children": [
-            "modal-layout#add-to-cart-info",
-            "add-to-cart-info"
+            "modal-layout#add-to-cart-info"
         ],
         "props": {
             "customPixelEventName": "addToCart"
@@ -72,7 +71,7 @@
             "showCloseButton": true,
             "iconCloseSize": 24
         }
-    },*/
+    },
     "link.product#product__link--tiendas": {
         "title": "Link de nuestras tiendas",
         "props": {

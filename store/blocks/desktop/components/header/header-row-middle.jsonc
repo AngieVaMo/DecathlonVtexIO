@@ -5,6 +5,7 @@
             "logo#header__logo--middle",
             "header-spacer",
             "search-bar#header__searbar",
+            //"department-search",
             "header-spacer",
             "rich-text#ayuda",
             "rich-text#tiendas",

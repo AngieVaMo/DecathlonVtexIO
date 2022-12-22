@@ -2,12 +2,58 @@
   "responsive-layout.desktop#home__desktop": {
     "title": "Responsive-layout-desktop",
     "children": [
-        "image#home__main--image-desktop",
-        "flex-layout.row#home__flex-layout--blue",
-        "flex-layout.row#home__flex-layout--aguinaldos",
-        "flex-layout.row#home__flex-layout--rd",
-        "flex-layout.row#home__image-slider",
-        "flex-layout.row#home__flex-layout--section-two"
+      "custom-grid",
+      "quick-order",
+      "pdf-reader",
+      "image#home__main--image-desktop",
+      "flex-layout.row#home__flex-layout--blue",
+      "flex-layout.row#home__flex-layout--aguinaldos",
+      "flex-layout.row#home__flex-layout--rd",
+      "flex-layout.row#home__image-slider",
+      "flex-layout.row#home__flex-layout--section-two"
     ]
+  },
+  "custom-grid": {
+    "children": [
+      "rich-text#custom-grid-1",
+      "rich-text#custom-grid-2",
+      "rich-text#custom-grid-3",
+      "rich-text#custom-grid-4",
+      "rich-text#custom-grid-5"
+    ]
+  },
+  "rich-text#custom-grid-1": {
+    "props": {
+      "text": "Grilla 1"
+    }
+  },
+  "rich-text#custom-grid-2": {
+    "props": {
+      "text": "Grilla 2"
+    }
+  },
+  "rich-text#custom-grid-3": {
+    "props": {
+      "text": "Grilla 3"
+    }
+  },
+  "rich-text#custom-grid-4": {
+    "props": {
+      "text": "Grilla 4"
+    }
+  },
+  "rich-text#custom-grid-5": {
+    "props": {
+      "text": "Grilla 5"
+    }
+  },
+
+
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/documents/trial.pdf",
+      "width": 500,
+      "height": 800
+    }
   }
 }

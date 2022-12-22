@@ -159,6 +159,12 @@ This will enable you to see the applied changes in real time, through the accoun
 39."vtex.store-link": "0.x"
 
 
+## Custom Apps installed:
+1."itgloberspartnercl.help-button": "0.x",
+
+2."itgloberspartnercl.bullets-diagramation": "0.x"
+
+
 ## Peer Dependencies:
 1."vtex.wish-list": "1.x"
 
